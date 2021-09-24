@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Chinese Tone Master',
       theme: ThemeData(
+        
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: GameScreen(),
+      home: Scaffold(body: GameScreen()),
     );
   }
 }
