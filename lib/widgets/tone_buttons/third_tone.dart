@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:frontend/widgets/buttons/tone_master_icons.dart';
+import 'package:frontend/widgets/tone_buttons/tone_master_icons.dart';
 
 class ThirdToneButton extends StatefulWidget {
   const ThirdToneButton({Key? key}) : super(key: key);

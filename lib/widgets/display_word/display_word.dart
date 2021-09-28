@@ -1,14 +1,13 @@
-import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:frontend/models/word_json.dart';
-import 'package:flutter/services.dart';
-import 'dart:convert';
+import 'package:frontend/models/play_word.dart';
+import 'package:frontend/utils/get_char_list.dart';
 
+import "package:frontend/utils/indexed_iterables.dart";
 import 'package:frontend/widgets/display_word/display_character.dart';
 
 class DisplayWord extends StatefulWidget {
-  final String word;
+  final PlayWord word;
   DisplayWord({Key? key, required this.word}) : super(key: key);
 
   @override
@@ -18,13 +17,11 @@ class DisplayWord extends StatefulWidget {
 class _DisplayWordState extends State<DisplayWord> {
   List<DisplayCharacter> _characters = [];
   
+  
   @override
   void initState() {
-    // TODO: implement initState
-    List<String> _characterList = widget.word.split("");
-    _characterList.forEach((char) {
-      _characters.add(DisplayCharacter(character: char));
-    });
+    // TODO: implement simplifiedCharacterList
+    _characters = getTraditionalChars(widget.word);
     print(_characters);
     super.initState();
   }
@@ -34,12 +31,14 @@ class _DisplayWordState extends State<DisplayWord> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.red,
       width: MediaQuery.of(context).size.width * 0.8,
       height: MediaQuery.of(context).size.height / 3,
       child: Center(
         child: GestureDetector(
             onTap: () {},
             child: ListView(
+              shrinkWrap: true,
               scrollDirection: Axis.horizontal,
               children: _characters,
             ),

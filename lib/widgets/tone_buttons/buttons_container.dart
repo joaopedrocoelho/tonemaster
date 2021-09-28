@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/widgets/buttons/fifth_tone.dart';
-import 'package:frontend/widgets/buttons/first_tone.dart';
-import 'package:frontend/widgets/buttons/fourth_tone.dart';
-import 'package:frontend/widgets/buttons/second_tone.dart';
-import 'package:frontend/widgets/buttons/third_tone.dart';
+import 'package:frontend/widgets/tone_buttons/fifth_tone.dart';
+import 'package:frontend/widgets/tone_buttons/first_tone.dart';
+import 'package:frontend/widgets/tone_buttons/fourth_tone.dart';
+import 'package:frontend/widgets/tone_buttons/second_tone.dart';
+import 'package:frontend/widgets/tone_buttons/third_tone.dart';
 
 class ButtonsContainer extends StatelessWidget {
   const ButtonsContainer({Key? key}) : super(key: key);

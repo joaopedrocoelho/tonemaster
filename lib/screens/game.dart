@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/models/word_json.dart';
-import 'package:frontend/widgets/buttons/buttons_container.dart';
+import 'package:frontend/models/JSON/word_json.dart';
+import 'package:frontend/models/play_word.dart';
+import 'package:frontend/widgets/tone_buttons/buttons_container.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'dart:math';
@@ -16,33 +17,40 @@ class GameScreen extends StatefulWidget {
 }
 
 class _GameScreenState extends State<GameScreen> {
-  List<Word> _words = [];
-  int? _random;
+
+  List<PlayWord> _playWords = [];
+  int _random = 0;
 
   void _newRandom() {
     setState(() {
-      _random = Random().nextInt(_words.length);
+      _random = Random().nextInt(_playWords.length);
     });
   }
 
-  // Fetch content from the json file
+  // Fetch content from the json file , has to be passed to a provider later
   Future<void> readJson() async {
+    List<PlayWord> _tempWordList = [];
     final String response =
         await rootBundle.loadString('assets/json/HSK1_dict.json');
     final List<dynamic> data = await jsonDecode(response);
     data.forEach((word) {
-      Word newWord = Word.fromJson(word);
-      setState(() {
-        _words.add(newWord);
-        _random = Random().nextInt(_words.length);
-      });
+      Word _newWord = Word.fromJson(word);
+      PlayWord _newPlayWord = PlayWord.fromWord(_newWord);
+       _tempWordList.add(_newPlayWord);
     });
+   
+    setState(() {
+      _playWords = _tempWordList;
+       _random = Random().nextInt(_playWords.length);
+    });
+
   }
 
   @override
   void initState() {
     readJson();
-    super.initState();
+    
+       super.initState();
   }
 
   @override
@@ -54,7 +62,8 @@ class _GameScreenState extends State<GameScreen> {
         mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          DisplayWord(word: _words[_random!].traditional),
+         if(_playWords.isNotEmpty)
+          DisplayWord(word: _playWords[_random]),
           ButtonsContainer()
         ],
       ),
