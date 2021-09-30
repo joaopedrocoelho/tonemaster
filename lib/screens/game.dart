@@ -7,10 +7,11 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:frontend/widgets/display_word/display_word.dart';
-import 'package:frontend/widgets/gradient_bug.dart';
+
 
 class GameScreen extends StatefulWidget {
-  GameScreen({Key? key}) : super(key: key);
+  final List<PlayWord> words;
+  GameScreen({Key? key, required this.words}) : super(key: key);
 
   @override
   _GameScreenState createState() => _GameScreenState();
@@ -28,10 +29,10 @@ class _GameScreenState extends State<GameScreen> {
   }
 
   // Fetch content from the json file , has to be passed to a provider later
-  Future<void> readJson() async {
+  Future<void> readJson(String file) async {
     List<PlayWord> _tempWordList = [];
     final String response =
-        await rootBundle.loadString('assets/json/HSK1_dict.json');
+        await rootBundle.loadString(file);
     final List<dynamic> data = await jsonDecode(response);
     data.forEach((word) {
       Word _newWord = Word.fromJson(word);
@@ -48,24 +49,37 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   void initState() {
-    readJson();
+      print(widget.words);
     
        super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      height: MediaQuery.of(context).size.height,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-         if(_playWords.isNotEmpty)
-          DisplayWord(word: _playWords[_random]),
-          ButtonsContainer()
+    return Scaffold(
+      appBar: AppBar(
+        leading: Icon(
+          Icons.menu_outlined,
+        ),
+        title: Text('Tone Master'),
+        actions: [
+          Icon(
+            Icons.settings_outlined,
+          ),
         ],
+      ),
+      body: Container(
+        color: Colors.white,
+        height: MediaQuery.of(context).size.height,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+           if(widget.words.isNotEmpty)
+            DisplayWord(word: widget.words[_random]),
+            ButtonsContainer()
+          ],
+        ),
       ),
     );
   }

@@ -44,6 +44,11 @@ dev_dependencies:
 flutter:
   assets:
     - assets/json/HSK1_dict.json
+    - assets/json/HSK2_dict.json
+    - assets/json/HSK3_dict.json
+    - assets/json/HSK4_dict.json
+    - assets/json/HSK5_dict.json
+    - assets/json/HSK6_dict.json
   fonts:
     - family:  ToneMasterIcons
       fonts:
