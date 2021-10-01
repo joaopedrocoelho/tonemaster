@@ -1,5 +1,5 @@
  import 'package:frontend/models/JSON/word_json.dart';
-import 'package:frontend/models/play_word.dart';
+import 'package:frontend/models/words/play_word.dart';
 import 'package:flutter/services.dart';
 import "dart:convert";
 

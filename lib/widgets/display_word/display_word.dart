@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/models/play_word.dart';
+import 'package:frontend/models/words/play_word.dart';
 import 'package:frontend/utils/get_char_list.dart';
 
 import "package:frontend/utils/indexed_iterables.dart";

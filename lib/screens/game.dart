@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/models/JSON/word_json.dart';
-import 'package:frontend/models/play_word.dart';
+import 'package:frontend/models/words/play_word.dart';
+import 'package:frontend/providers/score.dart';
+import 'package:frontend/widgets/score_board/score_pie_chart.dart';
 import 'package:frontend/widgets/tone_buttons/buttons_container.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'dart:math';
 
 import 'package:frontend/widgets/display_word/display_word.dart';
+import 'package:provider/provider.dart';
 
 
 class GameScreen extends StatefulWidget {
@@ -56,31 +59,35 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        leading: Icon(
-          Icons.menu_outlined,
-        ),
-        title: Text('Tone Master'),
-        actions: [
-          Icon(
-            Icons.settings_outlined,
-          ),
-        ],
-      ),
-      body: Container(
-        color: Colors.white,
-        height: MediaQuery.of(context).size.height,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-           if(widget.words.isNotEmpty)
-            DisplayWord(word: widget.words[_random]),
-            ButtonsContainer()
+    return MultiProvider(providers: [
+      ChangeNotifierProvider(create: (context) => Score(),),
+    ],
+    builder: (context, child) {
+      return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          shadowColor: Colors.transparent,
+          leading: Icon(Icons.menu,color: Colors.black,),
+          title:Text("1/10", style: TextStyle(color: Colors.black, fontSize: 30),),
+          actions: [
+            ScorePieChart()
           ],
         ),
-      ),
+        body: Container(
+          color: Colors.white,
+          height: MediaQuery.of(context).size.height,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+             if(widget.words.isNotEmpty)
+              DisplayWord(word: widget.words[_random]),
+              ButtonsContainer()
+            ],
+          ),
+        ),
+      );
+    }
     );
   }
 }

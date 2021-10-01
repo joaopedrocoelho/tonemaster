@@ -1,5 +1,5 @@
 
-import 'package:frontend/models/play_word.dart';
+import 'package:frontend/models/words/play_word.dart';
 import 'package:frontend/utils/indexed_iterables.dart';
 import 'package:frontend/widgets/display_word/display_character.dart';
 /*  

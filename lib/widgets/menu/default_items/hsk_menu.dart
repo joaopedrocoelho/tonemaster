@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/models/play_word.dart';
+import 'package:frontend/models/words/play_word.dart';
 import 'package:frontend/screens/game.dart';
 import 'package:frontend/utils/get_json_word_list.dart';
 import 'package:frontend/widgets/menu/menu_buttons/circular_menu.dart';
@@ -73,6 +73,36 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
           fillColor: Colors.teal,
           child: Text(
             '6',
+            style: TextStyle(fontSize: 24),
+          ),
+          onPressed: () {
+             _pushToScreen('assets/json/HSK6_dict.json');
+          },
+        ),
+        SubMenuItem(
+          fillColor: Colors.teal,
+          child: Text(
+            '7',
+            style: TextStyle(fontSize: 24),
+          ),
+          onPressed: () {
+             _pushToScreen('assets/json/HSK6_dict.json');
+          },
+        ),
+        SubMenuItem(
+          fillColor: Colors.teal,
+          child: Text(
+            '8',
+            style: TextStyle(fontSize: 24),
+          ),
+          onPressed: () {
+             _pushToScreen('assets/json/HSK6_dict.json');
+          },
+        ),
+        SubMenuItem(
+          fillColor: Colors.teal,
+          child: Text(
+            '9',
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {

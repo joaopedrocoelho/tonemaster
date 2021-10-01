@@ -1,5 +1,5 @@
 import 'package:frontend/models/JSON/word_json.dart';
-import 'package:frontend/models/play_character.dart';
+import 'package:frontend/models/words/play_character.dart';
 import 'package:frontend/utils/get_tones.dart';
 import 'package:frontend/utils/indexed_iterables.dart';
 
@@ -7,10 +7,17 @@ import 'package:frontend/utils/indexed_iterables.dart';
 
 class PlayWord {
   final List<PlayCharacter> characters;
+  int activeChar = 0;
 
   PlayWord({required this.characters});
 
   factory PlayWord.fromWord(Word word) => _$PlayCharactersFromWord(word);
+
+  void setNextCharActive() {
+    if (activeChar < characters.length) {
+      activeChar++;
+    }
+  }
     
 }
 
