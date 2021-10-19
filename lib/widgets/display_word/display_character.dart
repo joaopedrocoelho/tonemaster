@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/providers/quiz_data.dart';
 import 'package:frontend/widgets/display_word/active_character/triangle.dart';
+import 'package:provider/provider.dart';
 
 class DisplayCharacter extends StatefulWidget {
   final String character;
@@ -28,18 +30,25 @@ class _DisplayCharacterState extends State<DisplayCharacter> {
   @override
   Widget build(BuildContext context) {
     var theme = Theme.of(context);
-    return Container(
-      //color: Colors.indigo,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          if (_isActive) Triangle(),
-          Text(widget.character,
-              style: TextStyle(
-                  fontSize: 150,
-                  color: _isActive ? theme.highlightColor : theme.shadowColor)),
-        ],
-      ),
-    );
+
+    return Consumer<QuizData>(builder: (context, quizData, child) {
+     
+
+      return Container(
+        //color: Colors.indigo,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            if (widget.id == quizData.activeIndex) Triangle(),
+            Text(widget.character,
+                style: TextStyle(
+                    fontSize: 100,
+                    color:
+                        _isActive ? theme.highlightColor : theme.shadowColor)),
+          ],
+        ),
+      );
+    });
   }
 }

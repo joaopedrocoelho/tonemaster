@@ -11,7 +11,7 @@ Word _$WordFromJson(Map<String, dynamic> json) {
     traditional: json['traditional'] as String,
     simplified: json['simplified'] as String,
     pinyin: json['pinyin'] as String,
-    english: json['english'] as String?,
+    english: json['english'] as String,
   );
 }
 
@@ -21,3 +21,10 @@ Map<String, dynamic> _$WordToJson(Word instance) => <String, dynamic>{
       'pinyin': instance.pinyin,
       'english': instance.english,
     };
+
+Word _$WordFromPlayWord(PlayWord playWord) => Word(
+  simplified: playWord.simplToString(),
+  traditional: playWord.tradToString(),
+  english: playWord.english,
+  pinyin: playWord.pinyin
+   );

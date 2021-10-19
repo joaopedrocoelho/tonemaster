@@ -15,6 +15,8 @@ class HSKMenuItem extends StatefulWidget {
 class _HSKMenuItemState extends State<HSKMenuItem> {
   List<PlayWord> _listOfWords = [];
 
+  
+
   @override
   Widget build(BuildContext context) {
     return CircularMenu(
@@ -26,7 +28,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {
-            _pushToScreen('assets/json/HSK1_dict.json');
+            _pushToScreen('assets/json/dictionaries/HSK/HSK1.json');
           },
         ),
         SubMenuItem(
@@ -36,7 +38,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {
-             _pushToScreen('assets/json/HSK2_dict.json');
+             _pushToScreen('assets/json/dictionaries/HSK/HSK2.json');
           },
         ),
         SubMenuItem(
@@ -46,7 +48,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {
-             _pushToScreen('assets/json/HSK3_dict.json');
+             _pushToScreen('assets/json/dictionaries/HSK/HSK3.json');
           },
         ),
         SubMenuItem(
@@ -56,7 +58,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {
-             _pushToScreen('assets/json/HSK4_dict.json');
+             _pushToScreen('assets/json/dictionaries/HSK/HSK4.json');
           },
         ),
         SubMenuItem(
@@ -66,7 +68,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {
-             _pushToScreen('assets/json/HSK5_dict.json');
+             _pushToScreen('assets/json/dictionaries/HSK/HSK5.json');
           },
         ),
         SubMenuItem(
@@ -76,39 +78,10 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {
-             _pushToScreen('assets/json/HSK6_dict.json');
+             _pushToScreen('assets/json/dictionaries/HSK/HSK6.json');
           },
         ),
-        SubMenuItem(
-          fillColor: Colors.teal,
-          child: Text(
-            '7',
-            style: TextStyle(fontSize: 24),
-          ),
-          onPressed: () {
-             _pushToScreen('assets/json/HSK6_dict.json');
-          },
-        ),
-        SubMenuItem(
-          fillColor: Colors.teal,
-          child: Text(
-            '8',
-            style: TextStyle(fontSize: 24),
-          ),
-          onPressed: () {
-             _pushToScreen('assets/json/HSK6_dict.json');
-          },
-        ),
-        SubMenuItem(
-          fillColor: Colors.teal,
-          child: Text(
-            '9',
-            style: TextStyle(fontSize: 24),
-          ),
-          onPressed: () {
-             _pushToScreen('assets/json/HSK6_dict.json');
-          },
-        ),
+       
       ],
       menuIcon: Text('HSK'),
     );
@@ -117,7 +90,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
   void _pushToScreen(String file) {
     getJsonWordList(file).then(
         (list) => Navigator.push(context, MaterialPageRoute(builder: (context) {
-              return GameScreen(words: list);
+              return GameScreen(words: list, numberOfQuestions: 5,);
             })));
   }
 }

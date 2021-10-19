@@ -10,9 +10,10 @@ import "dart:convert";
     final String response =
         await rootBundle.loadString(file);
     final List<dynamic> data = await jsonDecode(response);
+    print("list length: ${data.length}");
     data.forEach((word) {
       Word _newWord = Word.fromJson(word);
-      PlayWord _newPlayWord = PlayWord.fromWord(_newWord);
+           PlayWord _newPlayWord = PlayWord.fromWord(_newWord);
        _tempWordList.add(_newPlayWord);
     });
     //print("words $_tempWordList");

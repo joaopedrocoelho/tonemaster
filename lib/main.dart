@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/models/JSON/word_json.dart';
-import 'package:frontend/models/play_word.dart';
-import 'package:frontend/screens/game.dart';
+
+
 import 'package:frontend/screens/home.dart';
-import 'dart:convert';
-import 'package:flutter/services.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -15,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Chinese Tone Master',
       theme: ThemeData(
         primaryColor: Color(0xff30a5bf),
@@ -44,16 +43,3 @@ Map<int, Color> primarySwatch = {
 };
 
 
-Future<List<PlayWord>> readJson() async {
-    List<PlayWord> _tempWordList = [];
-    final String response =
-        await rootBundle.loadString('assets/json/HSK1_dict.json');
-    final List<dynamic> data = await jsonDecode(response);
-    data.forEach((word) {
-      Word _newWord = Word.fromJson(word);
-      PlayWord _newPlayWord = PlayWord.fromWord(_newWord);
-       _tempWordList.add(_newPlayWord);
-    });
-   
-    return _tempWordList;
-  }

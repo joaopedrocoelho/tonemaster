@@ -7,18 +7,34 @@ import 'package:frontend/utils/indexed_iterables.dart';
 
 class PlayWord {
   final List<PlayCharacter> characters;
-  int activeChar = 0;
+  final String english;
+  final String pinyin;
+  
 
-  PlayWord({required this.characters});
+  PlayWord({
+  required this.characters, 
+  required this.english,
+  required this.pinyin});
+
+ 
 
   factory PlayWord.fromWord(Word word) => _$PlayCharactersFromWord(word);
 
-  void setNextCharActive() {
-    if (activeChar < characters.length) {
-      activeChar++;
-    }
+  String tradToString() {
+    String word = "";
+    characters.forEach((character) {
+     word += character.traditional;
+     });
+    return word;
   }
     
+   String simplToString() {
+    String word = "";
+    characters.forEach((character) {
+     word += character.simplified;
+     });
+    return word;
+  } 
 }
 
  PlayWord _$PlayCharactersFromWord(Word word) {
@@ -36,8 +52,13 @@ class PlayWord {
   }
 
 
-return PlayWord(characters: _characters);
+return PlayWord(
+  characters: _characters, 
+  english: word.english,
+  pinyin: word.pinyin);
  }
 
+
+  
 //function for splitting chars and adding to a list
 //function for parsing the pinyin

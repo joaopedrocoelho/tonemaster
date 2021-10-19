@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:frontend/widgets/tone_buttons/tone_master_icons.dart';
 
 class FirstToneButton extends StatefulWidget {
-  const FirstToneButton({Key? key}) : super(key: key);
+  final void Function() onPressed;
+
+  const FirstToneButton({Key? key, required this.onPressed}) : super(key: key);
 
   @override
   _FirstToneButtonState createState() => _FirstToneButtonState();
@@ -18,6 +20,7 @@ class _FirstToneButtonState extends State<FirstToneButton> {
     return Expanded(
       child: GestureDetector(
         onTap: () {
+          widget.onPressed();
           setState(() {
             _bottomShadow = Color(0xffdcf3fc);
             _topShadow = Color(0xffD3E8F2);
@@ -28,6 +31,7 @@ class _FirstToneButtonState extends State<FirstToneButton> {
               _topShadow = Color(0xffeef9fe);
             });
           });
+          
         },
         child: AnimatedContainer(
           duration: Duration(milliseconds: 100),

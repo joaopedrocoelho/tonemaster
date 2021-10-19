@@ -1,6 +1,6 @@
 List<int> getTones(String pinyin) {
   RegExp selectDigits = RegExp(r'(\d)');
-  List<String> splitLines = pinyin.split(' ');
+  List<String> splitLines = pinyin.split('');
   List<int> tones= [];
   
   splitLines.forEach((tone) {

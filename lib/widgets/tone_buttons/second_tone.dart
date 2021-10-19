@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:frontend/widgets/tone_buttons/tone_master_icons.dart';
 
 class SecondToneButton extends StatefulWidget {
-  const SecondToneButton({Key? key}) : super(key: key);
+   final void Function() onPressed;
+
+  const SecondToneButton({Key? key, required this.onPressed}) : super(key: key);
 
   @override
   _SecondToneButtonState createState() => _SecondToneButtonState();
@@ -18,6 +20,7 @@ class _SecondToneButtonState extends State<SecondToneButton> {
     return Expanded(
       child: GestureDetector(
         onTap: () {
+          widget.onPressed();
           setState(() {
             _bottomShadow =Color(0xffdcf3fc);
             _topShadow = Color(0xffD3E8F2);

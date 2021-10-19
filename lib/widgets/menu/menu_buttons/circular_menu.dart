@@ -65,6 +65,8 @@ class _CircularMenuState extends State<CircularMenu>
     super.initState();
   }
 
+
+
   void close() {
     setState(() {
       _isOpen = false;
@@ -72,6 +74,8 @@ class _CircularMenuState extends State<CircularMenu>
       _subMenuPositionController.reverse();
     });
   }
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -136,8 +140,7 @@ class _CircularMenuState extends State<CircularMenu>
             offset: Offset.fromDirection(
                 convertDegreesToRadians(index * _angleRatio), distance),
             child: GestureDetector(
-              
-              child: child)),
+                            child: child)),
       );
     });
 

@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:frontend/widgets/tone_buttons/tone_master_icons.dart';
 
 class FourthToneButton extends StatefulWidget {
-  const FourthToneButton({Key? key}) : super(key: key);
+   final void Function() onPressed;
+
+  const FourthToneButton({Key? key, required this.onPressed}) : super(key: key);
 
   @override
   _FourthToneButtonState createState() => _FourthToneButtonState();
@@ -22,6 +24,7 @@ class _FourthToneButtonState extends State<FourthToneButton> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
+        widget.onPressed();
         setState(() {
           _yOffset = 0.00;
           _blurRadius = 0;

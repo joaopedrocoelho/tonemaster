@@ -1,19 +1,32 @@
 import 'package:flutter/cupertino.dart';
 
 class Score extends ChangeNotifier {
-  int _correct = 0;
-  int _wrong = 0;
+  int correct = 0;
+  int wrong = 0;
+  int totalQuestions;
+  late int remainingQuestions;
 
-  int get correct => _correct;
-  int get wrong => _wrong;
+  Score(this.totalQuestions) {
+    this.remainingQuestions = this.totalQuestions;
+  }
+
+
   
   void incrementCorrect() {
-    _correct++;
+    correct++;
     notifyListeners();
   }
 
   void incrementWrong() {
-    _wrong++;
-    notifyListeners();
+    wrong++;
+     notifyListeners();
+  }
+
+  void setTotalQuestions(int value) {
+    totalQuestions = value;
+  }
+
+  void decrementRemaining() {
+    remainingQuestions--;
   }
 }
