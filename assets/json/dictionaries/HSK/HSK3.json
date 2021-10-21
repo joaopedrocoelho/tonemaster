@@ -331,9 +331,16 @@
   {
     "simplified": "地",
     "traditional": "地",
-    "pinyin": "di4, de5",
-    "tones": "dì, de",
-    "english": "earth; ground | (adverbial particle)"
+    "pinyin": "di4",
+    "tones": "dì",
+    "english": "earth; ground"
+  },
+  {
+    "simplified": "地",
+    "traditional": "地",
+    "pinyin": "de5",
+    "tones": "de",
+    "english": "(adverbial particle)"
   },
   {
     "simplified": "灯",
@@ -443,9 +450,16 @@
   {
     "simplified": "发",
     "traditional": "發",
-    "pinyin": "fa1, fa4",
-    "tones": "fā, fà",
-    "english": "send out; to issue; to show (one's feelings) | hair"
+    "pinyin": "fa1",
+    "tones": "fā",
+    "english": "send out; to issue; to show (one's feelings)"
+  },
+  {
+    "simplified": "发",
+    "traditional": "發",
+    "pinyin": "fa4",
+    "tones": "fà",
+    "english": "hair"
   },
   {
     "simplified": "发烧",
@@ -485,9 +499,16 @@
   {
     "simplified": "分",
     "traditional": "分",
-    "pinyin": "fen1, fen4",
-    "tones": "fēn, fèn",
-    "english": "divide; part; minute; cent | component; share; ingredient"
+    "pinyin": "fen1",
+    "tones": "fēn",
+    "english": "divide; part; minute; cent"
+  },
+  {
+    "simplified": "分",
+    "traditional": "分",
+    "pinyin": "fen4",
+    "tones": "fèn",
+    "english": "component; share; ingredient"
   },
   {
     "simplified": "附近",
@@ -821,16 +842,30 @@
   {
     "simplified": "教",
     "traditional": "教",
-    "pinyin": "jiao1, jiao4",
-    "tones": "jiāo, jiào",
-    "english": "teach; instruct | religion; teaching"
+    "pinyin": "jiao1",
+    "tones": "jiāo",
+    "english": "teach; instruct"
+  },
+  {
+    "simplified": "教",
+    "traditional": "教",
+    "pinyin": "jiao4",
+    "tones": "jiào",
+    "english": "religion; teaching"
   },
   {
     "simplified": "角",
     "traditional": "角",
-    "pinyin": "jiao3, jue2",
-    "tones": "jiǎo, jué",
-    "english": "horn; angle; unit of money (1/10 yuan); corner (Kangxi radical 148) | role (theater)"
+    "pinyin": "jiao3",
+    "tones": "jiǎo",
+    "english": "horn; angle; unit of money (1/10 yuan), corner"
+  },
+  {
+    "simplified": "角",
+    "traditional": "角",
+    "pinyin": "jue2",
+    "tones": "jué",
+    "english": "role (theater)"
   },
   {
     "simplified": "脚",
@@ -984,7 +1019,7 @@
     "traditional": "口",
     "pinyin": "kou3",
     "tones": "kǒu",
-    "english": "mouth (Kangxi radical 30)"
+    "english": "mouth "
   },
   {
     "simplified": "哭",
@@ -1019,7 +1054,7 @@
     "traditional": "老",
     "pinyin": "lao3",
     "tones": "lǎo",
-    "english": "old; aged; tough; often (Kangxi radical 125)"
+    "english": "old; aged; tough; often "
   },
   {
     "simplified": "离开",
@@ -1110,7 +1145,7 @@
     "traditional": "馬",
     "pinyin": "ma3",
     "tones": "mǎ",
-    "english": "horse (Kangxi radical 187)"
+    "english": "horse "
   },
   {
     "simplified": "马上",
@@ -1138,7 +1173,7 @@
     "traditional": "米",
     "pinyin": "mi3",
     "tones": "mǐ",
-    "english": "rice; meter (Kangxi radical 119)"
+    "english": "rice; meter "
   },
   {
     "simplified": "面包",
@@ -1208,7 +1243,7 @@
     "traditional": "鳥",
     "pinyin": "niao3",
     "tones": "niǎo",
-    "english": "bird (Kangxi radical 196)"
+    "english": "bird "
   },
   {
     "simplified": "努力",
@@ -1628,7 +1663,7 @@
     "traditional": "西",
     "pinyin": "xi1",
     "tones": "xī",
-    "english": "West (Kangxi radical 146)"
+    "english": "West "
   },
   {
     "simplified": "习惯",
@@ -1866,7 +1901,7 @@
     "traditional": "用",
     "pinyin": "yong4",
     "tones": "yòng",
-    "english": "to use (Kangxi radical 101)"
+    "english": "to use "
   },
   {
     "simplified": "游戏",
@@ -1887,7 +1922,7 @@
     "traditional": "又",
     "pinyin": "you4",
     "tones": "yòu",
-    "english": "(once) again; also; both (Kangxi radical 29)"
+    "english": "(once) again; also; both "
   },
   {
     "simplified": "遇到",
@@ -1941,9 +1976,16 @@
   {
     "simplified": "长",
     "traditional": "長",
-    "pinyin": "chang2, zhang3",
-    "tones": "cháng, zhǎng",
-    "english": "long; length | grow; chief (Kangxi radical 168)"
+    "pinyin": "chang2",
+    "tones": "cháng",
+    "english": "long; length"
+  },
+  {
+    "simplified": "长",
+    "traditional": "長",
+    "pinyin": "zhang3",
+    "tones": "zhǎng",
+    "english": " chief"
   },
   {
     "simplified": "着急",
@@ -1976,9 +2018,16 @@
   {
     "simplified": "只",
     "traditional": "隻",
-    "pinyin": "zhi1, zhi3",
-    "tones": "zhī, zhǐ",
-    "english": "but; only; merely; just | (mw for birds and certain animals)"
+    "pinyin": "zhi1",
+    "tones": "zhī",
+    "english": "but; only; merely; just"
+  },
+  {
+    "simplified": "只",
+    "traditional": "隻",
+    "pinyin": "zhi3",
+    "tones": "zhǐ",
+    "english": "(mw for birds and certain animals)"
   },
   {
     "simplified": "只有",

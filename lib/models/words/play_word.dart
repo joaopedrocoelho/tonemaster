@@ -43,11 +43,12 @@ class PlayWord {
   List<String> _traditional = word.traditional.split("");
   List<int> _tones = getTones(word.pinyin);
 
+
   for (var i = 0; i < _simplified.length; i++) {
     _characters.add(
       PlayCharacter(simplified: _simplified[i],
       traditional: _traditional[i],
-      tone: _tones[i])
+      tone:_tones[i])
     );
   }
 

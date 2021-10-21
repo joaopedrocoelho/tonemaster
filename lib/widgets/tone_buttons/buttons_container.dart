@@ -13,37 +13,56 @@ import 'package:frontend/widgets/tone_buttons/second_tone.dart';
 import 'package:frontend/widgets/tone_buttons/third_tone.dart';
 import 'package:provider/provider.dart';
 
-class ButtonsContainer extends StatelessWidget {
+class ButtonsContainer extends StatefulWidget {
   const ButtonsContainer({Key? key}) : super(key: key);
 
+  @override
+  State<ButtonsContainer> createState() => _ButtonsContainerState();
+}
+
+class _ButtonsContainerState extends State<ButtonsContainer> {
+  List<int> _answers = [];
   @override
   Widget build(BuildContext context) {
     double containerWidth = MediaQuery.of(context).size.width;
     double containerHeight = MediaQuery.of(context).size.height * 0.27;
+    
 
     return Consumer3<QuizData, Score, ScoreReport>(
         builder: (context, quizData, score, report, child) {
-      List<int> _answers = [];
+      
 
       void _sendReport() {
         report.add(WordReport(word: Word.fromPlayWord(quizData.activeWord), userAnswer: _answers));
-        _answers = [];
+        setState(() {
+          _answers = [];
+        });
+        
       }
 
       void _showReport() {
         Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return QuizReport(answeredWords: report.answeredWords);
+          return QuizReport(answeredWords: report.answeredWords,
+          correct: score.correct,
+          wrong: score.wrong,
+          totalQuestions: score.totalQuestions,
+          );
         }));
       }
 
       void _onPressed(int tone) {
-        _answers.add(tone); //for report list;
+        setState(() {
+          _answers.add(tone);
+        });
+        
+      //for report list;
 
         quizData.checkIfAnswerIsCorrect(tone)
             ? score.incrementCorrect()
             : score.incrementWrong();
         if (!(quizData.activeIndex <
             (quizData.activeWord.characters.length - 1))) {
+        
           score.decrementRemaining();
           _sendReport();
         }

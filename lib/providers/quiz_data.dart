@@ -25,7 +25,7 @@ class QuizData extends ChangeNotifier {
 
   QuizData(this._words) {
     renderWord();
-    print("_words.length ${_words.length}");
+    
   }
 
   bool checkIfAnswerIsCorrect(int tone) {
@@ -37,7 +37,7 @@ class QuizData extends ChangeNotifier {
     if (_activeWord.characters[0].simplified != "null" && _words.length>0) {
       _activeIndex = 0;
       _words.remove(_activeWord); //returns a boolean
-      print("words.length: ${words.length}");
+     
     }
 
     int _random = _words.length > 0 ? Random().nextInt(_words.length) : 0;

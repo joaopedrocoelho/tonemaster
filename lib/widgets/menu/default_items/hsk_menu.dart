@@ -90,7 +90,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
   void _pushToScreen(String file) {
     getJsonWordList(file).then(
         (list) => Navigator.push(context, MaterialPageRoute(builder: (context) {
-              return GameScreen(words: list, numberOfQuestions: 5,);
+              return GameScreen(words: list, numberOfWords: 5,);
             })));
   }
 }

@@ -19,8 +19,8 @@ import 'package:provider/provider.dart';
 
 class GameScreen extends StatefulWidget {
   final List<PlayWord> words;
-  final int numberOfQuestions;
-  GameScreen({Key? key, required this.words, required this.numberOfQuestions}) : super(key: key);
+  final int numberOfWords;
+  GameScreen({Key? key, required this.words, required this.numberOfWords}) : super(key: key);
 
   @override
   _GameScreenState createState() => _GameScreenState();
@@ -29,14 +29,17 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen> {
 
   List<PlayWord> _playWords = [];
+  int _totalQuestions = 0;
  
 
 
   @override
   void initState() {
     widget.words.shuffle();
-    _playWords = widget.words.sublist(0, widget.numberOfQuestions);
-    print("_playWords.length ${_playWords.length}");
+    _playWords = widget.words.sublist(0, widget.numberOfWords);
+    _playWords.forEach((word) {
+      _totalQuestions += word.characters.length;
+    });
          
        super.initState();
   }
@@ -44,7 +47,7 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(providers: [
-      ChangeNotifierProvider(create: (context) => Score(widget.numberOfQuestions)),
+      ChangeNotifierProvider(create: (context) => Score(_totalQuestions)),
       ChangeNotifierProvider(create: (context) => QuizData(_playWords)),
       ChangeNotifierProvider(create: (context) => ScoreReport())
     ],

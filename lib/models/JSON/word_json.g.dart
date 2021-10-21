@@ -7,6 +7,7 @@ part of 'word_json.dart';
 // **************************************************************************
 
 Word _$WordFromJson(Map<String, dynamic> json) {
+ 
   return Word(
     traditional: json['traditional'] as String,
     simplified: json['simplified'] as String,

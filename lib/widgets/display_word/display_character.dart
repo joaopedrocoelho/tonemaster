@@ -23,7 +23,7 @@ class _DisplayCharacterState extends State<DisplayCharacter> {
   @override
   void initState() {
     super.initState();
-    print("character: ${widget.character}, tone: ${widget.tone}");
+    
   }
 
   bool _isActive = false;

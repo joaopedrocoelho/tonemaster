@@ -268,7 +268,7 @@
   {
     "simplified": "差不多",
     "traditional": "差不多",
-    "pinyin": "cha4buduo1",
+    "pinyin": "cha4bu5duo1",
     "tones": "chàbuduō",
     "english": "almost; about the same"
   },
@@ -543,7 +543,7 @@
     "traditional": "刀",
     "pinyin": "dao1",
     "tones": "dāo",
-    "english": "knife; blade (Kangxi radical 18)"
+    "english": "knife; blade "
   },
   {
     "simplified": "导游",
@@ -569,9 +569,16 @@
   {
     "simplified": "倒",
     "traditional": "倒",
-    "pinyin": "dao3, dao4",
-    "tones": "dǎo, dào",
-    "english": "to collapse; to fall; fail; to exchange | to pour; contrary to expectations"
+    "pinyin": "dao3",
+    "tones": "dǎo",
+    "english": "to collapse; to fall; fail; to exchange"
+  },
+  {
+    "simplified": "倒",
+    "traditional": "倒",
+    "pinyin": "dao4",
+    "tones": "dào",
+    "english": "to pour; contrary to expectations"
   },
   {
     "simplified": "道歉",
@@ -725,7 +732,7 @@
     "traditional": "而",
     "pinyin": "er2",
     "tones": "ér",
-    "english": "and; but; yet; while (Kangxi radical 126)"
+    "english": "and; but; yet; while "
   },
   {
     "simplified": "发生",
@@ -949,7 +956,7 @@
     "traditional": "幹",
     "pinyin": "gan1",
     "tones": "gān",
-    "english": "to concern; shield; dry; clean (Kangxi radical 51)"
+    "english": "to concern; shield; dry; clean "
   },
   {
     "simplified": "刚",
@@ -1285,7 +1292,7 @@
     "traditional": "火",
     "pinyin": "huo3",
     "tones": "huǒ",
-    "english": "fire (Kangxi radical 86)"
+    "english": "fire "
   },
   {
     "simplified": "获得",
@@ -1402,9 +1409,16 @@
   {
     "simplified": "假",
     "traditional": "假",
-    "pinyin": "jia3, jia4",
-    "tones": "jiǎ, jià",
-    "english": "fake; if; borrow | vacation; holiday"
+    "pinyin": "jia3",
+    "tones": "jiǎ",
+    "english": "fake; if; borrow"
+  },
+  {
+    "simplified": "假",
+    "traditional": "假",
+    "pinyin": "jia4",
+    "tones": "jià",
+    "english": "vacation; holiday"
   },
   {
     "simplified": "价格",
@@ -1808,9 +1822,16 @@
   {
     "simplified": "空",
     "traditional": "空",
-    "pinyin": "kong1, kong4",
-    "tones": "kōng, kòng",
-    "english": "empty; sky | leave blank; leisure"
+    "pinyin": "kong1",
+    "tones": "kōng",
+    "english": "empty; sky"
+  },
+  {
+    "simplified": "空",
+    "traditional": "空",
+    "pinyin": "kong4",
+    "tones": "kòng",
+    "english": "leave blank; leisure"
   },
   {
     "simplified": "空气",
@@ -2097,7 +2118,7 @@
     "traditional": "毛",
     "pinyin": "mao2",
     "tones": "máo",
-    "english": "hair; fur; feather; dime (Kangxi radical 82)"
+    "english": "hair; fur; feather; dime "
   },
   {
     "simplified": "毛巾",
@@ -2977,9 +2998,16 @@
   {
     "simplified": "趟",
     "traditional": "趟",
-    "pinyin": "tang4, tang1",
-    "tones": "tàng, tāng",
-    "english": "(mw for trips times) | to wade"
+    "pinyin": "tang4",
+    "tones": "tàng",
+    "english": "for trips times"
+  },
+  {
+    "simplified": "趟",
+    "traditional": "趟",
+    "pinyin": "tang1",
+    "tones": "tāng",
+    "english": "to wade"
   },
   {
     "simplified": "讨论",
@@ -3189,7 +3217,7 @@
     "traditional": "無",
     "pinyin": "wu2",
     "tones": "wú",
-    "english": "have not; without; not (Kangxi radical 71)"
+    "english": "have not; without; not "
   },
   {
     "simplified": "无聊",
@@ -3266,7 +3294,7 @@
     "traditional": "香",
     "pinyin": "xiang1",
     "tones": "xiāng",
-    "english": "fragrant; savory (Kangxi radical 186)"
+    "english": "fragrant; savory "
   },
   {
     "simplified": "详细",
@@ -3567,7 +3595,7 @@
     "traditional": "頁",
     "pinyin": "ye4",
     "tones": "yè",
-    "english": "page; leaf (Kangxi radical 181)"
+    "english": "page; leaf "
   },
   {
     "simplified": "一切",
@@ -4083,9 +4111,16 @@
   {
     "simplified": "转",
     "traditional": "轉",
-    "pinyin": "zhuan3, zhuan4",
-    "tones": "zhuǎn, zhuàn",
-    "english": "to turn; to change; pass on | revolve; rotate"
+    "pinyin": "zhuan3",
+    "tones": "zhuǎn",
+    "english": "to turn; to change; pass on"
+  },
+  {
+    "simplified": "转",
+    "traditional": "轉",
+    "pinyin": "zhuan4",
+    "tones": "zhuàn",
+    "english": "revolve; rotate"
   },
   {
     "simplified": "赚",

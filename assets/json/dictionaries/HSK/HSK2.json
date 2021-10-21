@@ -11,7 +11,7 @@
     "traditional": "白",
     "pinyin": "bai2",
     "tones": "bái",
-    "english": "white; snowy; pure; bright; empty (Kangxi radical 106)"
+    "english": "white; snowy; pure; bright; empty "
   },
   {
     "simplified": "百",
@@ -39,7 +39,7 @@
     "traditional": "比",
     "pinyin": "bi3",
     "tones": "bǐ",
-    "english": "compare; (indicates comparison) (Kangxi radical 81); to gesticulate as one talks"
+    "english": "compare; (indicates comparison) ; to gesticulate as one talks"
   },
   {
     "simplified": "别",
@@ -58,9 +58,16 @@
   {
     "simplified": "长",
     "traditional": "長",
-    "pinyin": "chang2, zhang3",
-    "tones": "cháng, zhǎng",
-    "english": "long; length | grow; chief (Kangxi radical 168)"
+    "pinyin": "chang2",
+    "tones": "cháng",
+    "english": "long; length"
+  },
+  {
+    "simplified": "长",
+    "traditional": "長",
+    "pinyin": "zhang3",
+    "tones": "zhǎng",
+    "english": "grow; chief "
   },
   {
     "simplified": "唱歌",
@@ -193,7 +200,7 @@
     "traditional": "高",
     "pinyin": "gao1",
     "tones": "gāo",
-    "english": "high; tall (Kangxi radical 189)"
+    "english": "high; tall "
   },
   {
     "simplified": "告诉",
@@ -270,7 +277,7 @@
     "traditional": "黑",
     "pinyin": "hei1",
     "tones": "hēi",
-    "english": "black; dark (Kangxi radical 203); Heilongjiang province (abbreviation)"
+    "english": "black; dark ; Heilongjiang province (abbreviation)"
   },
   {
     "simplified": "红",
@@ -494,7 +501,7 @@
     "traditional": "門",
     "pinyin": "men2",
     "tones": "mén",
-    "english": "door; opening; gate (Kangxi radical 169)"
+    "english": "door; opening; gate "
   },
   {
     "simplified": "面条",
@@ -529,7 +536,7 @@
     "traditional": "女",
     "pinyin": "nv3",
     "tones": "nǚ",
-    "english": "woman; female (Kangxi radical 38)"
+    "english": "woman; female "
   },
   {
     "simplified": "旁边",
@@ -613,7 +620,7 @@
     "traditional": "日",
     "pinyin": "ri4",
     "tones": "rì",
-    "english": "sun; day; date; time (Kangxi radical 72)"
+    "english": "sun; day; date; time "
   },
   {
     "simplified": "上班",
@@ -956,7 +963,7 @@
     "traditional": "魚",
     "pinyin": "yu2",
     "tones": "yú",
-    "english": "fish (Kangxi radical 195)"
+    "english": "fish "
   },
   {
     "simplified": "远",
@@ -1040,7 +1047,7 @@
     "traditional": "走",
     "pinyin": "zou3",
     "tones": "zǒu",
-    "english": "to walk; to go; to move (Kangxi radical 156)"
+    "english": "to walk; to go; to move "
   },
   {
     "simplified": "最",
@@ -1055,8 +1062,5 @@
     "pinyin": "zuo3bian5",
     "tones": "zuǒbian",
     "english": "the left side; the left"
-  },
-  {
-    "simplified": ""
   }
 ]

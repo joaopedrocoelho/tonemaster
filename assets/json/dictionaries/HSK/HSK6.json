@@ -1878,9 +1878,16 @@
   {
     "simplified": "盛",
     "traditional": "盛",
-    "pinyin": "cheng2, sheng4",
-    "tones": "chéng, shèng",
-    "english": "contain; to ladle; to fill | flourishing; grand; abundant"
+    "pinyin": "cheng2",
+    "tones": "chéng",
+    "english": "contain; to ladle; to fill"
+  },
+  {
+    "simplified": "盛",
+    "traditional": "盛",
+    "pinyin": "sheng4",
+    "tones": "shèng",
+    "english": "flourishing; grand; abundant"
   },
   {
     "simplified": "惩罚",
@@ -2522,7 +2529,7 @@
   {
     "simplified": "大不了",
     "traditional": "大不了",
-    "pinyin": "da4buliao3",
+    "pinyin": "da4bu5liao3",
     "tones": "dàbuliǎo",
     "english": "at the worst; if worst comes to worst; serious, alarming"
   },
@@ -2534,9 +2541,9 @@
     "english": "chancellor"
   },
   {
-    "simplified": "大伙儿",
-    "traditional": "大夥兒",
-    "pinyin": "da4huo3r",
+    "simplified": "大伙",
+    "traditional": "大夥",
+    "pinyin": "da4huo3",
     "tones": "dàhuǒr",
     "english": "everyone"
   },
@@ -9037,10 +9044,10 @@
     "english": "good at; adept"
   },
   {
-    "simplified": "纳闷儿",
-    "traditional": "納悶兒",
-    "pinyin": "na4 men4r",
-    "tones": "nà mènr",
+    "simplified": "纳闷",
+    "traditional": "納悶",
+    "pinyin": "na4 men4",
+    "tones": "nà mèn",
     "english": "feel puzzled; bewildered"
   },
   {
@@ -9191,9 +9198,9 @@
     "english": "to reverse; turn around (an undesirable situation)"
   },
   {
-    "simplified": "纽扣儿",
-    "traditional": "紐扣兒",
-    "pinyin": "niu3kou4r",
+    "simplified": "纽扣",
+    "traditional": "紐扣",
+    "pinyin": "niu3kou4",
     "tones": "niǔkòur",
     "english": "button"
   },
@@ -9732,9 +9739,16 @@
   {
     "simplified": "铺",
     "traditional": "鋪",
-    "pinyin": "pu4, pu1",
-    "tones": "pù, pū",
-    "english": "bed; store | to spread; to lay"
+    "pinyin": "pu4",
+    "tones": "pù",
+    "english": "bed; store"
+  },
+  {
+    "simplified": "铺",
+    "traditional": "鋪",
+    "pinyin": "pu1",
+    "tones": "pū",
+    "english": "to spread; to lay"
   },
   {
     "simplified": "朴实",
@@ -10518,7 +10532,7 @@
     "traditional": "犬",
     "pinyin": "quan3",
     "tones": "quǎn",
-    "english": "dog (Kangxi radical 94)"
+    "english": "dog "
   },
   {
     "simplified": "缺口",
@@ -12985,9 +12999,9 @@
     "english": "resort to; play with; engage in"
   },
   {
-    "simplified": "玩意儿",
-    "traditional": "玩意兒",
-    "pinyin": "wan2yi4r",
+    "simplified": "玩意",
+    "traditional": "玩意",
+    "pinyin": "wan2yi4",
     "tones": "wányìr",
     "english": "thing; toy; gadget"
   },
@@ -13197,9 +13211,16 @@
   {
     "simplified": "喂",
     "traditional": "喂",
-    "pinyin": "wei4, wei2",
-    "tones": "wèi, wéi",
-    "english": "hey; to feed | hello (on the phone)"
+    "pinyin": "wei4",
+    "tones": "wèi",
+    "english": "hey; to feed"
+  },
+  {
+    "simplified": "喂",
+    "traditional": "喂",
+    "pinyin": "wei2",
+    "tones": "wéi",
+    "english": "hello (on the phone)"
   },
   {
     "simplified": "蔚蓝",
@@ -13755,9 +13776,9 @@
     "english": "sink into; get caught up in; land in (a predicament)"
   },
   {
-    "simplified": "馅儿",
-    "traditional": "餡兒",
-    "pinyin": "xian4r",
+    "simplified": "馅",
+    "traditional": "餡",
+    "pinyin": "xian4",
     "tones": "xiànr",
     "english": "stuffing; filling"
   },
@@ -14049,9 +14070,9 @@
     "english": "heart and blood; painstaking effort; meticulous care"
   },
   {
-    "simplified": "心眼儿",
-    "traditional": "心眼兒",
-    "pinyin": "xin1yan3r",
+    "simplified": "心眼",
+    "traditional": "心眼",
+    "pinyin": "xin1yan3",
     "tones": "xīnyǎnr",
     "english": "one's thoughts; mind; intention; willingness to accept new ideas"
   },
@@ -15453,7 +15474,7 @@
     "traditional": "玉",
     "pinyin": "yu4",
     "tones": "yù",
-    "english": "jade (Kangxi radical 96)"
+    "english": "jade "
   },
   {
     "simplified": "预料",
@@ -16769,7 +16790,7 @@
     "traditional": "舟",
     "pinyin": "zhou1",
     "tones": "zhōu",
-    "english": "boat (Kangxi radical 137)"
+    "english": "boat "
   },
   {
     "simplified": "州",
@@ -17498,8 +17519,5 @@
     "pinyin": "zuo4zhu3",
     "tones": "zuòzhǔ",
     "english": "decide; take the responsibility for a decision"
-  },
-  {
-    "simplified": ""
   }
 ]

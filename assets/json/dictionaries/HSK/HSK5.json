@@ -310,9 +310,16 @@
   {
     "simplified": "便",
     "traditional": "便",
-    "pinyin": "bian4, pian2",
-    "tones": "biàn, pián",
-    "english": "plain; convenient; excretion; formal equivalent to 就 | cheap"
+    "pinyin": "bian4",
+    "tones": "biàn",
+    "english": "plain; convenient; excretion"
+  },
+  {
+    "simplified": "便",
+    "traditional": "便",
+    "pinyin": "pian2",
+    "tones": "pián",
+    "english": " cheap"
   },
   {
     "simplified": "辩论",
@@ -1873,7 +1880,7 @@
     "traditional": "方",
     "pinyin": "fang1",
     "tones": "fāng",
-    "english": "square; direction; side (Kangxi radical 70)"
+    "english": "square; direction; side "
   },
   {
     "simplified": "方案",
@@ -1908,7 +1915,7 @@
     "traditional": "非",
     "pinyin": "fei1",
     "tones": "fēi",
-    "english": "non-; un-; not be; wrongdoing; simply must (Kangxi radical 175)"
+    "english": "non-; un-; not be; wrongdoing; simply must "
   },
   {
     "simplified": "肥皂",
@@ -2170,9 +2177,9 @@
     "english": "impressions; reflections; thoughts"
   },
   {
-    "simplified": "干活儿",
-    "traditional": "幹活兒",
-    "pinyin": "gan4 huo2r",
+    "simplified": "干活",
+    "traditional": "幹活",
+    "pinyin": "gan4 huo2",
     "tones": "gàn huór",
     "english": "do manual labor; to work"
   },
@@ -2466,7 +2473,7 @@
   {
     "simplified": "怪不得",
     "traditional": "怪不得",
-    "pinyin": "guai4 bu de",
+    "pinyin": "guai4 bu5 de5",
     "tones": "guài bu de",
     "english": "no wonder; so that's why"
   },
@@ -2886,9 +2893,16 @@
   {
     "simplified": "划",
     "traditional": "劃",
-    "pinyin": "hua4, hua2",
-    "tones": "huà, huá",
-    "english": "delimit; to transfer; assign | to row; to paddle; to scratch"
+    "pinyin": "hua4",
+    "tones": "huà",
+    "english": "delimit; to transfer; assign "
+  },
+  {
+    "simplified": "划",
+    "traditional": "劃",
+    "pinyin": "hua2",
+    "tones": "huá",
+    "english": "to row; to paddle; to scratch"
   },
   {
     "simplified": "华裔",
@@ -3824,7 +3838,7 @@
   {
     "simplified": "看不起",
     "traditional": "看不起",
-    "pinyin": "kan4 bu qi3",
+    "pinyin": "kan4 bu5 qi3",
     "tones": "kàn bu qǐ",
     "english": "look down upon; despise"
   },
@@ -4223,7 +4237,7 @@
   {
     "simplified": "了不起",
     "traditional": "了不起",
-    "pinyin": "liao3buqi3",
+    "pinyin": "liao3bu5qi3",
     "tones": "liǎobuqǐ",
     "english": "incredible; extraordinary; great; amazing"
   },
@@ -4309,7 +4323,7 @@
     "traditional": "龍",
     "pinyin": "long2",
     "tones": "lóng",
-    "english": "dragon (Kangxi radical 212)"
+    "english": "dragon "
   },
   {
     "simplified": "漏",
@@ -4818,7 +4832,7 @@
   {
     "simplified": "欧洲",
     "traditional": "歐洲",
-    "pinyin": "Ōuzhou1",
+    "pinyin": "ou1zhou1",
     "tones": "Ōuzhōu",
     "english": "Europe"
   },
@@ -4937,9 +4951,16 @@
   {
     "simplified": "片",
     "traditional": "片",
-    "pinyin": "pian4, pian1",
-    "tones": "piàn, piān",
-    "english": "(mw for pieces of things); a slice; a flake (Kangxi radical 91) | film; photo"
+    "pinyin": "pian4",
+    "tones": "piàn",
+    "english": "(mw for pieces of things); a slice; a flake "
+  },
+  {
+    "simplified": "片",
+    "traditional": "片",
+    "pinyin": "pian1",
+    "tones": "piān",
+    "english": "film; photo"
   },
   {
     "simplified": "片面",
@@ -5149,7 +5170,7 @@
     "traditional": "欠",
     "pinyin": "qian4",
     "tones": "qiàn",
-    "english": "yawn; to lack; owe (Kangxi radical 76)"
+    "english": "yawn; to lack; owe "
   },
   {
     "simplified": "枪",
@@ -5182,9 +5203,16 @@
   {
     "simplified": "抢",
     "traditional": "搶",
-    "pinyin": "qiang3, qiang1",
-    "tones": "qiǎng, qiāng",
-    "english": "fight over; vie for; grab; rush | bump against"
+    "pinyin": "qiang3",
+    "tones": "qiǎng",
+    "english": "fight over; vie for; grab; rush"
+  },
+  {
+    "simplified": "抢",
+    "traditional": "搶",
+    "pinyin": "qiang3",
+    "tones": "qiāng",
+    "english": "bump against"
   },
   {
     "simplified": "悄悄",
@@ -5210,9 +5238,16 @@
   {
     "simplified": "切",
     "traditional": "切",
-    "pinyin": "qie1, qie4",
-    "tones": "qiē, qiè",
-    "english": "to cut; to chop | correspond to; absolutely; ardently"
+    "pinyin": "qie4",
+    "tones": "qiè",
+    "english": "correspond to; absolutely; ardently"
+  },
+  {
+    "simplified": "切",
+    "traditional": "切",
+    "pinyin": "qie1",
+    "tones": "qiē",
+    "english": "to cut; to chop"
   },
   {
     "simplified": "亲爱",
@@ -5247,7 +5282,7 @@
     "traditional": "青",
     "pinyin": "qing1",
     "tones": "qīng",
-    "english": "blue; green; young (Kangxi radical 174); Qinghai province (abbr.)"
+    "english": "blue; green; young ; Qinghai province (abbr.)"
   },
   {
     "simplified": "青春",
@@ -5504,7 +5539,7 @@
   {
     "simplified": "忍不住",
     "traditional": "忍不住",
-    "pinyin": "ren3 bu zhu4",
+    "pinyin": "ren3 bu5 zhu4",
     "tones": "rěn bu zhù",
     "english": "cannot help but; unable to bear"
   },
@@ -5721,7 +5756,7 @@
   {
     "simplified": "舍不得",
     "traditional": "舍不得",
-    "pinyin": "she3bude",
+    "pinyin": "she3bu5de",
     "tones": "shěbude",
     "english": "hate to part with; begrudge doing something"
   },
@@ -5999,9 +6034,9 @@
     "english": "food"
   },
   {
-    "simplified": "使劲儿",
-    "traditional": "使勁兒",
-    "pinyin": "shi3jin4r",
+    "simplified": "使劲",
+    "traditional": "使勁",
+    "pinyin": "shi3jin4",
     "tones": "shǐjìnr",
     "english": "exert all one's strength"
   },
@@ -6115,7 +6150,7 @@
     "traditional": "首",
     "pinyin": "shou3",
     "tones": "shǒu",
-    "english": "head; chief; first; (mw for poems and songs) (Kangxi radical 185)"
+    "english": "head; chief; first; (mw for poems and songs) "
   },
   {
     "simplified": "寿命",
@@ -6190,9 +6225,16 @@
   {
     "simplified": "数",
     "traditional": "數",
-    "pinyin": "shu4, shu3",
-    "tones": "shù, shǔ",
-    "english": "number | to count; to rank"
+    "pinyin": "shu4",
+    "tones": "shù",
+    "english": "number"
+  },
+  {
+    "simplified": "数",
+    "traditional": "數",
+    "pinyin": "shu3",
+    "tones": "shǔ",
+    "english": "to count; to rank"
   },
   {
     "simplified": "数据",
@@ -6239,7 +6281,7 @@
   {
     "simplified": "说不定",
     "traditional": "說不定",
-    "pinyin": "shuo1buding4",
+    "pinyin": "shuo1bu5ding4",
     "tones": "shuōbudìng",
     "english": "can't say for sure; perhaps; maybe"
   },
@@ -6652,9 +6694,16 @@
   {
     "simplified": "吐",
     "traditional": "吐",
-    "pinyin": "tu3, tu4",
-    "tones": "tǔ, tù",
-    "english": "to spit | to vomit; throw up"
+    "pinyin": "tu3",
+    "tones": "tǔ",
+    "english": "to spit"
+  },
+  {
+    "simplified": "吐",
+    "traditional": "吐",
+    "pinyin": "tu4",
+    "tones": "tù",
+    "english": "to vomit; throw up"
   },
   {
     "simplified": "兔子",
@@ -7086,9 +7135,16 @@
   {
     "simplified": "系",
     "traditional": "系",
-    "pinyin": "xi4, ji4",
-    "tones": "xì, jì",
-    "english": "be; relate to; system; fasten; department; faculty; connect | to tie"
+    "pinyin": "xi4",
+    "tones": "xì",
+    "english": "be; relate to; system; fasten; department; faculty; connect"
+  },
+  {
+    "simplified": "系",
+    "traditional": "系",
+    "pinyin": "ji4",
+    "tones": "jì",
+    "english": "to tie"
   },
   {
     "simplified": "系统",
@@ -7382,7 +7438,7 @@
     "traditional": "血",
     "pinyin": "xue4",
     "tones": "xuè",
-    "english": "blood (Kangxi radical 143)"
+    "english": "blood "
   },
   {
     "simplified": "心理",
@@ -7795,7 +7851,7 @@
     "traditional": "乙",
     "pinyin": "yi3",
     "tones": "yǐ",
-    "english": "two; twist (2nd Heavenly Stem) (Kangxi radical 5)"
+    "english": "two; twist (2nd Heavenly Stem) "
   },
   {
     "simplified": "以及",
@@ -8297,9 +8353,16 @@
   {
     "simplified": "涨",
     "traditional": "漲",
-    "pinyin": "zhang3, zhang4",
-    "tones": "zhǎng, zhàng",
-    "english": "to rise (of prices, rivers); to go up | to swell; to bloat"
+    "pinyin": "zhang3",
+    "tones": "zhǎng",
+    "english": "to rise (of prices, rivers); to go up"
+  },
+  {
+    "simplified": "涨",
+    "traditional": "漲",
+    "pinyin": "zhang4",
+    "tones": "zhàng",
+    "english": "to swell; to bloat"
   },
   {
     "simplified": "掌握",
@@ -8486,16 +8549,23 @@
   {
     "simplified": "挣",
     "traditional": "掙",
-    "pinyin": "zheng4, zheng1",
-    "tones": "zhèng, zhēng",
-    "english": "to earn | to struggle"
+    "pinyin": "zheng4",
+    "tones": "zhèng",
+    "english": "to earn"
+  },
+  {
+    "simplified": "挣",
+    "traditional": "掙",
+    "pinyin": "zheng1",
+    "tones": "zhēng",
+    "english": "to struggle"
   },
   {
     "simplified": "支",
     "traditional": "支",
     "pinyin": "zhi1",
     "tones": "zhī",
-    "english": "branch; support; put up; (mw for long; narrow objects) (Kangxi radical 65)"
+    "english": "branch; support; put up; (mw for long; narrow objects) "
   },
   {
     "simplified": "支票",
@@ -9098,8 +9168,5 @@
     "pinyin": "zuo4 wen2",
     "tones": "zuò wén",
     "english": "write an essay; essay"
-  },
-  {
-    "simplified": ""
   }
-]
+ ]
