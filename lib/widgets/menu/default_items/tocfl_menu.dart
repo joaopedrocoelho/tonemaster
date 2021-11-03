@@ -20,7 +20,7 @@ class _TOCFLMenuItemState extends State<TOCFLMenuItem> {
   @override
   Widget build(BuildContext context) {
     return CircularMenu(
-      children: [
+        children: [
         SubMenuItem(
           fillColor: Colors.teal,
           child: Text(

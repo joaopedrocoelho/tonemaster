@@ -4,6 +4,7 @@ import 'package:frontend/screens/game.dart';
 import 'package:frontend/utils/get_json_word_list.dart';
 import 'package:frontend/widgets/menu/menu_buttons/circular_menu.dart';
 import 'package:frontend/widgets/menu/menu_buttons/submenu_item.dart';
+import 'dart:async';
 
 class HSKMenuItem extends StatefulWidget {
   const HSKMenuItem({Key? key}) : super(key: key);
@@ -15,11 +16,15 @@ class HSKMenuItem extends StatefulWidget {
 class _HSKMenuItemState extends State<HSKMenuItem> {
   List<PlayWord> _listOfWords = [];
 
+
   
 
   @override
   Widget build(BuildContext context) {
+    
+
     return CircularMenu(
+      key: Key("HSK"),
       children: [
         SubMenuItem(
           fillColor: Colors.teal,
@@ -28,7 +33,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {
-            _pushToScreen('assets/json/dictionaries/HSK/HSK1.json');
+             // _pushToScreen('assets/json/dictionaries/HSK/HSK1.json');
           },
         ),
         SubMenuItem(
@@ -89,7 +94,9 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
 
   void _pushToScreen(String file) {
     getJsonWordList(file).then(
-        (list) => Navigator.push(context, MaterialPageRoute(builder: (context) {
+        (list) => Navigator.push(context, MaterialPageRoute(
+          maintainState: false,
+          builder: (context) {
               return GameScreen(words: list, numberOfWords: 5,);
             })));
   }

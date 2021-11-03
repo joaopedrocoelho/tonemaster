@@ -14,6 +14,7 @@ class CircularMenu extends StatefulWidget {
 
 class _CircularMenuState extends State<CircularMenu>
     with TickerProviderStateMixin {
+
   bool _isOpen = false;
   bool _isAnimating = false;
 
@@ -52,7 +53,7 @@ class _CircularMenuState extends State<CircularMenu>
               .chain(CurveTween(curve: Curves.easeInOut)),
           weight: 50),
     ]).animate(_animationController);
-      /* ..addStatusListener((status) {
+    /* ..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
           _subMenuPositionController.forward();
         }
@@ -65,8 +66,6 @@ class _CircularMenuState extends State<CircularMenu>
     super.initState();
   }
 
-
-
   void close() {
     setState(() {
       _isOpen = false;
@@ -74,8 +73,6 @@ class _CircularMenuState extends State<CircularMenu>
       _subMenuPositionController.reverse();
     });
   }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -86,22 +83,9 @@ class _CircularMenuState extends State<CircularMenu>
             child: Stack(
               alignment: Alignment.center,
               children: [
-                /* Transform.translate(
-                 offset: Offset.fromDirection(
-                convertDegreesToRadians(270), _subMenuPositionAnimation.value),
-                 child: Container(
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.teal
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text('6', style: TextStyle(fontSize: 20)),
-                  )),
-               ), */
-               if(widget.children != null)
-                ..._renderSubMenu(
-                    widget.children!, _subMenuPositionAnimation.value),
+                if (widget.children != null)
+                  ..._renderSubMenu(
+                      widget.children!, _subMenuPositionAnimation.value),
 
                 //Center Button
                 FractionallySizedBox(
@@ -120,7 +104,8 @@ class _CircularMenuState extends State<CircularMenu>
                           open();
                         }
                       },
-                      child: Center(child: _isOpen ? Icon(Icons.close) : widget.menuIcon),
+                      child: Center(
+                          child: _isOpen ? Icon(Icons.close) : widget.menuIcon),
                     ),
                   ),
                 ),
@@ -135,13 +120,16 @@ class _CircularMenuState extends State<CircularMenu>
     double _angleRatio = 360 / children.length;
 
     children.forEachIndexed((child, index) {
-      _subMenu.add(
-        Transform.translate(
-            offset: Offset.fromDirection(
-                convertDegreesToRadians(index * _angleRatio), distance),
-            child: GestureDetector(
-                            child: child)),
-      );
+      _subMenu.add(Transform.translate(
+        offset: Offset.fromDirection(
+            convertDegreesToRadians(index * _angleRatio), distance),
+        child: GestureDetector(
+           onTap: () {
+            print("pressed");
+            close();
+          },
+          child: child),
+      ));
     });
 
     return _subMenu;
