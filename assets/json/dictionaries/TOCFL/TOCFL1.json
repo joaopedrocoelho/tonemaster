@@ -1,0 +1,3816 @@
+[
+  {
+    "traditional": "一",
+    "pinyin_accented": "yī",
+    "simplified": "一",
+    "pinyin": "yi1",
+    "english": "one"
+  },
+  {
+    "traditional": "一些",
+    "pinyin_accented": "yīxiē",
+    "simplified": "一些",
+    "pinyin": "yi1xie1",
+    "english": "some"
+  },
+  {
+    "traditional": "一定",
+    "pinyin_accented": "yīdìng",
+    "simplified": "一定",
+    "pinyin": "yi1ding4",
+    "english": "surely"
+  },
+  {
+    "traditional": "一樣",
+    "pinyin_accented": "yīyàng",
+    "simplified": "一样",
+    "pinyin": "yi1yang4",
+    "english": "same"
+  },
+  {
+    "traditional": "一起",
+    "pinyin_accented": "yīqǐ",
+    "simplified": "一起",
+    "pinyin": "yi1qi3",
+    "english": "in the same place"
+  },
+  {
+    "traditional": "七",
+    "pinyin_accented": "qī",
+    "simplified": "七",
+    "pinyin": "qi1",
+    "english": "seven"
+  },
+  {
+    "traditional": "三",
+    "pinyin_accented": "sān",
+    "simplified": "三",
+    "pinyin": "san1",
+    "english": "three"
+  },
+  {
+    "traditional": "上",
+    "pinyin_accented": "shàng",
+    "simplified": "上",
+    "pinyin": "shang4",
+    "english": "on top"
+  },
+  {
+    "traditional": "上",
+    "pinyin_accented": "shàng",
+    "simplified": "上",
+    "pinyin": "shang4",
+    "english": "on top"
+  },
+  {
+    "traditional": "上午",
+    "pinyin_accented": "shàngwǔ",
+    "simplified": "上午",
+    "pinyin": "shang4wu3",
+    "english": "morning"
+  },
+  {
+    "traditional": "上學",
+    "pinyin_accented": "shàngxué",
+    "simplified": "上学",
+    "pinyin": "shang4xue2",
+    "english": "to go to school"
+  },
+  {
+    "traditional": "上班",
+    "pinyin_accented": "shàngbān",
+    "simplified": "上班",
+    "pinyin": "shang4ban1",
+    "english": "to go to work"
+  },
+  {
+    "traditional": "上網",
+    "pinyin_accented": "shàngwǎng",
+    "simplified": "上网",
+    "pinyin": "shang4wang3",
+    "english": "to go online"
+  },
+  {
+    "traditional": "上課",
+    "pinyin_accented": "shàngkè",
+    "simplified": "上课",
+    "pinyin": "shang4ke4",
+    "english": "to go to class"
+  },
+  {
+    "traditional": "下",
+    "pinyin_accented": "xià",
+    "simplified": "下",
+    "pinyin": "xia4",
+    "english": "down"
+  },
+  {
+    "traditional": "下午",
+    "pinyin_accented": "xiàwǔ",
+    "simplified": "下午",
+    "pinyin": "xia4wu3",
+    "english": "afternoon"
+  },
+  {
+    "traditional": "下課",
+    "pinyin_accented": "xiàkè",
+    "simplified": "下课",
+    "pinyin": "xia4ke4",
+    "english": "to finish class"
+  },
+  {
+    "traditional": "下雨",
+    "pinyin_accented": "xiàyǔ",
+    "simplified": "下雨",
+    "pinyin": "xia4yu3",
+    "english": "to rain"
+  },
+  {
+    "traditional": "下雪",
+    "pinyin_accented": "xiàxuě",
+    "simplified": "下雪",
+    "pinyin": "xia4xue3",
+    "english": "to snow"
+  },
+  {
+    "traditional": "不",
+    "pinyin_accented": "bù",
+    "simplified": "不",
+    "pinyin": "bu4",
+    "english": "(negative prefix)"
+  },
+  {
+    "traditional": "不客氣",
+    "pinyin_accented": "bùkèqi",
+    "simplified": "不客气",
+    "pinyin": "bu4ke4qi5",
+    "pinyin_accented_tw": "bù kè qì",
+    "pinyin_tw": "bu4 ke4 qi4",
+    "english": "you're welcome"
+  },
+  {
+    "traditional": "不錯",
+    "pinyin_accented": "bùcuò",
+    "simplified": "不错",
+    "pinyin": "bu4cuo4",
+    "english": "correct"
+  },
+  {
+    "traditional": "中午",
+    "pinyin_accented": "zhōngwǔ",
+    "simplified": "中午",
+    "pinyin": "zhong1wu3",
+    "english": "noon"
+  },
+  {
+    "traditional": "中國",
+    "pinyin_accented": "Zhōngguó",
+    "simplified": "中国",
+    "pinyin": "Zhong1guo2",
+    "english": "China"
+  },
+  {
+    "traditional": "中學",
+    "pinyin_accented": "zhōngxué",
+    "simplified": "中学",
+    "pinyin": "zhong1xue2",
+    "english": "middle school"
+  },
+  {
+    "traditional": "中間",
+    "pinyin_accented": "zhōngjiān",
+    "simplified": "中间",
+    "pinyin": "zhong1jian1",
+    "english": "between"
+  },
+  {
+    "traditional": "久",
+    "pinyin_accented": "jiǔ",
+    "simplified": "久",
+    "pinyin": "jiu3",
+    "english": "(long) time"
+  },
+  {
+    "traditional": "九",
+    "pinyin_accented": "jiǔ",
+    "simplified": "九",
+    "pinyin": "jiu3",
+    "english": "nine"
+  },
+  {
+    "traditional": "也",
+    "pinyin_accented": "yě",
+    "simplified": "也",
+    "pinyin": "ye3",
+    "english": "also"
+  },
+  {
+    "traditional": "了",
+    "pinyin_accented": "le",
+    "simplified": "了",
+    "pinyin": "le5",
+    "pinyin_accented_tw": "liǎo",
+    "pinyin_tw": "liao3",
+    "english": "to finish"
+  },
+  {
+    "traditional": "了",
+    "pinyin_accented": "le",
+    "simplified": "了",
+    "pinyin": "le5",
+    "pinyin_accented_tw": "liǎo",
+    "pinyin_tw": "liao3",
+    "english": "to finish"
+  },
+  {
+    "traditional": "二",
+    "pinyin_accented": "èr",
+    "simplified": "二",
+    "pinyin": "er4",
+    "english": "two"
+  },
+  {
+    "traditional": "五",
+    "pinyin_accented": "wǔ",
+    "simplified": "五",
+    "pinyin": "wu3",
+    "english": "five"
+  },
+  {
+    "traditional": "人",
+    "pinyin_accented": "rén",
+    "simplified": "人",
+    "pinyin": "ren2",
+    "english": "person"
+  },
+  {
+    "traditional": "今天",
+    "pinyin_accented": "jīntiān",
+    "simplified": "今天",
+    "pinyin": "jin1tian1",
+    "english": "today"
+  },
+  {
+    "traditional": "今年",
+    "pinyin_accented": "jīnnián",
+    "simplified": "今年",
+    "pinyin": "jin1nian2",
+    "english": "this year"
+  },
+  {
+    "traditional": "介紹",
+    "pinyin_accented": "jièshào",
+    "simplified": "介绍",
+    "pinyin": "jie4shao4",
+    "english": "to introduce (sb to sb)"
+  },
+  {
+    "traditional": "以前",
+    "pinyin_accented": "yǐqián",
+    "simplified": "以前",
+    "pinyin": "yi3qian2",
+    "english": "before"
+  },
+  {
+    "traditional": "以後",
+    "pinyin_accented": "yǐhòu",
+    "simplified": "以后",
+    "pinyin": "yi3hou4",
+    "english": "after"
+  },
+  {
+    "traditional": "件",
+    "pinyin_accented": "jiàn",
+    "simplified": "件",
+    "pinyin": "jian4",
+    "english": "item"
+  },
+  {
+    "traditional": "休息",
+    "pinyin_accented": "xiūxi",
+    "simplified": "休息",
+    "pinyin": "xiu1xi5",
+    "pinyin_accented_tw": "xiū xí",
+    "pinyin_tw": "xiu1 xi2",
+    "english": "rest"
+  },
+  {
+    "traditional": "住",
+    "pinyin_accented": "zhù",
+    "simplified": "住",
+    "pinyin": "zhu4",
+    "english": "to live"
+  },
+  {
+    "traditional": "作業",
+    "pinyin_accented": "zuòyè",
+    "simplified": "作业",
+    "pinyin": "zuo4ye4",
+    "english": "school assignment"
+  },
+  {
+    "traditional": "來",
+    "pinyin_accented": "lái",
+    "simplified": "来",
+    "pinyin": "lai2",
+    "english": "to come"
+  },
+  {
+    "traditional": "便宜",
+    "pinyin_accented": "piànyi",
+    "simplified": "便宜",
+    "pinyin": "pian4yi5",
+    "pinyin_accented_tw": "pián yi",
+    "pinyin_tw": "pian2 yi",
+    "english": "cheap"
+  },
+  {
+    "traditional": "便宜",
+    "pinyin_accented": "piànyi",
+    "simplified": "便宜",
+    "pinyin": "pian4yi5",
+    "pinyin_accented_tw": "pián yi",
+    "pinyin_tw": "pian2 yi",
+    "english": "cheap"
+  },
+  {
+    "traditional": "信",
+    "pinyin_accented": "xìn",
+    "simplified": "信",
+    "pinyin": "xin4",
+    "english": "letter"
+  },
+  {
+    "traditional": "信封",
+    "pinyin_accented": "xìnfēng",
+    "simplified": "信封",
+    "pinyin": "xin4feng1",
+    "english": "envelope"
+  },
+  {
+    "traditional": "個",
+    "pinyin_accented": "gè",
+    "simplified": "个",
+    "pinyin": "ge4",
+    "english": "individual"
+  },
+  {
+    "traditional": "做",
+    "pinyin_accented": "zuò",
+    "simplified": "做",
+    "pinyin": "zuo4",
+    "english": "to do"
+  },
+  {
+    "traditional": "健康",
+    "pinyin_accented": "jiànkāng",
+    "simplified": "健康",
+    "pinyin": "jian4kang1",
+    "english": "health"
+  },
+  {
+    "traditional": "元",
+    "pinyin_accented": "yuán",
+    "simplified": "元",
+    "pinyin": "yuan2",
+    "english": "currency unit (esp. Chinese yuan)"
+  },
+  {
+    "traditional": "先",
+    "pinyin_accented": "xiān",
+    "simplified": "先",
+    "pinyin": "xian1",
+    "english": "early"
+  },
+  {
+    "traditional": "先生",
+    "pinyin_accented": "xiānsheng",
+    "simplified": "先生",
+    "pinyin": "xian1sheng5",
+    "pinyin_accented_tw": "xiān shēng",
+    "pinyin_tw": "xian1 sheng1",
+    "english": "teacher"
+  },
+  {
+    "traditional": "兒子",
+    "pinyin_accented": "érzi",
+    "simplified": "儿子",
+    "pinyin": "er2zi5",
+    "pinyin_accented_tw": "é r zǐ",
+    "pinyin_tw": "e2 r zi3",
+    "english": "son"
+  },
+  {
+    "traditional": "兩",
+    "pinyin_accented": "liǎng",
+    "simplified": "两",
+    "pinyin": "liang3",
+    "english": "two"
+  },
+  {
+    "traditional": "八",
+    "pinyin_accented": "bā",
+    "simplified": "八",
+    "pinyin": "ba1",
+    "english": "eight"
+  },
+  {
+    "traditional": "公司",
+    "pinyin_accented": "gōngsī",
+    "simplified": "公司",
+    "pinyin": "gong1si1",
+    "english": "(business) company"
+  },
+  {
+    "traditional": "公園",
+    "pinyin_accented": "gōngyuán",
+    "simplified": "公园",
+    "pinyin": "gong1yuan2",
+    "english": "park (for public recreation)"
+  },
+  {
+    "traditional": "公斤",
+    "pinyin_accented": "gōngjīn",
+    "simplified": "公斤",
+    "pinyin": "gong1jin1",
+    "english": "kilogram (kg)"
+  },
+  {
+    "traditional": "六",
+    "pinyin_accented": "liù",
+    "simplified": "六",
+    "pinyin": "liu4",
+    "english": "six"
+  },
+  {
+    "traditional": "再",
+    "pinyin_accented": "zài",
+    "simplified": "再",
+    "pinyin": "zai4",
+    "english": "again"
+  },
+  {
+    "traditional": "再見",
+    "pinyin_accented": "zàijiàn",
+    "simplified": "再见",
+    "pinyin": "zai4jian4",
+    "english": "goodbye"
+  },
+  {
+    "traditional": "冬天",
+    "pinyin_accented": "dōngtiān",
+    "simplified": "冬天",
+    "pinyin": "dong1tian1",
+    "english": "winter"
+  },
+  {
+    "traditional": "冷",
+    "pinyin_accented": "lěng",
+    "simplified": "冷",
+    "pinyin": "leng3",
+    "english": "cold"
+  },
+  {
+    "traditional": "冷氣",
+    "pinyin_accented": "lěngqì",
+    "simplified": "冷气",
+    "pinyin": "leng3qi4",
+    "english": "air conditioning (Tw)"
+  },
+  {
+    "traditional": "出去",
+    "pinyin_accented": "chūqù",
+    "simplified": "出去",
+    "pinyin": "chu1qu4",
+    "english": "to go out"
+  },
+  {
+    "traditional": "分鐘",
+    "pinyin_accented": "fēnzhōng",
+    "simplified": "分钟",
+    "pinyin": "fen1zhong1",
+    "english": "minute"
+  },
+  {
+    "traditional": "到",
+    "pinyin_accented": "dào",
+    "simplified": "到",
+    "pinyin": "dao4",
+    "english": "to (a place)"
+  },
+  {
+    "traditional": "前",
+    "pinyin_accented": "qián",
+    "simplified": "前",
+    "pinyin": "qian2",
+    "english": "front"
+  },
+  {
+    "traditional": "功課",
+    "pinyin_accented": "gōngkè",
+    "simplified": "功课",
+    "pinyin": "gong1ke4",
+    "english": "homework"
+  },
+  {
+    "traditional": "包子",
+    "pinyin_accented": "bāozi",
+    "simplified": "包子",
+    "pinyin": "bao1zi5",
+    "english": "steamed stuffed bun"
+  },
+  {
+    "traditional": "十",
+    "pinyin_accented": "shí",
+    "simplified": "十",
+    "pinyin": "shi2",
+    "english": "ten"
+  },
+  {
+    "traditional": "十字路口",
+    "pinyin_accented": "shízìlùkǒu",
+    "simplified": "十字路口",
+    "pinyin": "shi2zi4lu4kou3",
+    "english": "crossroads"
+  },
+  {
+    "traditional": "千",
+    "pinyin_accented": "qiān",
+    "simplified": "千",
+    "pinyin": "qian1",
+    "english": "thousand"
+  },
+  {
+    "traditional": "半",
+    "pinyin_accented": "bàn",
+    "simplified": "半",
+    "pinyin": "ban4",
+    "english": "half"
+  },
+  {
+    "traditional": "去",
+    "pinyin_accented": "qù",
+    "simplified": "去",
+    "pinyin": "qu4",
+    "english": "to go"
+  },
+  {
+    "traditional": "去年",
+    "pinyin_accented": "qùnián",
+    "simplified": "去年",
+    "pinyin": "qu4nian2",
+    "pinyin_accented_tw": "qù nian",
+    "pinyin_tw": "qu4 nian",
+    "english": "last year"
+  },
+  {
+    "traditional": "參加",
+    "pinyin_accented": "cānjiā",
+    "simplified": "参加",
+    "pinyin": "can1jia1",
+    "english": "to participate"
+  },
+  {
+    "traditional": "參觀",
+    "pinyin_accented": "cānguān",
+    "simplified": "参观",
+    "pinyin": "can1guan1",
+    "english": "to look around"
+  },
+  {
+    "traditional": "受傷",
+    "pinyin_accented": "shòushāng",
+    "simplified": "受伤",
+    "pinyin": "shou4shang1",
+    "english": "to sustain injuries"
+  },
+  {
+    "traditional": "句子",
+    "pinyin_accented": "jùzi",
+    "simplified": "句子",
+    "pinyin": "ju4zi5",
+    "english": "sentence"
+  },
+  {
+    "traditional": "只",
+    "pinyin_accented": "zhǐ",
+    "simplified": "只",
+    "pinyin": "zhi3",
+    "english": "only"
+  },
+  {
+    "traditional": "叫",
+    "pinyin_accented": "jiào",
+    "simplified": "叫",
+    "pinyin": "jiao4",
+    "english": "to shout"
+  },
+  {
+    "traditional": "可以",
+    "pinyin_accented": "kěyǐ",
+    "simplified": "可以",
+    "pinyin": "ke3yi3",
+    "english": "can"
+  },
+  {
+    "traditional": "可愛",
+    "pinyin_accented": "kě'ài",
+    "simplified": "可爱",
+    "pinyin": "ke3'ai4",
+    "pinyin_accented_tw": "kě ài",
+    "pinyin_tw": "ke3 ai4",
+    "english": "adorable"
+  },
+  {
+    "traditional": "可是",
+    "pinyin_accented": "kěshì",
+    "simplified": "可是",
+    "pinyin": "ke3shi4",
+    "english": "but"
+  },
+  {
+    "traditional": "可能",
+    "pinyin_accented": "kěnéng",
+    "simplified": "可能",
+    "pinyin": "ke3neng2",
+    "english": "might (happen)"
+  },
+  {
+    "traditional": "台灣",
+    "pinyin_accented": "Táiwān",
+    "simplified": "台湾",
+    "pinyin": "Tai2wan1",
+    "english": "variant of 臺灣|台湾[Tai2 wan1]"
+  },
+  {
+    "traditional": "右邊",
+    "pinyin_accented": "yòubian",
+    "simplified": "右边",
+    "pinyin": "you4bian5",
+    "pinyin_accented_tw": "yòu biān",
+    "pinyin_tw": "you4 bian1",
+    "english": "right side"
+  },
+  {
+    "traditional": "司機",
+    "pinyin_accented": "sījī",
+    "simplified": "司机",
+    "pinyin": "si1ji1",
+    "english": "chauffeur"
+  },
+  {
+    "traditional": "吃",
+    "pinyin_accented": "chī",
+    "simplified": "吃",
+    "pinyin": "chi1",
+    "english": "to eat"
+  },
+  {
+    "traditional": "同事",
+    "pinyin_accented": "tóngshì",
+    "simplified": "同事",
+    "pinyin": "tong2shi4",
+    "english": "colleague"
+  },
+  {
+    "traditional": "名字",
+    "pinyin_accented": "míngzi",
+    "simplified": "名字",
+    "pinyin": "ming2zi5",
+    "english": "name (of a person or thing)"
+  },
+  {
+    "traditional": "吧",
+    "pinyin_accented": "ba",
+    "simplified": "吧",
+    "pinyin": "ba5",
+    "pinyin_accented_tw": "bā",
+    "pinyin_tw": "ba1",
+    "english": "(onom.) smack!"
+  },
+  {
+    "traditional": "吧",
+    "pinyin_accented": "ba",
+    "simplified": "吧",
+    "pinyin": "ba5",
+    "pinyin_accented_tw": "bā",
+    "pinyin_tw": "ba1",
+    "english": "(onom.) smack!"
+  },
+  {
+    "traditional": "吧",
+    "pinyin_accented": "ba",
+    "simplified": "吧",
+    "pinyin": "ba5",
+    "pinyin_accented_tw": "bā",
+    "pinyin_tw": "ba1",
+    "english": "(onom.) smack!"
+  },
+  {
+    "traditional": "呢",
+    "pinyin_accented": "ne",
+    "simplified": "呢",
+    "pinyin": "ne5",
+    "pinyin_accented_tw": "ní",
+    "pinyin_tw": "ni2",
+    "english": "woolen material"
+  },
+  {
+    "traditional": "呢",
+    "pinyin_accented": "ne",
+    "simplified": "呢",
+    "pinyin": "ne5",
+    "pinyin_accented_tw": "ní",
+    "pinyin_tw": "ni2",
+    "english": "woolen material"
+  },
+  {
+    "traditional": "和",
+    "pinyin_accented": "hé",
+    "simplified": "和",
+    "pinyin": "he2",
+    "english": "to mix (ingredients) together"
+  },
+  {
+    "traditional": "和",
+    "pinyin_accented": "hé",
+    "simplified": "和",
+    "pinyin": "he2",
+    "english": "to mix (ingredients) together"
+  },
+  {
+    "traditional": "和",
+    "pinyin_accented": "hé",
+    "simplified": "和",
+    "pinyin": "he2",
+    "english": "to mix (ingredients) together"
+  },
+  {
+    "traditional": "和",
+    "pinyin_accented": "hé",
+    "simplified": "和",
+    "pinyin": "he2",
+    "english": "to mix (ingredients) together"
+  },
+  {
+    "traditional": "和",
+    "pinyin_accented": "hé",
+    "simplified": "和",
+    "pinyin": "he2",
+    "english": "to mix (ingredients) together"
+  },
+  {
+    "traditional": "咖啡",
+    "pinyin_accented": "kāfēi",
+    "simplified": "咖啡",
+    "pinyin": "ka1fei1",
+    "english": "coffee (loanword)"
+  },
+  {
+    "traditional": "哥哥",
+    "pinyin_accented": "gēge",
+    "simplified": "哥哥",
+    "pinyin": "ge1ge5",
+    "english": "older brother"
+  },
+  {
+    "traditional": "哪",
+    "pinyin_accented": "nǎ",
+    "simplified": "哪",
+    "pinyin": "na3",
+    "english": "which? (interrogative, followed by classifier or numeral-classifier)"
+  },
+  {
+    "traditional": "哪",
+    "pinyin_accented": "nǎ",
+    "simplified": "哪",
+    "pinyin": "na3",
+    "english": "which? (interrogative, followed by classifier or numeral-classifier)"
+  },
+  {
+    "traditional": "哪",
+    "pinyin_accented": "nǎ",
+    "simplified": "哪",
+    "pinyin": "na3",
+    "english": "which? (interrogative, followed by classifier or numeral-classifier)"
+  },
+  {
+    "traditional": "商店",
+    "pinyin_accented": "shāngdiàn",
+    "simplified": "商店",
+    "pinyin": "shang1dian4",
+    "english": "store"
+  },
+  {
+    "traditional": "問",
+    "pinyin_accented": "wèn",
+    "simplified": "问",
+    "pinyin": "wen4",
+    "english": "to ask"
+  },
+  {
+    "traditional": "問題",
+    "pinyin_accented": "wèntí",
+    "simplified": "问题",
+    "pinyin": "wen4ti2",
+    "english": "question"
+  },
+  {
+    "traditional": "喜歡",
+    "pinyin_accented": "xǐhuan",
+    "simplified": "喜欢",
+    "pinyin": "xi3huan5",
+    "pinyin_accented_tw": "xǐ huān",
+    "pinyin_tw": "xi3 huan1",
+    "english": "to like"
+  },
+  {
+    "traditional": "喝",
+    "pinyin_accented": "hē",
+    "simplified": "喝",
+    "pinyin": "he1",
+    "english": "to shout"
+  },
+  {
+    "traditional": "喝",
+    "pinyin_accented": "hē",
+    "simplified": "喝",
+    "pinyin": "he1",
+    "english": "to shout"
+  },
+  {
+    "traditional": "嗎",
+    "pinyin_accented": "ma",
+    "simplified": "吗",
+    "pinyin": "ma5",
+    "english": "(question particle for \"yes-no\" questions)"
+  },
+  {
+    "traditional": "嗎",
+    "pinyin_accented": "ma",
+    "simplified": "吗",
+    "pinyin": "ma5",
+    "english": "(question particle for \"yes-no\" questions)"
+  },
+  {
+    "traditional": "四",
+    "pinyin_accented": "sì",
+    "simplified": "四",
+    "pinyin": "si4",
+    "english": "four"
+  },
+  {
+    "traditional": "回",
+    "pinyin_accented": "huí",
+    "simplified": "回",
+    "pinyin": "hui2",
+    "english": "to circle"
+  },
+  {
+    "traditional": "回答",
+    "pinyin_accented": "huídá",
+    "simplified": "回答",
+    "pinyin": "hui2da2",
+    "english": "to reply"
+  },
+  {
+    "traditional": "因為",
+    "pinyin_accented": "yīnwèi",
+    "simplified": "因为",
+    "pinyin": "yin1wei4",
+    "english": "because"
+  },
+  {
+    "traditional": "國家",
+    "pinyin_accented": "guójiā",
+    "simplified": "国家",
+    "pinyin": "guo2jia1",
+    "english": "country"
+  },
+  {
+    "traditional": "圖書館",
+    "pinyin_accented": "túshūguǎn",
+    "simplified": "图书馆",
+    "pinyin": "tu2shu1guan3",
+    "english": "library"
+  },
+  {
+    "traditional": "圖片",
+    "pinyin_accented": "túpiàn",
+    "simplified": "图片",
+    "pinyin": "tu2pian4",
+    "english": "image"
+  },
+  {
+    "traditional": "在",
+    "pinyin_accented": "zài",
+    "simplified": "在",
+    "pinyin": "zai4",
+    "english": "(located) at"
+  },
+  {
+    "traditional": "地圖",
+    "pinyin_accented": "dìtú",
+    "simplified": "地图",
+    "pinyin": "di4tu2",
+    "english": "map"
+  },
+  {
+    "traditional": "地方",
+    "pinyin_accented": "dìfang",
+    "simplified": "地方",
+    "pinyin": "di4fang5",
+    "pinyin_accented_tw": "dì fāng",
+    "pinyin_tw": "di4 fang1",
+    "english": "area"
+  },
+  {
+    "traditional": "地方",
+    "pinyin_accented": "dìfang",
+    "simplified": "地方",
+    "pinyin": "di4fang5",
+    "pinyin_accented_tw": "dì fāng",
+    "pinyin_tw": "di4 fang1",
+    "english": "area"
+  },
+  {
+    "traditional": "地鐵",
+    "pinyin_accented": "dìtiě",
+    "simplified": "地铁",
+    "pinyin": "di4tie3",
+    "english": "subway"
+  },
+  {
+    "traditional": "坐",
+    "pinyin_accented": "zuò",
+    "simplified": "坐",
+    "pinyin": "zuo4",
+    "english": "to sit"
+  },
+  {
+    "traditional": "城市",
+    "pinyin_accented": "chéngshì",
+    "simplified": "城市",
+    "pinyin": "cheng2shi4",
+    "english": "city"
+  },
+  {
+    "traditional": "報紙",
+    "pinyin_accented": "bàozhǐ",
+    "simplified": "报纸",
+    "pinyin": "bao4zhi3",
+    "english": "newspaper"
+  },
+  {
+    "traditional": "塊",
+    "pinyin_accented": "kuài",
+    "simplified": "块",
+    "pinyin": "kuai4",
+    "english": "lump (of earth)"
+  },
+  {
+    "traditional": "壞",
+    "pinyin_accented": "huài",
+    "simplified": "坏",
+    "pinyin": "huai4",
+    "english": "bad"
+  },
+  {
+    "traditional": "夏天",
+    "pinyin_accented": "xiàtiān",
+    "simplified": "夏天",
+    "pinyin": "xia4tian1",
+    "english": "summer"
+  },
+  {
+    "traditional": "外面",
+    "pinyin_accented": "wàimiàn",
+    "simplified": "外面",
+    "pinyin": "wai4mian4",
+    "english": "outside (also pr. [wai4 mian5] for this sense)"
+  },
+  {
+    "traditional": "多",
+    "pinyin_accented": "duō",
+    "simplified": "多",
+    "pinyin": "duo1",
+    "english": "many"
+  },
+  {
+    "traditional": "多少",
+    "pinyin_accented": "duōshǎo",
+    "simplified": "多少",
+    "pinyin": "duo1shao3",
+    "english": "how much?"
+  },
+  {
+    "traditional": "多少",
+    "pinyin_accented": "duōshǎo",
+    "simplified": "多少",
+    "pinyin": "duo1shao3",
+    "english": "how much?"
+  },
+  {
+    "traditional": "大",
+    "pinyin_accented": "dà",
+    "simplified": "大",
+    "pinyin": "da4",
+    "english": "see 大夫[dai4 fu5]"
+  },
+  {
+    "traditional": "大",
+    "pinyin_accented": "dà",
+    "simplified": "大",
+    "pinyin": "da4",
+    "english": "see 大夫[dai4 fu5]"
+  },
+  {
+    "traditional": "大學",
+    "pinyin_accented": "dàxué",
+    "simplified": "大学",
+    "pinyin": "da4xue2",
+    "english": "university"
+  },
+  {
+    "traditional": "大學",
+    "pinyin_accented": "dàxué",
+    "simplified": "大学",
+    "pinyin": "da4xue2",
+    "english": "university"
+  },
+  {
+    "traditional": "大家",
+    "pinyin_accented": "dàjiā",
+    "simplified": "大家",
+    "pinyin": "da4jia1",
+    "english": "everyone"
+  },
+  {
+    "traditional": "天",
+    "pinyin_accented": "tiān",
+    "simplified": "天",
+    "pinyin": "tian1",
+    "english": "day"
+  },
+  {
+    "traditional": "天氣",
+    "pinyin_accented": "tiānqì",
+    "simplified": "天气",
+    "pinyin": "tian1qi4",
+    "english": "weather"
+  },
+  {
+    "traditional": "太",
+    "pinyin_accented": "tài",
+    "simplified": "太",
+    "pinyin": "tai4",
+    "english": "highest"
+  },
+  {
+    "traditional": "太太",
+    "pinyin_accented": "tàitai",
+    "simplified": "太太",
+    "pinyin": "tai4tai5",
+    "english": "married woman"
+  },
+  {
+    "traditional": "太陽",
+    "pinyin_accented": "tàiyang",
+    "simplified": "太阳",
+    "pinyin": "tai4yang5",
+    "pinyin_accented_tw": "tài yáng",
+    "pinyin_tw": "tai4 yang2",
+    "english": "sun"
+  },
+  {
+    "traditional": "女",
+    "pinyin_accented": "nǚ",
+    "simplified": "女",
+    "pinyin": "nü3",
+    "english": "archaic variant of 汝[ru3]"
+  },
+  {
+    "traditional": "女",
+    "pinyin_accented": "nǚ",
+    "simplified": "女",
+    "pinyin": "nü3",
+    "english": "archaic variant of 汝[ru3]"
+  },
+  {
+    "traditional": "女兒",
+    "pinyin_accented": "nǚ'ér",
+    "simplified": "女儿",
+    "pinyin": "nü3'er2",
+    "pinyin_accented_tw": "nǚ é r",
+    "pinyin_tw": "nü3 e2 r",
+    "english": "daughter"
+  },
+  {
+    "traditional": "女生",
+    "pinyin_accented": "nǚshēng",
+    "simplified": "女生",
+    "pinyin": "nü3sheng1",
+    "english": "schoolgirl"
+  },
+  {
+    "traditional": "好",
+    "pinyin_accented": "hǎo",
+    "simplified": "好",
+    "pinyin": "hao3",
+    "english": "to be fond of"
+  },
+  {
+    "traditional": "好",
+    "pinyin_accented": "hǎo",
+    "simplified": "好",
+    "pinyin": "hao3",
+    "english": "to be fond of"
+  },
+  {
+    "traditional": "好吃",
+    "pinyin_accented": "hàochī",
+    "simplified": "好吃",
+    "pinyin": "hao4chi1",
+    "pinyin_accented_tw": "hǎo chī",
+    "pinyin_tw": "hao3 chi1",
+    "english": "to be fond of eating"
+  },
+  {
+    "traditional": "好吃",
+    "pinyin_accented": "hàochī",
+    "simplified": "好吃",
+    "pinyin": "hao4chi1",
+    "pinyin_accented_tw": "hǎo chī",
+    "pinyin_tw": "hao3 chi1",
+    "english": "to be fond of eating"
+  },
+  {
+    "traditional": "好看",
+    "pinyin_accented": "hǎokàn",
+    "simplified": "好看",
+    "pinyin": "hao3kan4",
+    "english": "good-looking"
+  },
+  {
+    "traditional": "妹妹",
+    "pinyin_accented": "mèimei",
+    "simplified": "妹妹",
+    "pinyin": "mei4mei5",
+    "english": "younger sister"
+  },
+  {
+    "traditional": "姓",
+    "pinyin_accented": "xìng",
+    "simplified": "姓",
+    "pinyin": "xing4",
+    "english": "family name"
+  },
+  {
+    "traditional": "姓名",
+    "pinyin_accented": "xìngmíng",
+    "simplified": "姓名",
+    "pinyin": "xing4ming2",
+    "english": "surname and given name"
+  },
+  {
+    "traditional": "媽媽",
+    "pinyin_accented": "māma",
+    "simplified": "妈妈",
+    "pinyin": "ma1ma5",
+    "english": "mama"
+  },
+  {
+    "traditional": "字",
+    "pinyin_accented": "zì",
+    "simplified": "字",
+    "pinyin": "zi4",
+    "english": "letter"
+  },
+  {
+    "traditional": "孩子",
+    "pinyin_accented": "háizi",
+    "simplified": "孩子",
+    "pinyin": "hai2zi5",
+    "english": "child"
+  },
+  {
+    "traditional": "學",
+    "pinyin_accented": "xué",
+    "simplified": "学",
+    "pinyin": "xue2",
+    "english": "to learn"
+  },
+  {
+    "traditional": "學校",
+    "pinyin_accented": "xuéxiào",
+    "simplified": "学校",
+    "pinyin": "xue2xiao4",
+    "english": "school"
+  },
+  {
+    "traditional": "學生",
+    "pinyin_accented": "xuésheng",
+    "simplified": "学生",
+    "pinyin": "xue2sheng5",
+    "pinyin_accented_tw": "xué shēng",
+    "pinyin_tw": "xue2 sheng1",
+    "english": "student"
+  },
+  {
+    "traditional": "學習",
+    "pinyin_accented": "xuéxí",
+    "simplified": "学习",
+    "pinyin": "xue2xi2",
+    "english": "to learn"
+  },
+  {
+    "traditional": "安靜",
+    "pinyin_accented": "ānjìng",
+    "simplified": "安静",
+    "pinyin": "an1jing4",
+    "english": "quiet"
+  },
+  {
+    "traditional": "客廳",
+    "pinyin_accented": "kètīng",
+    "simplified": "客厅",
+    "pinyin": "ke4ting1",
+    "english": "drawing room (room for arriving guests)"
+  },
+  {
+    "traditional": "家",
+    "pinyin_accented": "jiā",
+    "simplified": "家",
+    "pinyin": "jia1",
+    "english": "home"
+  },
+  {
+    "traditional": "家人",
+    "pinyin_accented": "jiārén",
+    "simplified": "家人",
+    "pinyin": "jia1ren2",
+    "english": "household"
+  },
+  {
+    "traditional": "家具",
+    "pinyin_accented": "jiājù",
+    "simplified": "家具",
+    "pinyin": "jia1ju4",
+    "english": "furniture"
+  },
+  {
+    "traditional": "容易",
+    "pinyin_accented": "róngyì",
+    "simplified": "容易",
+    "pinyin": "rong2yi4",
+    "english": "easy"
+  },
+  {
+    "traditional": "寄",
+    "pinyin_accented": "jì",
+    "simplified": "寄",
+    "pinyin": "ji4",
+    "english": "to send"
+  },
+  {
+    "traditional": "寫",
+    "pinyin_accented": "xiě",
+    "simplified": "写",
+    "pinyin": "xie3",
+    "english": "to write"
+  },
+  {
+    "traditional": "對不起",
+    "pinyin_accented": "duìbuqǐ",
+    "simplified": "对不起",
+    "pinyin": "dui4bu5qi3",
+    "english": "unworthy"
+  },
+  {
+    "traditional": "對面",
+    "pinyin_accented": "duìmiàn",
+    "simplified": "对面",
+    "pinyin": "dui4mian4",
+    "english": "(sitting) opposite"
+  },
+  {
+    "traditional": "小",
+    "pinyin_accented": "xiǎo",
+    "simplified": "小",
+    "pinyin": "xiao3",
+    "english": "small"
+  },
+  {
+    "traditional": "小姐",
+    "pinyin_accented": "xiǎojie",
+    "simplified": "小姐",
+    "pinyin": "xiao3jie5",
+    "pinyin_accented_tw": "xiǎo jiě",
+    "pinyin_tw": "xiao3 jie3",
+    "english": "young lady"
+  },
+  {
+    "traditional": "小孩",
+    "pinyin_accented": "xiǎohái",
+    "simplified": "小孩",
+    "pinyin": "xiao3hai2",
+    "english": "child"
+  },
+  {
+    "traditional": "小學",
+    "pinyin_accented": "xiǎoxué",
+    "simplified": "小学",
+    "pinyin": "xiao3xue2",
+    "english": "elementary school"
+  },
+  {
+    "traditional": "小心",
+    "pinyin_accented": "xiǎoxīn",
+    "simplified": "小心",
+    "pinyin": "xiao3xin1",
+    "english": "to be careful"
+  },
+  {
+    "traditional": "小時",
+    "pinyin_accented": "xiǎoshí",
+    "simplified": "小时",
+    "pinyin": "xiao3shi2",
+    "english": "hour"
+  },
+  {
+    "traditional": "少",
+    "pinyin_accented": "shǎo",
+    "simplified": "少",
+    "pinyin": "shao3",
+    "english": "young"
+  },
+  {
+    "traditional": "少",
+    "pinyin_accented": "shǎo",
+    "simplified": "少",
+    "pinyin": "shao3",
+    "english": "young"
+  },
+  {
+    "traditional": "山",
+    "pinyin_accented": "shān",
+    "simplified": "山",
+    "pinyin": "shan1",
+    "english": "mountain"
+  },
+  {
+    "traditional": "工人",
+    "pinyin_accented": "gōngrén",
+    "simplified": "工人",
+    "pinyin": "gong1ren2",
+    "english": "worker"
+  },
+  {
+    "traditional": "工作",
+    "pinyin_accented": "gōngzuò",
+    "simplified": "工作",
+    "pinyin": "gong1zuo4",
+    "english": "to work"
+  },
+  {
+    "traditional": "工廠",
+    "pinyin_accented": "gōngchǎng",
+    "simplified": "工厂",
+    "pinyin": "gong1chang3",
+    "english": "factory"
+  },
+  {
+    "traditional": "左邊",
+    "pinyin_accented": "zuǒbian",
+    "simplified": "左边",
+    "pinyin": "zuo3bian5",
+    "pinyin_accented_tw": "zuǒ biān",
+    "pinyin_tw": "zuo3 bian1",
+    "english": "left"
+  },
+  {
+    "traditional": "巧克力",
+    "pinyin_accented": "qiǎokèlì",
+    "simplified": "巧克力",
+    "pinyin": "qiao3ke4li4",
+    "english": "chocolate (loanword)"
+  },
+  {
+    "traditional": "市場",
+    "pinyin_accented": "shìchǎng",
+    "simplified": "市场",
+    "pinyin": "shi4chang3",
+    "pinyin_accented_tw": "shì cháng",
+    "pinyin_tw": "shi4 chang2",
+    "english": "marketplace"
+  },
+  {
+    "traditional": "希望",
+    "pinyin_accented": "xīwàng",
+    "simplified": "希望",
+    "pinyin": "xi1wang4",
+    "english": "to wish for"
+  },
+  {
+    "traditional": "帶",
+    "pinyin_accented": "dài",
+    "simplified": "带",
+    "pinyin": "dai4",
+    "english": "band"
+  },
+  {
+    "traditional": "常常",
+    "pinyin_accented": "chángcháng",
+    "simplified": "常常",
+    "pinyin": "chang2chang2",
+    "english": "frequently"
+  },
+  {
+    "traditional": "幫忙",
+    "pinyin_accented": "bāngmáng",
+    "simplified": "帮忙",
+    "pinyin": "bang1mang2",
+    "english": "to help"
+  },
+  {
+    "traditional": "年",
+    "pinyin_accented": "nián",
+    "simplified": "年",
+    "pinyin": "nian2",
+    "english": "year"
+  },
+  {
+    "traditional": "年級",
+    "pinyin_accented": "niánjí",
+    "simplified": "年级",
+    "pinyin": "nian2ji2",
+    "english": "grade"
+  },
+  {
+    "traditional": "年輕",
+    "pinyin_accented": "niánqīng",
+    "simplified": "年轻",
+    "pinyin": "nian2qing1",
+    "english": "young"
+  },
+  {
+    "traditional": "幾",
+    "pinyin_accented": "jǐ",
+    "simplified": "几",
+    "pinyin": "ji3",
+    "english": "how much"
+  },
+  {
+    "traditional": "幾",
+    "pinyin_accented": "jǐ",
+    "simplified": "几",
+    "pinyin": "ji3",
+    "english": "how much"
+  },
+  {
+    "traditional": "床",
+    "pinyin_accented": "chuáng",
+    "simplified": "床",
+    "pinyin": "chuang2",
+    "english": "bed"
+  },
+  {
+    "traditional": "店",
+    "pinyin_accented": "diàn",
+    "simplified": "店",
+    "pinyin": "dian4",
+    "english": "inn"
+  },
+  {
+    "traditional": "廚房",
+    "pinyin_accented": "chúfáng",
+    "simplified": "厨房",
+    "pinyin": "chu2fang2",
+    "english": "kitchen"
+  },
+  {
+    "traditional": "弟弟",
+    "pinyin_accented": "dìdi",
+    "simplified": "弟弟",
+    "pinyin": "di4di5",
+    "english": "younger brother"
+  },
+  {
+    "traditional": "張",
+    "pinyin_accented": "zhāng",
+    "simplified": "张",
+    "pinyin": "zhang1",
+    "english": "to open up"
+  },
+  {
+    "traditional": "往",
+    "pinyin_accented": "wǎng",
+    "simplified": "往",
+    "pinyin": "wang3",
+    "english": "to go (in a direction)"
+  },
+  {
+    "traditional": "很",
+    "pinyin_accented": "hěn",
+    "simplified": "很",
+    "pinyin": "hen3",
+    "english": "(adverb of degree)"
+  },
+  {
+    "traditional": "後",
+    "pinyin_accented": "hòu",
+    "simplified": "后",
+    "pinyin": "hou4",
+    "english": "back"
+  },
+  {
+    "traditional": "得",
+    "pinyin_accented": "de",
+    "simplified": "得",
+    "pinyin": "de5",
+    "pinyin_accented_tw": "dé",
+    "pinyin_tw": "de2",
+    "english": "to have to"
+  },
+  {
+    "traditional": "得",
+    "pinyin_accented": "de",
+    "simplified": "得",
+    "pinyin": "de5",
+    "pinyin_accented_tw": "dé",
+    "pinyin_tw": "de2",
+    "english": "to have to"
+  },
+  {
+    "traditional": "得",
+    "pinyin_accented": "de",
+    "simplified": "得",
+    "pinyin": "de5",
+    "pinyin_accented_tw": "dé",
+    "pinyin_tw": "de2",
+    "english": "to have to"
+  },
+  {
+    "traditional": "從",
+    "pinyin_accented": "cóng",
+    "simplified": "从",
+    "pinyin": "cong2",
+    "english": "from"
+  },
+  {
+    "traditional": "忙",
+    "pinyin_accented": "máng",
+    "simplified": "忙",
+    "pinyin": "mang2",
+    "english": "busy"
+  },
+  {
+    "traditional": "快",
+    "pinyin_accented": "kuài",
+    "simplified": "快",
+    "pinyin": "kuai4",
+    "english": "rapid"
+  },
+  {
+    "traditional": "快樂",
+    "pinyin_accented": "kuàilè",
+    "simplified": "快乐",
+    "pinyin": "kuai4le4",
+    "english": "happy"
+  },
+  {
+    "traditional": "怎麼",
+    "pinyin_accented": "zěnme",
+    "simplified": "怎么",
+    "pinyin": "zen3me5",
+    "english": "how?"
+  },
+  {
+    "traditional": "怎麼樣",
+    "pinyin_accented": "zěnmeyàng",
+    "simplified": "怎么样",
+    "pinyin": "zen3me5yang4",
+    "english": "how?"
+  },
+  {
+    "traditional": "您",
+    "pinyin_accented": "nín",
+    "simplified": "您",
+    "pinyin": "nin2",
+    "english": "you (courteous, as opposed to informal 你[ni3])"
+  },
+  {
+    "traditional": "想",
+    "pinyin_accented": "xiǎng",
+    "simplified": "想",
+    "pinyin": "xiang3",
+    "english": "to think"
+  },
+  {
+    "traditional": "意思",
+    "pinyin_accented": "yìsi",
+    "simplified": "意思",
+    "pinyin": "yi4si5",
+    "english": "idea"
+  },
+  {
+    "traditional": "愛",
+    "pinyin_accented": "ài",
+    "simplified": "爱",
+    "pinyin": "ai4",
+    "english": "to love"
+  },
+  {
+    "traditional": "感冒",
+    "pinyin_accented": "gǎnmào",
+    "simplified": "感冒",
+    "pinyin": "gan3mao4",
+    "english": "to catch cold"
+  },
+  {
+    "traditional": "慢",
+    "pinyin_accented": "màn",
+    "simplified": "慢",
+    "pinyin": "man4",
+    "english": "slow"
+  },
+  {
+    "traditional": "懂",
+    "pinyin_accented": "dǒng",
+    "simplified": "懂",
+    "pinyin": "dong3",
+    "english": "to understand"
+  },
+  {
+    "traditional": "我",
+    "pinyin_accented": "wǒ",
+    "simplified": "我",
+    "pinyin": "wo3",
+    "english": "I"
+  },
+  {
+    "traditional": "我們",
+    "pinyin_accented": "wǒmen",
+    "simplified": "我们",
+    "pinyin": "wo3men5",
+    "english": "we"
+  },
+  {
+    "traditional": "房子",
+    "pinyin_accented": "fángzi",
+    "simplified": "房子",
+    "pinyin": "fang2zi5",
+    "english": "house"
+  },
+  {
+    "traditional": "房間",
+    "pinyin_accented": "fángjiān",
+    "simplified": "房间",
+    "pinyin": "fang2jian1",
+    "english": "room"
+  },
+  {
+    "traditional": "所以",
+    "pinyin_accented": "suǒyǐ",
+    "simplified": "所以",
+    "pinyin": "suo3yi3",
+    "english": "therefore"
+  },
+  {
+    "traditional": "手",
+    "pinyin_accented": "shǒu",
+    "simplified": "手",
+    "pinyin": "shou3",
+    "english": "hand"
+  },
+  {
+    "traditional": "手指",
+    "pinyin_accented": "shǒuzhǐ",
+    "simplified": "手指",
+    "pinyin": "shou3zhi3",
+    "english": "finger"
+  },
+  {
+    "traditional": "手機",
+    "pinyin_accented": "shǒujī",
+    "simplified": "手机",
+    "pinyin": "shou3ji1",
+    "english": "cell phone"
+  },
+  {
+    "traditional": "打",
+    "pinyin_accented": "dǎ",
+    "simplified": "打",
+    "pinyin": "da3",
+    "english": "to beat"
+  },
+  {
+    "traditional": "打",
+    "pinyin_accented": "dǎ",
+    "simplified": "打",
+    "pinyin": "da3",
+    "english": "to beat"
+  },
+  {
+    "traditional": "打電話",
+    "pinyin_accented": "dǎdiànhuà",
+    "simplified": "打电话",
+    "pinyin": "da3dian4hua4",
+    "english": "to make a telephone call"
+  },
+  {
+    "traditional": "找",
+    "pinyin_accented": "zhǎo",
+    "simplified": "找",
+    "pinyin": "zhao3",
+    "english": "to try to find"
+  },
+  {
+    "traditional": "拿",
+    "pinyin_accented": "ná",
+    "simplified": "拿",
+    "pinyin": "na2",
+    "english": "to hold"
+  },
+  {
+    "traditional": "接",
+    "pinyin_accented": "jiē",
+    "simplified": "接",
+    "pinyin": "jie1",
+    "english": "to receive"
+  },
+  {
+    "traditional": "換",
+    "pinyin_accented": "huàn",
+    "simplified": "换",
+    "pinyin": "huan4",
+    "english": "to exchange"
+  },
+  {
+    "traditional": "放",
+    "pinyin_accented": "fàng",
+    "simplified": "放",
+    "pinyin": "fang4",
+    "english": "to put"
+  },
+  {
+    "traditional": "教室",
+    "pinyin_accented": "jiàoshì",
+    "simplified": "教室",
+    "pinyin": "jiao4shi4",
+    "english": "classroom"
+  },
+  {
+    "traditional": "數學",
+    "pinyin_accented": "shùxué",
+    "simplified": "数学",
+    "pinyin": "shu4xue2",
+    "english": "mathematics"
+  },
+  {
+    "traditional": "新",
+    "pinyin_accented": "xīn",
+    "simplified": "新",
+    "pinyin": "xin1",
+    "english": "new"
+  },
+  {
+    "traditional": "新",
+    "pinyin_accented": "xīn",
+    "simplified": "新",
+    "pinyin": "xin1",
+    "english": "new"
+  },
+  {
+    "traditional": "新年",
+    "pinyin_accented": "xīnnián",
+    "simplified": "新年",
+    "pinyin": "xin1nian2",
+    "english": "New Year"
+  },
+  {
+    "traditional": "方便",
+    "pinyin_accented": "fāngbiàn",
+    "simplified": "方便",
+    "pinyin": "fang1bian4",
+    "english": "convenient"
+  },
+  {
+    "traditional": "旁邊",
+    "pinyin_accented": "pángbiān",
+    "simplified": "旁边",
+    "pinyin": "pang2bian1",
+    "english": "lateral"
+  },
+  {
+    "traditional": "旅行",
+    "pinyin_accented": "lǚxíng",
+    "simplified": "旅行",
+    "pinyin": "lü3xing2",
+    "english": "to travel"
+  },
+  {
+    "traditional": "旅館",
+    "pinyin_accented": "lǚguǎn",
+    "simplified": "旅馆",
+    "pinyin": "lü3guan3",
+    "english": "hotel"
+  },
+  {
+    "traditional": "日",
+    "pinyin_accented": "rì",
+    "simplified": "日",
+    "pinyin": "ri4",
+    "english": "sun"
+  },
+  {
+    "traditional": "日",
+    "pinyin_accented": "rì",
+    "simplified": "日",
+    "pinyin": "ri4",
+    "english": "sun"
+  },
+  {
+    "traditional": "日本",
+    "pinyin_accented": "Rìběn",
+    "simplified": "日本",
+    "pinyin": "Ri4ben3",
+    "english": "Japan"
+  },
+  {
+    "traditional": "早上",
+    "pinyin_accented": "zǎoshang",
+    "simplified": "早上",
+    "pinyin": "zao3shang5",
+    "english": "early morning"
+  },
+  {
+    "traditional": "明天",
+    "pinyin_accented": "míngtiān",
+    "simplified": "明天",
+    "pinyin": "ming2tian1",
+    "english": "tomorrow"
+  },
+  {
+    "traditional": "明年",
+    "pinyin_accented": "míngnián",
+    "simplified": "明年",
+    "pinyin": "ming2nian2",
+    "english": "next year"
+  },
+  {
+    "traditional": "星期",
+    "pinyin_accented": "xīngqī",
+    "simplified": "星期",
+    "pinyin": "xing1qi1",
+    "pinyin_accented_tw": "xīng qí",
+    "pinyin_tw": "xing1 qi2",
+    "english": "week"
+  },
+  {
+    "traditional": "春天",
+    "pinyin_accented": "chūntiān",
+    "simplified": "春天",
+    "pinyin": "chun1tian1",
+    "english": "spring (season)"
+  },
+  {
+    "traditional": "昨天",
+    "pinyin_accented": "zuótiān",
+    "simplified": "昨天",
+    "pinyin": "zuo2tian1",
+    "english": "yesterday"
+  },
+  {
+    "traditional": "是",
+    "pinyin_accented": "shì",
+    "simplified": "是",
+    "pinyin": "shi4",
+    "english": "is"
+  },
+  {
+    "traditional": "時候",
+    "pinyin_accented": "shíhou",
+    "simplified": "时候",
+    "pinyin": "shi2hou5",
+    "pinyin_accented_tw": "shí hòu",
+    "pinyin_tw": "shi2 hou4",
+    "english": "time"
+  },
+  {
+    "traditional": "晚上",
+    "pinyin_accented": "wǎnshang",
+    "simplified": "晚上",
+    "pinyin": "wan3shang5",
+    "english": "evening"
+  },
+  {
+    "traditional": "晚會",
+    "pinyin_accented": "wǎnhuì",
+    "simplified": "晚会",
+    "pinyin": "wan3hui4",
+    "english": "evening party"
+  },
+  {
+    "traditional": "書",
+    "pinyin_accented": "shū",
+    "simplified": "书",
+    "pinyin": "shu1",
+    "english": "book"
+  },
+  {
+    "traditional": "書",
+    "pinyin_accented": "shū",
+    "simplified": "书",
+    "pinyin": "shu1",
+    "english": "book"
+  },
+  {
+    "traditional": "會",
+    "pinyin_accented": "huì",
+    "simplified": "会",
+    "pinyin": "hui4",
+    "english": "to balance an account"
+  },
+  {
+    "traditional": "會",
+    "pinyin_accented": "huì",
+    "simplified": "会",
+    "pinyin": "hui4",
+    "english": "to balance an account"
+  },
+  {
+    "traditional": "月",
+    "pinyin_accented": "yuè",
+    "simplified": "月",
+    "pinyin": "yue4",
+    "english": "moon"
+  },
+  {
+    "traditional": "有",
+    "pinyin_accented": "yǒu",
+    "simplified": "有",
+    "pinyin": "you3",
+    "english": "to have"
+  },
+  {
+    "traditional": "有時候",
+    "pinyin_accented": "yǒushíhou",
+    "simplified": "有时候",
+    "pinyin": "you3shi2hou5",
+    "english": "sometimes"
+  },
+  {
+    "traditional": "有趣",
+    "pinyin_accented": "yǒuqù",
+    "simplified": "有趣",
+    "pinyin": "you3qu4",
+    "english": "interesting"
+  },
+  {
+    "traditional": "朋友",
+    "pinyin_accented": "péngyou",
+    "simplified": "朋友",
+    "pinyin": "peng2you5",
+    "pinyin_accented_tw": "péng yǒu",
+    "pinyin_tw": "peng2 you3",
+    "english": "friend"
+  },
+  {
+    "traditional": "本",
+    "pinyin_accented": "běn",
+    "simplified": "本",
+    "pinyin": "ben3",
+    "english": "root"
+  },
+  {
+    "traditional": "杯",
+    "pinyin_accented": "bēi",
+    "simplified": "杯",
+    "pinyin": "bei1",
+    "english": "cup"
+  },
+  {
+    "traditional": "杯子",
+    "pinyin_accented": "bēizi",
+    "simplified": "杯子",
+    "pinyin": "bei1zi5",
+    "english": "cup"
+  },
+  {
+    "traditional": "東西",
+    "pinyin_accented": "dōngxi",
+    "simplified": "东西",
+    "pinyin": "dong1xi5",
+    "pinyin_accented_tw": "dōng xī",
+    "pinyin_tw": "dong1 xi1",
+    "english": "thing"
+  },
+  {
+    "traditional": "東西",
+    "pinyin_accented": "dōngxi",
+    "simplified": "东西",
+    "pinyin": "dong1xi5",
+    "pinyin_accented_tw": "dōng xī",
+    "pinyin_tw": "dong1 xi1",
+    "english": "thing"
+  },
+  {
+    "traditional": "果汁",
+    "pinyin_accented": "guǒzhī",
+    "simplified": "果汁",
+    "pinyin": "guo3zhi1",
+    "english": "fruit juice"
+  },
+  {
+    "traditional": "桌",
+    "pinyin_accented": "zhuō",
+    "simplified": "桌",
+    "pinyin": "zhuo1",
+    "english": "table"
+  },
+  {
+    "traditional": "棒球",
+    "pinyin_accented": "bàngqiú",
+    "simplified": "棒球",
+    "pinyin": "bang4qiu2",
+    "english": "baseball"
+  },
+  {
+    "traditional": "椅子",
+    "pinyin_accented": "yǐzi",
+    "simplified": "椅子",
+    "pinyin": "yi3zi5",
+    "english": "chair"
+  },
+  {
+    "traditional": "樓",
+    "pinyin_accented": "lóu",
+    "simplified": "楼",
+    "pinyin": "lou2",
+    "english": "house with more than 1 story"
+  },
+  {
+    "traditional": "樓上",
+    "pinyin_accented": "lóushàng",
+    "simplified": "楼上",
+    "pinyin": "lou2shang4",
+    "english": "upstairs"
+  },
+  {
+    "traditional": "樓下",
+    "pinyin_accented": "lóuxià",
+    "simplified": "楼下",
+    "pinyin": "lou2xia4",
+    "english": "downstairs"
+  },
+  {
+    "traditional": "樹",
+    "pinyin_accented": "shù",
+    "simplified": "树",
+    "pinyin": "shu4",
+    "english": "tree"
+  },
+  {
+    "traditional": "次",
+    "pinyin_accented": "cì",
+    "simplified": "次",
+    "pinyin": "ci4",
+    "english": "next in sequence"
+  },
+  {
+    "traditional": "歡迎",
+    "pinyin_accented": "huānyíng",
+    "simplified": "欢迎",
+    "pinyin": "huan1ying2",
+    "english": "to welcome"
+  },
+  {
+    "traditional": "歲",
+    "pinyin_accented": "suì",
+    "simplified": "岁",
+    "pinyin": "sui4",
+    "english": "classifier for years (of age)"
+  },
+  {
+    "traditional": "歷史",
+    "pinyin_accented": "lìshǐ",
+    "simplified": "历史",
+    "pinyin": "li4shi3",
+    "english": "history"
+  },
+  {
+    "traditional": "每",
+    "pinyin_accented": "měi",
+    "simplified": "每",
+    "pinyin": "mei3",
+    "english": "each"
+  },
+  {
+    "traditional": "比",
+    "pinyin_accented": "bǐ",
+    "simplified": "比",
+    "pinyin": "bi3",
+    "english": "to compare"
+  },
+  {
+    "traditional": "比",
+    "pinyin_accented": "bǐ",
+    "simplified": "比",
+    "pinyin": "bi3",
+    "english": "to compare"
+  },
+  {
+    "traditional": "比",
+    "pinyin_accented": "bǐ",
+    "simplified": "比",
+    "pinyin": "bi3",
+    "english": "to compare"
+  },
+  {
+    "traditional": "比賽",
+    "pinyin_accented": "bǐsài",
+    "simplified": "比赛",
+    "pinyin": "bi3sai4",
+    "english": "competition (sports etc)"
+  },
+  {
+    "traditional": "水",
+    "pinyin_accented": "shuǐ",
+    "simplified": "水",
+    "pinyin": "shui3",
+    "english": "water"
+  },
+  {
+    "traditional": "水果",
+    "pinyin_accented": "shuǐguǒ",
+    "simplified": "水果",
+    "pinyin": "shui3guo3",
+    "english": "fruit"
+  },
+  {
+    "traditional": "沒",
+    "pinyin_accented": "méi",
+    "simplified": "没",
+    "pinyin": "mei2",
+    "pinyin_accented_tw": "mò",
+    "pinyin_tw": "mo4",
+    "english": "drowned"
+  },
+  {
+    "traditional": "沒",
+    "pinyin_accented": "méi",
+    "simplified": "没",
+    "pinyin": "mei2",
+    "pinyin_accented_tw": "mò",
+    "pinyin_tw": "mo4",
+    "english": "drowned"
+  },
+  {
+    "traditional": "沒關係",
+    "pinyin_accented": "méiguānxi",
+    "simplified": "没关系",
+    "pinyin": "mei2guan1xi5",
+    "english": "it doesn't matter"
+  },
+  {
+    "traditional": "沙發",
+    "pinyin_accented": "shāfā",
+    "simplified": "沙发",
+    "pinyin": "sha1fa1",
+    "english": "sofa (loanword)"
+  },
+  {
+    "traditional": "河",
+    "pinyin_accented": "hé",
+    "simplified": "河",
+    "pinyin": "he2",
+    "english": "river"
+  },
+  {
+    "traditional": "注意",
+    "pinyin_accented": "zhùyì",
+    "simplified": "注意",
+    "pinyin": "zhu4yi4",
+    "english": "to take note of"
+  },
+  {
+    "traditional": "洗",
+    "pinyin_accented": "xǐ",
+    "simplified": "洗",
+    "pinyin": "xi3",
+    "english": "to wash"
+  },
+  {
+    "traditional": "洗澡",
+    "pinyin_accented": "xǐzǎo",
+    "simplified": "洗澡",
+    "pinyin": "xi3zao3",
+    "english": "to bathe"
+  },
+  {
+    "traditional": "海",
+    "pinyin_accented": "hǎi",
+    "simplified": "海",
+    "pinyin": "hai3",
+    "english": "ocean"
+  },
+  {
+    "traditional": "海邊",
+    "pinyin_accented": "hǎibiān",
+    "simplified": "海边",
+    "pinyin": "hai3bian1",
+    "english": "coast"
+  },
+  {
+    "traditional": "渴",
+    "pinyin_accented": "kě",
+    "simplified": "渴",
+    "pinyin": "ke3",
+    "english": "thirsty"
+  },
+  {
+    "traditional": "游泳",
+    "pinyin_accented": "yóuyǒng",
+    "simplified": "游泳",
+    "pinyin": "you2yong3",
+    "english": "swimming"
+  },
+  {
+    "traditional": "湖",
+    "pinyin_accented": "hú",
+    "simplified": "湖",
+    "pinyin": "hu2",
+    "english": "lake"
+  },
+  {
+    "traditional": "湯",
+    "pinyin_accented": "tāng",
+    "simplified": "汤",
+    "pinyin": "tang1",
+    "english": "soup"
+  },
+  {
+    "traditional": "湯",
+    "pinyin_accented": "tāng",
+    "simplified": "汤",
+    "pinyin": "tang1",
+    "english": "soup"
+  },
+  {
+    "traditional": "準備",
+    "pinyin_accented": "zhǔnbèi",
+    "simplified": "准备",
+    "pinyin": "zhun3bei4",
+    "english": "preparation"
+  },
+  {
+    "traditional": "漂亮",
+    "pinyin_accented": "piàoliang",
+    "simplified": "漂亮",
+    "pinyin": "piao4liang5",
+    "english": "pretty"
+  },
+  {
+    "traditional": "火車",
+    "pinyin_accented": "huǒchē",
+    "simplified": "火车",
+    "pinyin": "huo3che1",
+    "english": "train"
+  },
+  {
+    "traditional": "為什麼",
+    "pinyin_accented": "wèishénme",
+    "simplified": "为什么",
+    "pinyin": "wei4shen2me5",
+    "english": "why?"
+  },
+  {
+    "traditional": "照片",
+    "pinyin_accented": "zhàopiàn",
+    "simplified": "照片",
+    "pinyin": "zhao4pian4",
+    "english": "photograph"
+  },
+  {
+    "traditional": "照相",
+    "pinyin_accented": "zhàoxiàng",
+    "simplified": "照相",
+    "pinyin": "zhao4xiang4",
+    "english": "to take a photograph"
+  },
+  {
+    "traditional": "照相機",
+    "pinyin_accented": "zhàoxiàngjī",
+    "simplified": "照相机",
+    "pinyin": "zhao4xiang4ji1",
+    "english": "camera"
+  },
+  {
+    "traditional": "熱",
+    "pinyin_accented": "rè",
+    "simplified": "热",
+    "pinyin": "re4",
+    "english": "to warm up"
+  },
+  {
+    "traditional": "爸爸",
+    "pinyin_accented": "bàba",
+    "simplified": "爸爸",
+    "pinyin": "ba4ba5",
+    "english": "(informal) father"
+  },
+  {
+    "traditional": "片",
+    "pinyin_accented": "piàn",
+    "simplified": "片",
+    "pinyin": "pian4",
+    "english": "thin piece"
+  },
+  {
+    "traditional": "片",
+    "pinyin_accented": "piàn",
+    "simplified": "片",
+    "pinyin": "pian4",
+    "english": "thin piece"
+  },
+  {
+    "traditional": "牛奶",
+    "pinyin_accented": "niúnǎi",
+    "simplified": "牛奶",
+    "pinyin": "niu2nai3",
+    "english": "cow's milk"
+  },
+  {
+    "traditional": "狗",
+    "pinyin_accented": "gǒu",
+    "simplified": "狗",
+    "pinyin": "gou3",
+    "english": "dog"
+  },
+  {
+    "traditional": "現在",
+    "pinyin_accented": "xiànzài",
+    "simplified": "现在",
+    "pinyin": "xian4zai4",
+    "english": "now"
+  },
+  {
+    "traditional": "瓶",
+    "pinyin_accented": "píng",
+    "simplified": "瓶",
+    "pinyin": "ping2",
+    "english": "bottle"
+  },
+  {
+    "traditional": "甜",
+    "pinyin_accented": "tián",
+    "simplified": "甜",
+    "pinyin": "tian2",
+    "english": "sweet"
+  },
+  {
+    "traditional": "生日",
+    "pinyin_accented": "shēngrì",
+    "simplified": "生日",
+    "pinyin": "sheng1ri4",
+    "english": "birthday"
+  },
+  {
+    "traditional": "生活",
+    "pinyin_accented": "shēnghuó",
+    "simplified": "生活",
+    "pinyin": "sheng1huo2",
+    "english": "life"
+  },
+  {
+    "traditional": "生病",
+    "pinyin_accented": "shēngbìng",
+    "simplified": "生病",
+    "pinyin": "sheng1bing4",
+    "english": "to fall ill"
+  },
+  {
+    "traditional": "用",
+    "pinyin_accented": "yòng",
+    "simplified": "用",
+    "pinyin": "yong4",
+    "english": "to use"
+  },
+  {
+    "traditional": "男",
+    "pinyin_accented": "nán",
+    "simplified": "男",
+    "pinyin": "nan2",
+    "english": "male"
+  },
+  {
+    "traditional": "男生",
+    "pinyin_accented": "nánshēng",
+    "simplified": "男生",
+    "pinyin": "nan2sheng1",
+    "english": "schoolboy"
+  },
+  {
+    "traditional": "畫",
+    "pinyin_accented": "huà",
+    "simplified": "画",
+    "pinyin": "hua4",
+    "english": "to draw"
+  },
+  {
+    "traditional": "痛",
+    "pinyin_accented": "tòng",
+    "simplified": "痛",
+    "pinyin": "tong4",
+    "english": "ache"
+  },
+  {
+    "traditional": "瘦",
+    "pinyin_accented": "shòu",
+    "simplified": "瘦",
+    "pinyin": "shou4",
+    "english": "thin"
+  },
+  {
+    "traditional": "白色",
+    "pinyin_accented": "báisè",
+    "simplified": "白色",
+    "pinyin": "bai2se4",
+    "english": "white"
+  },
+  {
+    "traditional": "百",
+    "pinyin_accented": "bǎi",
+    "simplified": "百",
+    "pinyin": "bai3",
+    "english": "hundred"
+  },
+  {
+    "traditional": "的",
+    "pinyin_accented": "de",
+    "simplified": "的",
+    "pinyin": "de5",
+    "pinyin_accented_tw": "dì",
+    "pinyin_tw": "di4",
+    "english": "aim"
+  },
+  {
+    "traditional": "的",
+    "pinyin_accented": "de",
+    "simplified": "的",
+    "pinyin": "de5",
+    "pinyin_accented_tw": "dì",
+    "pinyin_tw": "di4",
+    "english": "aim"
+  },
+  {
+    "traditional": "的",
+    "pinyin_accented": "de",
+    "simplified": "的",
+    "pinyin": "de5",
+    "pinyin_accented_tw": "dì",
+    "pinyin_tw": "di4",
+    "english": "aim"
+  },
+  {
+    "traditional": "的",
+    "pinyin_accented": "de",
+    "simplified": "的",
+    "pinyin": "de5",
+    "pinyin_accented_tw": "dì",
+    "pinyin_tw": "di4",
+    "english": "aim"
+  },
+  {
+    "traditional": "盤子",
+    "pinyin_accented": "pánzi",
+    "simplified": "盘子",
+    "pinyin": "pan2zi5",
+    "english": "tray"
+  },
+  {
+    "traditional": "看",
+    "pinyin_accented": "kàn",
+    "simplified": "看",
+    "pinyin": "kan4",
+    "english": "to see"
+  },
+  {
+    "traditional": "看",
+    "pinyin_accented": "kàn",
+    "simplified": "看",
+    "pinyin": "kan4",
+    "english": "to see"
+  },
+  {
+    "traditional": "真",
+    "pinyin_accented": "zhēn",
+    "simplified": "真",
+    "pinyin": "zhen1",
+    "english": "really"
+  },
+  {
+    "traditional": "眼睛",
+    "pinyin_accented": "yǎnjing",
+    "simplified": "眼睛",
+    "pinyin": "yan3jing5",
+    "pinyin_accented_tw": "yǎn jīng",
+    "pinyin_tw": "yan3 jing1",
+    "english": "eye"
+  },
+  {
+    "traditional": "眼鏡",
+    "pinyin_accented": "yǎnjìng",
+    "simplified": "眼镜",
+    "pinyin": "yan3jing4",
+    "english": "spectacles"
+  },
+  {
+    "traditional": "睡覺",
+    "pinyin_accented": "shuìjiào",
+    "simplified": "睡觉",
+    "pinyin": "shui4jiao4",
+    "english": "to go to bed"
+  },
+  {
+    "traditional": "知道",
+    "pinyin_accented": "zhīdào",
+    "simplified": "知道",
+    "pinyin": "zhi1dao4",
+    "english": "to know"
+  },
+  {
+    "traditional": "短",
+    "pinyin_accented": "duǎn",
+    "simplified": "短",
+    "pinyin": "duan3",
+    "english": "short"
+  },
+  {
+    "traditional": "矮",
+    "pinyin_accented": "ǎi",
+    "simplified": "矮",
+    "pinyin": "ai3",
+    "english": "low"
+  },
+  {
+    "traditional": "碗",
+    "pinyin_accented": "wǎn",
+    "simplified": "碗",
+    "pinyin": "wan3",
+    "english": "bowl"
+  },
+  {
+    "traditional": "票",
+    "pinyin_accented": "piào",
+    "simplified": "票",
+    "pinyin": "piao4",
+    "english": "ticket"
+  },
+  {
+    "traditional": "禮物",
+    "pinyin_accented": "lǐwù",
+    "simplified": "礼物",
+    "pinyin": "li3wu4",
+    "english": "gift"
+  },
+  {
+    "traditional": "秋天",
+    "pinyin_accented": "qiūtiān",
+    "simplified": "秋天",
+    "pinyin": "qiu1tian1",
+    "english": "autumn"
+  },
+  {
+    "traditional": "科學",
+    "pinyin_accented": "kēxué",
+    "simplified": "科学",
+    "pinyin": "ke1xue2",
+    "english": "science"
+  },
+  {
+    "traditional": "穿",
+    "pinyin_accented": "chuān",
+    "simplified": "穿",
+    "pinyin": "chuan1",
+    "english": "to wear"
+  },
+  {
+    "traditional": "站",
+    "pinyin_accented": "zhàn",
+    "simplified": "站",
+    "pinyin": "zhan4",
+    "english": "station"
+  },
+  {
+    "traditional": "笑",
+    "pinyin_accented": "xiào",
+    "simplified": "笑",
+    "pinyin": "xiao4",
+    "english": "laugh"
+  },
+  {
+    "traditional": "第",
+    "pinyin_accented": "dì",
+    "simplified": "第",
+    "pinyin": "di4",
+    "english": "(prefix indicating ordinal number, e.g. first, number two etc)"
+  },
+  {
+    "traditional": "筆",
+    "pinyin_accented": "bǐ",
+    "simplified": "笔",
+    "pinyin": "bi3",
+    "english": "pen"
+  },
+  {
+    "traditional": "等",
+    "pinyin_accented": "děng",
+    "simplified": "等",
+    "pinyin": "deng3",
+    "english": "class"
+  },
+  {
+    "traditional": "籃球",
+    "pinyin_accented": "lánqiú",
+    "simplified": "篮球",
+    "pinyin": "lan2qiu2",
+    "english": "basketball"
+  },
+  {
+    "traditional": "紙",
+    "pinyin_accented": "zhǐ",
+    "simplified": "纸",
+    "pinyin": "zhi3",
+    "english": "paper"
+  },
+  {
+    "traditional": "累",
+    "pinyin_accented": "lèi",
+    "simplified": "累",
+    "pinyin": "lei4",
+    "pinyin_accented_tw": "lěi",
+    "pinyin_tw": "lei3",
+    "english": "tired"
+  },
+  {
+    "traditional": "累",
+    "pinyin_accented": "lèi",
+    "simplified": "累",
+    "pinyin": "lei4",
+    "pinyin_accented_tw": "lěi",
+    "pinyin_tw": "lei3",
+    "english": "tired"
+  },
+  {
+    "traditional": "結婚",
+    "pinyin_accented": "jiéhūn",
+    "simplified": "结婚",
+    "pinyin": "jie2hun1",
+    "english": "to marry"
+  },
+  {
+    "traditional": "給",
+    "pinyin_accented": "gěi",
+    "simplified": "给",
+    "pinyin": "gei3",
+    "pinyin_accented_tw": "jǐ",
+    "pinyin_tw": "ji3",
+    "english": "to supply"
+  },
+  {
+    "traditional": "給",
+    "pinyin_accented": "gěi",
+    "simplified": "给",
+    "pinyin": "gei3",
+    "pinyin_accented_tw": "jǐ",
+    "pinyin_tw": "ji3",
+    "english": "to supply"
+  },
+  {
+    "traditional": "網球",
+    "pinyin_accented": "wǎngqiú",
+    "simplified": "网球",
+    "pinyin": "wang3qiu2",
+    "english": "tennis"
+  },
+  {
+    "traditional": "緊張",
+    "pinyin_accented": "jǐnzhāng",
+    "simplified": "紧张",
+    "pinyin": "jin3zhang1",
+    "english": "nervous"
+  },
+  {
+    "traditional": "練習",
+    "pinyin_accented": "liànxí",
+    "simplified": "练习",
+    "pinyin": "lian4xi2",
+    "english": "to practice"
+  },
+  {
+    "traditional": "美國",
+    "pinyin_accented": "Měiguó",
+    "simplified": "美国",
+    "pinyin": "Mei3guo2",
+    "english": "United States"
+  },
+  {
+    "traditional": "老",
+    "pinyin_accented": "lǎo",
+    "simplified": "老",
+    "pinyin": "lao3",
+    "english": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity"
+  },
+  {
+    "traditional": "老師",
+    "pinyin_accented": "lǎoshī",
+    "simplified": "老师",
+    "pinyin": "lao3shi1",
+    "english": "teacher"
+  },
+  {
+    "traditional": "考試",
+    "pinyin_accented": "kǎoshì",
+    "simplified": "考试",
+    "pinyin": "kao3shi4",
+    "english": "to take an exam"
+  },
+  {
+    "traditional": "耳朵",
+    "pinyin_accented": "ěrduo",
+    "simplified": "耳朵",
+    "pinyin": "er3duo5",
+    "english": "ear"
+  },
+  {
+    "traditional": "聽",
+    "pinyin_accented": "tīng",
+    "simplified": "听",
+    "pinyin": "ting1",
+    "english": "(literary pronunciation, still advocated in Taiwan) to rule"
+  },
+  {
+    "traditional": "聽",
+    "pinyin_accented": "tīng",
+    "simplified": "听",
+    "pinyin": "ting1",
+    "english": "(literary pronunciation, still advocated in Taiwan) to rule"
+  },
+  {
+    "traditional": "肉",
+    "pinyin_accented": "ròu",
+    "simplified": "肉",
+    "pinyin": "rou4",
+    "english": "meat"
+  },
+  {
+    "traditional": "肚子",
+    "pinyin_accented": "dùzi",
+    "simplified": "肚子",
+    "pinyin": "du4zi5",
+    "english": "belly"
+  },
+  {
+    "traditional": "胖",
+    "pinyin_accented": "pàng",
+    "simplified": "胖",
+    "pinyin": "pang4",
+    "english": "fat"
+  },
+  {
+    "traditional": "胖",
+    "pinyin_accented": "pàng",
+    "simplified": "胖",
+    "pinyin": "pang4",
+    "english": "fat"
+  },
+  {
+    "traditional": "能",
+    "pinyin_accented": "néng",
+    "simplified": "能",
+    "pinyin": "neng2",
+    "english": "can"
+  },
+  {
+    "traditional": "舒服",
+    "pinyin_accented": "shūfu",
+    "simplified": "舒服",
+    "pinyin": "shu1fu5",
+    "english": "comfortable"
+  },
+  {
+    "traditional": "英文",
+    "pinyin_accented": "Yīngwén",
+    "simplified": "英文",
+    "pinyin": "Ying1wen2",
+    "english": "English (language)"
+  },
+  {
+    "traditional": "茶",
+    "pinyin_accented": "chá",
+    "simplified": "茶",
+    "pinyin": "cha2",
+    "english": "tea"
+  },
+  {
+    "traditional": "菜",
+    "pinyin_accented": "cài",
+    "simplified": "菜",
+    "pinyin": "cai4",
+    "english": "dish (type of food)"
+  },
+  {
+    "traditional": "菜單",
+    "pinyin_accented": "càidān",
+    "simplified": "菜单",
+    "pinyin": "cai4dan1",
+    "english": "menu"
+  },
+  {
+    "traditional": "萬",
+    "pinyin_accented": "wàn",
+    "simplified": "万",
+    "pinyin": "wan4",
+    "english": "ten thousand"
+  },
+  {
+    "traditional": "著",
+    "pinyin_accented": "zhe",
+    "simplified": "著",
+    "pinyin": "zhe5",
+    "pinyin_accented_tw": "zhù",
+    "pinyin_tw": "zhu4",
+    "english": "to make known"
+  },
+  {
+    "traditional": "著",
+    "pinyin_accented": "zhe",
+    "simplified": "著",
+    "pinyin": "zhe5",
+    "pinyin_accented_tw": "zhù",
+    "pinyin_tw": "zhu4",
+    "english": "to make known"
+  },
+  {
+    "traditional": "著",
+    "pinyin_accented": "zhe",
+    "simplified": "著",
+    "pinyin": "zhe5",
+    "pinyin_accented_tw": "zhù",
+    "pinyin_tw": "zhu4",
+    "english": "to make known"
+  },
+  {
+    "traditional": "著",
+    "pinyin_accented": "zhe",
+    "simplified": "著",
+    "pinyin": "zhe5",
+    "pinyin_accented_tw": "zhù",
+    "pinyin_tw": "zhu4",
+    "english": "to make known"
+  },
+  {
+    "traditional": "著",
+    "pinyin_accented": "zhe",
+    "simplified": "著",
+    "pinyin": "zhe5",
+    "pinyin_accented_tw": "zhù",
+    "pinyin_tw": "zhu4",
+    "english": "to make known"
+  },
+  {
+    "traditional": "藥",
+    "pinyin_accented": "yào",
+    "simplified": "药",
+    "pinyin": "yao4",
+    "english": "medicine"
+  },
+  {
+    "traditional": "蘋果",
+    "pinyin_accented": "píngguǒ",
+    "simplified": "苹果",
+    "pinyin": "ping2guo3",
+    "english": "apple"
+  },
+  {
+    "traditional": "號",
+    "pinyin_accented": "hào",
+    "simplified": "号",
+    "pinyin": "hao4",
+    "english": "ordinal number"
+  },
+  {
+    "traditional": "號",
+    "pinyin_accented": "hào",
+    "simplified": "号",
+    "pinyin": "hao4",
+    "english": "ordinal number"
+  },
+  {
+    "traditional": "號碼",
+    "pinyin_accented": "hàomǎ",
+    "simplified": "号码",
+    "pinyin": "hao4ma3",
+    "english": "number"
+  },
+  {
+    "traditional": "蛋",
+    "pinyin_accented": "dàn",
+    "simplified": "蛋",
+    "pinyin": "dan4",
+    "english": "egg"
+  },
+  {
+    "traditional": "蛋",
+    "pinyin_accented": "dàn",
+    "simplified": "蛋",
+    "pinyin": "dan4",
+    "english": "egg"
+  },
+  {
+    "traditional": "蛋糕",
+    "pinyin_accented": "dàngāo",
+    "simplified": "蛋糕",
+    "pinyin": "dan4gao1",
+    "english": "cake"
+  },
+  {
+    "traditional": "街",
+    "pinyin_accented": "jiē",
+    "simplified": "街",
+    "pinyin": "jie1",
+    "english": "street"
+  },
+  {
+    "traditional": "衣服",
+    "pinyin_accented": "yīfu",
+    "simplified": "衣服",
+    "pinyin": "yi1fu5",
+    "english": "clothes"
+  },
+  {
+    "traditional": "表演",
+    "pinyin_accented": "biǎoyǎn",
+    "simplified": "表演",
+    "pinyin": "biao3yan3",
+    "english": "play"
+  },
+  {
+    "traditional": "裙子",
+    "pinyin_accented": "qúnzi",
+    "simplified": "裙子",
+    "pinyin": "qun2zi5",
+    "english": "skirt"
+  },
+  {
+    "traditional": "裡面",
+    "pinyin_accented": "lǐmiàn",
+    "simplified": "里面",
+    "pinyin": "li3mian4",
+    "english": "inside"
+  },
+  {
+    "traditional": "褲子",
+    "pinyin_accented": "kùzi",
+    "simplified": "裤子",
+    "pinyin": "ku4zi5",
+    "english": "trousers"
+  },
+  {
+    "traditional": "襪子",
+    "pinyin_accented": "wàzi",
+    "simplified": "袜子",
+    "pinyin": "wa4zi5",
+    "english": "socks"
+  },
+  {
+    "traditional": "要",
+    "pinyin_accented": "yào",
+    "simplified": "要",
+    "pinyin": "yao4",
+    "english": "important"
+  },
+  {
+    "traditional": "要",
+    "pinyin_accented": "yào",
+    "simplified": "要",
+    "pinyin": "yao4",
+    "english": "important"
+  },
+  {
+    "traditional": "覺得",
+    "pinyin_accented": "juéde",
+    "simplified": "觉得",
+    "pinyin": "jue2de5",
+    "english": "to think"
+  },
+  {
+    "traditional": "計程車",
+    "pinyin_accented": "jìchéngchē",
+    "simplified": "计程车",
+    "pinyin": "ji4cheng2che1",
+    "english": "(Tw) taxi"
+  },
+  {
+    "traditional": "記得",
+    "pinyin_accented": "jìde",
+    "simplified": "记得",
+    "pinyin": "ji4de5",
+    "english": "to remember"
+  },
+  {
+    "traditional": "認識",
+    "pinyin_accented": "rènshi",
+    "simplified": "认识",
+    "pinyin": "ren4shi5",
+    "english": "to know"
+  },
+  {
+    "traditional": "語言",
+    "pinyin_accented": "yǔyán",
+    "simplified": "语言",
+    "pinyin": "yu3yan2",
+    "english": "language"
+  },
+  {
+    "traditional": "說",
+    "pinyin_accented": "shuō",
+    "simplified": "说",
+    "pinyin": "shuo1",
+    "english": "to speak"
+  },
+  {
+    "traditional": "說",
+    "pinyin_accented": "shuō",
+    "simplified": "说",
+    "pinyin": "shuo1",
+    "english": "to speak"
+  },
+  {
+    "traditional": "說話",
+    "pinyin_accented": "shuōhuà",
+    "simplified": "说话",
+    "pinyin": "shuo1hua4",
+    "english": "to speak"
+  },
+  {
+    "traditional": "誰",
+    "pinyin_accented": "shuí",
+    "simplified": "谁",
+    "pinyin": "shui2",
+    "pinyin_accented_tw": " shéi",
+    "pinyin_tw": " shei2",
+    "english": "who"
+  },
+  {
+    "traditional": "課本",
+    "pinyin_accented": "kèběn",
+    "simplified": "课本",
+    "pinyin": "ke4ben3",
+    "english": "textbook"
+  },
+  {
+    "traditional": "請",
+    "pinyin_accented": "qǐng",
+    "simplified": "请",
+    "pinyin": "qing3",
+    "english": "to ask"
+  },
+  {
+    "traditional": "請假",
+    "pinyin_accented": "qǐngjià",
+    "simplified": "请假",
+    "pinyin": "qing3jia4",
+    "english": "to request leave of absence"
+  },
+  {
+    "traditional": "請問",
+    "pinyin_accented": "qǐngwèn",
+    "simplified": "请问",
+    "pinyin": "qing3wen4",
+    "english": "Excuse me, may I ask...?"
+  },
+  {
+    "traditional": "謝謝",
+    "pinyin_accented": "xièxie",
+    "simplified": "谢谢",
+    "pinyin": "xie4xie5",
+    "english": "to thank"
+  },
+  {
+    "traditional": "警察",
+    "pinyin_accented": "jǐngchá",
+    "simplified": "警察",
+    "pinyin": "jing3cha2",
+    "english": "police"
+  },
+  {
+    "traditional": "護士",
+    "pinyin_accented": "hùshi",
+    "simplified": "护士",
+    "pinyin": "hu4shi5",
+    "pinyin_accented_tw": "hù shì",
+    "pinyin_tw": "hu4 shi4",
+    "english": "nurse"
+  },
+  {
+    "traditional": "讀",
+    "pinyin_accented": "dú",
+    "simplified": "读",
+    "pinyin": "du2",
+    "english": "to read"
+  },
+  {
+    "traditional": "讀",
+    "pinyin_accented": "dú",
+    "simplified": "读",
+    "pinyin": "du2",
+    "english": "to read"
+  },
+  {
+    "traditional": "讀書",
+    "pinyin_accented": "dúshū",
+    "simplified": "读书",
+    "pinyin": "du2shu1",
+    "english": "to read a book"
+  },
+  {
+    "traditional": "貓",
+    "pinyin_accented": "māo",
+    "simplified": "猫",
+    "pinyin": "mao1",
+    "english": "cat"
+  },
+  {
+    "traditional": "貴",
+    "pinyin_accented": "guì",
+    "simplified": "贵",
+    "pinyin": "gui4",
+    "english": "expensive"
+  },
+  {
+    "traditional": "買",
+    "pinyin_accented": "mǎi",
+    "simplified": "买",
+    "pinyin": "mai3",
+    "english": "to buy"
+  },
+  {
+    "traditional": "賣",
+    "pinyin_accented": "mài",
+    "simplified": "卖",
+    "pinyin": "mai4",
+    "english": "to sell"
+  },
+  {
+    "traditional": "贏",
+    "pinyin_accented": "yíng",
+    "simplified": "赢",
+    "pinyin": "ying2",
+    "english": "to beat"
+  },
+  {
+    "traditional": "走",
+    "pinyin_accented": "zǒu",
+    "simplified": "走",
+    "pinyin": "zou3",
+    "english": "to walk"
+  },
+  {
+    "traditional": "走路",
+    "pinyin_accented": "zǒulù",
+    "simplified": "走路",
+    "pinyin": "zou3lu4",
+    "english": "to walk"
+  },
+  {
+    "traditional": "起床",
+    "pinyin_accented": "qǐchuáng",
+    "simplified": "起床",
+    "pinyin": "qi3chuang2",
+    "english": "to get out of bed"
+  },
+  {
+    "traditional": "足球",
+    "pinyin_accented": "zúqiú",
+    "simplified": "足球",
+    "pinyin": "zu2qiu2",
+    "english": "soccer ball"
+  },
+  {
+    "traditional": "跑",
+    "pinyin_accented": "pǎo",
+    "simplified": "跑",
+    "pinyin": "pao3",
+    "english": "to run"
+  },
+  {
+    "traditional": "跑",
+    "pinyin_accented": "pǎo",
+    "simplified": "跑",
+    "pinyin": "pao3",
+    "english": "to run"
+  },
+  {
+    "traditional": "跑步",
+    "pinyin_accented": "pǎobù",
+    "simplified": "跑步",
+    "pinyin": "pao3bu4",
+    "english": "to run"
+  },
+  {
+    "traditional": "跟",
+    "pinyin_accented": "gēn",
+    "simplified": "跟",
+    "pinyin": "gen1",
+    "english": "heel"
+  },
+  {
+    "traditional": "路",
+    "pinyin_accented": "lù",
+    "simplified": "路",
+    "pinyin": "lu4",
+    "english": "road"
+  },
+  {
+    "traditional": "踢",
+    "pinyin_accented": "tī",
+    "simplified": "踢",
+    "pinyin": "ti1",
+    "english": "to kick"
+  },
+  {
+    "traditional": "身體",
+    "pinyin_accented": "shēntǐ",
+    "simplified": "身体",
+    "pinyin": "shen1ti3",
+    "english": "the body"
+  },
+  {
+    "traditional": "車",
+    "pinyin_accented": "chē",
+    "simplified": "车",
+    "pinyin": "che1",
+    "english": "war chariot (archaic)"
+  },
+  {
+    "traditional": "車",
+    "pinyin_accented": "chē",
+    "simplified": "车",
+    "pinyin": "che1",
+    "english": "war chariot (archaic)"
+  },
+  {
+    "traditional": "車站",
+    "pinyin_accented": "chēzhàn",
+    "simplified": "车站",
+    "pinyin": "che1zhan4",
+    "english": "rail station"
+  },
+  {
+    "traditional": "輸",
+    "pinyin_accented": "shū",
+    "simplified": "输",
+    "pinyin": "shu1",
+    "english": "to lose"
+  },
+  {
+    "traditional": "辦公室",
+    "pinyin_accented": "bàngōngshì",
+    "simplified": "办公室",
+    "pinyin": "ban4gong1shi4",
+    "english": "office"
+  },
+  {
+    "traditional": "近",
+    "pinyin_accented": "jìn",
+    "simplified": "近",
+    "pinyin": "jin4",
+    "english": "near"
+  },
+  {
+    "traditional": "送",
+    "pinyin_accented": "sòng",
+    "simplified": "送",
+    "pinyin": "song4",
+    "english": "to deliver"
+  },
+  {
+    "traditional": "這",
+    "pinyin_accented": "zhè",
+    "simplified": "这",
+    "pinyin": "zhe4",
+    "english": "this"
+  },
+  {
+    "traditional": "進來",
+    "pinyin_accented": "jìnlái",
+    "simplified": "进来",
+    "pinyin": "jin4lai2",
+    "english": "to come in"
+  },
+  {
+    "traditional": "運動",
+    "pinyin_accented": "yùndòng",
+    "simplified": "运动",
+    "pinyin": "yun4dong4",
+    "english": "to move"
+  },
+  {
+    "traditional": "過",
+    "pinyin_accented": "guò",
+    "simplified": "过",
+    "pinyin": "guo4",
+    "english": "(experienced action marker)"
+  },
+  {
+    "traditional": "過",
+    "pinyin_accented": "guò",
+    "simplified": "过",
+    "pinyin": "guo4",
+    "english": "(experienced action marker)"
+  },
+  {
+    "traditional": "遠",
+    "pinyin_accented": "yuǎn",
+    "simplified": "远",
+    "pinyin": "yuan3",
+    "english": "to distance oneself from (classical)"
+  },
+  {
+    "traditional": "遠",
+    "pinyin_accented": "yuǎn",
+    "simplified": "远",
+    "pinyin": "yuan3",
+    "english": "to distance oneself from (classical)"
+  },
+  {
+    "traditional": "還是",
+    "pinyin_accented": "háishi",
+    "simplified": "还是",
+    "pinyin": "hai2shi5",
+    "pinyin_accented_tw": "hái shì",
+    "pinyin_tw": "hai2 shi4",
+    "english": "or"
+  },
+  {
+    "traditional": "那",
+    "pinyin_accented": "nà",
+    "simplified": "那",
+    "pinyin": "na4",
+    "english": "(archaic) many"
+  },
+  {
+    "traditional": "那",
+    "pinyin_accented": "nà",
+    "simplified": "那",
+    "pinyin": "na4",
+    "english": "(archaic) many"
+  },
+  {
+    "traditional": "那",
+    "pinyin_accented": "nà",
+    "simplified": "那",
+    "pinyin": "na4",
+    "english": "(archaic) many"
+  },
+  {
+    "traditional": "郵局",
+    "pinyin_accented": "yóujú",
+    "simplified": "邮局",
+    "pinyin": "you2ju2",
+    "english": "post office"
+  },
+  {
+    "traditional": "都",
+    "pinyin_accented": "dōu",
+    "simplified": "都",
+    "pinyin": "dou1",
+    "pinyin_accented_tw": "dū",
+    "pinyin_tw": "du1",
+    "english": "capital city"
+  },
+  {
+    "traditional": "都",
+    "pinyin_accented": "dōu",
+    "simplified": "都",
+    "pinyin": "dou1",
+    "pinyin_accented_tw": "dū",
+    "pinyin_tw": "du1",
+    "english": "capital city"
+  },
+  {
+    "traditional": "酒",
+    "pinyin_accented": "jiǔ",
+    "simplified": "酒",
+    "pinyin": "jiu3",
+    "english": "wine (esp. rice wine)"
+  },
+  {
+    "traditional": "醫生",
+    "pinyin_accented": "yīshēng",
+    "simplified": "医生",
+    "pinyin": "yi1sheng1",
+    "english": "doctor"
+  },
+  {
+    "traditional": "醫院",
+    "pinyin_accented": "yīyuàn",
+    "simplified": "医院",
+    "pinyin": "yi1yuan4",
+    "english": "hospital"
+  },
+  {
+    "traditional": "重要",
+    "pinyin_accented": "zhòngyào",
+    "simplified": "重要",
+    "pinyin": "zhong4yao4",
+    "english": "important"
+  },
+  {
+    "traditional": "銀行",
+    "pinyin_accented": "yínháng",
+    "simplified": "银行",
+    "pinyin": "yin2hang2",
+    "english": "bank"
+  },
+  {
+    "traditional": "錢",
+    "pinyin_accented": "qián",
+    "simplified": "钱",
+    "pinyin": "qian2",
+    "english": "coin"
+  },
+  {
+    "traditional": "長",
+    "pinyin_accented": "zhǎng",
+    "simplified": "长",
+    "pinyin": "zhang3",
+    "pinyin_accented_tw": "cháng",
+    "pinyin_tw": "chang2",
+    "english": "chief"
+  },
+  {
+    "traditional": "長",
+    "pinyin_accented": "zhǎng",
+    "simplified": "长",
+    "pinyin": "zhang3",
+    "pinyin_accented_tw": "cháng",
+    "pinyin_tw": "chang2",
+    "english": "chief"
+  },
+  {
+    "traditional": "門",
+    "pinyin_accented": "mén",
+    "simplified": "门",
+    "pinyin": "men2",
+    "english": "gate"
+  },
+  {
+    "traditional": "開",
+    "pinyin_accented": "kāi",
+    "simplified": "开",
+    "pinyin": "kai1",
+    "english": "to open"
+  },
+  {
+    "traditional": "開始",
+    "pinyin_accented": "kāishǐ",
+    "simplified": "开始",
+    "pinyin": "kai1shi3",
+    "english": "to begin"
+  },
+  {
+    "traditional": "開車",
+    "pinyin_accented": "kāichē",
+    "simplified": "开车",
+    "pinyin": "kai1che1",
+    "english": "to drive a car"
+  },
+  {
+    "traditional": "關",
+    "pinyin_accented": "guān",
+    "simplified": "关",
+    "pinyin": "guan1",
+    "english": "mountain pass"
+  },
+  {
+    "traditional": "附近",
+    "pinyin_accented": "fùjìn",
+    "simplified": "附近",
+    "pinyin": "fu4jin4",
+    "english": "(in the) vicinity"
+  },
+  {
+    "traditional": "雙",
+    "pinyin_accented": "shuāng",
+    "simplified": "双",
+    "pinyin": "shuang1",
+    "english": "two"
+  },
+  {
+    "traditional": "雞",
+    "pinyin_accented": "jī",
+    "simplified": "鸡",
+    "pinyin": "ji1",
+    "english": "fowl"
+  },
+  {
+    "traditional": "離",
+    "pinyin_accented": "lí",
+    "simplified": "离",
+    "pinyin": "li2",
+    "english": "to leave"
+  },
+  {
+    "traditional": "難",
+    "pinyin_accented": "nán",
+    "simplified": "难",
+    "pinyin": "nan2",
+    "english": "disaster"
+  },
+  {
+    "traditional": "難",
+    "pinyin_accented": "nán",
+    "simplified": "难",
+    "pinyin": "nan2",
+    "english": "disaster"
+  },
+  {
+    "traditional": "零",
+    "pinyin_accented": "líng",
+    "simplified": "零",
+    "pinyin": "ling2",
+    "english": "zero"
+  },
+  {
+    "traditional": "電子郵件",
+    "pinyin_accented": "diànzǐyóujiàn",
+    "simplified": "电子邮件",
+    "pinyin": "dian4zi3you2jian4",
+    "english": "email"
+  },
+  {
+    "traditional": "電影",
+    "pinyin_accented": "diànyǐng",
+    "simplified": "电影",
+    "pinyin": "dian4ying3",
+    "english": "movie"
+  },
+  {
+    "traditional": "電影院",
+    "pinyin_accented": "diànyǐngyuàn",
+    "simplified": "电影院",
+    "pinyin": "dian4ying3yuan4",
+    "english": "cinema"
+  },
+  {
+    "traditional": "電梯",
+    "pinyin_accented": "diàntī",
+    "simplified": "电梯",
+    "pinyin": "dian4ti1",
+    "english": "elevator"
+  },
+  {
+    "traditional": "電腦",
+    "pinyin_accented": "diànnǎo",
+    "simplified": "电脑",
+    "pinyin": "dian4nao3",
+    "english": "computer"
+  },
+  {
+    "traditional": "電視",
+    "pinyin_accented": "diànshì",
+    "simplified": "电视",
+    "pinyin": "dian4shi4",
+    "english": "television"
+  },
+  {
+    "traditional": "電話",
+    "pinyin_accented": "diànhuà",
+    "simplified": "电话",
+    "pinyin": "dian4hua4",
+    "english": "telephone"
+  },
+  {
+    "traditional": "非常",
+    "pinyin_accented": "fēicháng",
+    "simplified": "非常",
+    "pinyin": "fei1chang2",
+    "english": "very"
+  },
+  {
+    "traditional": "鞋子",
+    "pinyin_accented": "xiézi",
+    "simplified": "鞋子",
+    "pinyin": "xie2zi5",
+    "english": "shoe"
+  },
+  {
+    "traditional": "音樂",
+    "pinyin_accented": "yīnyuè",
+    "simplified": "音乐",
+    "pinyin": "yin1yue4",
+    "english": "music"
+  },
+  {
+    "traditional": "頭",
+    "pinyin_accented": "tóu",
+    "simplified": "头",
+    "pinyin": "tou2",
+    "english": "suffix for nouns"
+  },
+  {
+    "traditional": "頭",
+    "pinyin_accented": "tóu",
+    "simplified": "头",
+    "pinyin": "tou2",
+    "english": "suffix for nouns"
+  },
+  {
+    "traditional": "頭髮",
+    "pinyin_accented": "tóufa",
+    "simplified": "头发",
+    "pinyin": "tou2fa5",
+    "pinyin_accented_tw": "tóu fǎ",
+    "pinyin_tw": "tou2 fa3",
+    "english": "hair (on the head)"
+  },
+  {
+    "traditional": "顏色",
+    "pinyin_accented": "yánsè",
+    "simplified": "颜色",
+    "pinyin": "yan2se4",
+    "english": "color"
+  },
+  {
+    "traditional": "風",
+    "pinyin_accented": "fēng",
+    "simplified": "风",
+    "pinyin": "feng1",
+    "english": "wind"
+  },
+  {
+    "traditional": "風景",
+    "pinyin_accented": "fēngjǐng",
+    "simplified": "风景",
+    "pinyin": "feng1jing3",
+    "english": "scenery"
+  },
+  {
+    "traditional": "飛機",
+    "pinyin_accented": "fēijī",
+    "simplified": "飞机",
+    "pinyin": "fei1ji1",
+    "english": "airplane"
+  },
+  {
+    "traditional": "食物",
+    "pinyin_accented": "shíwù",
+    "simplified": "食物",
+    "pinyin": "shi2wu4",
+    "english": "food"
+  },
+  {
+    "traditional": "飯",
+    "pinyin_accented": "fàn",
+    "simplified": "饭",
+    "pinyin": "fan4",
+    "english": "cooked rice"
+  },
+  {
+    "traditional": "飯店",
+    "pinyin_accented": "fàndiàn",
+    "simplified": "饭店",
+    "pinyin": "fan4dian4",
+    "english": "restaurant"
+  },
+  {
+    "traditional": "飲料",
+    "pinyin_accented": "yǐnliào",
+    "simplified": "饮料",
+    "pinyin": "yin3liao4",
+    "english": "drink"
+  },
+  {
+    "traditional": "餃子",
+    "pinyin_accented": "jiǎozi",
+    "simplified": "饺子",
+    "pinyin": "jiao3zi5",
+    "english": "dumpling"
+  },
+  {
+    "traditional": "餓",
+    "pinyin_accented": "è",
+    "simplified": "饿",
+    "pinyin": "e4",
+    "english": "to be hungry"
+  },
+  {
+    "traditional": "香蕉",
+    "pinyin_accented": "xiāngjiāo",
+    "simplified": "香蕉",
+    "pinyin": "xiang1jiao1",
+    "english": "banana"
+  },
+  {
+    "traditional": "馬",
+    "pinyin_accented": "mǎ",
+    "simplified": "马",
+    "pinyin": "ma3",
+    "english": "horse"
+  },
+  {
+    "traditional": "馬路",
+    "pinyin_accented": "mǎlù",
+    "simplified": "马路",
+    "pinyin": "ma3lu4",
+    "english": "street"
+  },
+  {
+    "traditional": "騎",
+    "pinyin_accented": "qí",
+    "simplified": "骑",
+    "pinyin": "qi2",
+    "english": "to sit astride"
+  },
+  {
+    "traditional": "騎",
+    "pinyin_accented": "qí",
+    "simplified": "骑",
+    "pinyin": "qi2",
+    "english": "to sit astride"
+  },
+  {
+    "traditional": "高",
+    "pinyin_accented": "gāo",
+    "simplified": "高",
+    "pinyin": "gao1",
+    "english": "high"
+  },
+  {
+    "traditional": "高興",
+    "pinyin_accented": "gāoxìng",
+    "simplified": "高兴",
+    "pinyin": "gao1xing4",
+    "english": "happy"
+  },
+  {
+    "traditional": "鳥",
+    "pinyin_accented": "niǎo",
+    "simplified": "鸟",
+    "pinyin": "niao3",
+    "english": "bird"
+  },
+  {
+    "traditional": "鳥",
+    "pinyin_accented": "niǎo",
+    "simplified": "鸟",
+    "pinyin": "niao3",
+    "english": "bird"
+  },
+  {
+    "traditional": "麵",
+    "pinyin_accented": "miàn",
+    "simplified": "面",
+    "pinyin": "mian4",
+    "english": "flour"
+  },
+  {
+    "traditional": "麵包",
+    "pinyin_accented": "miànbāo",
+    "simplified": "面包",
+    "pinyin": "mian4bao1",
+    "english": "bread"
+  },
+  {
+    "traditional": "黃色",
+    "pinyin_accented": "huángsè",
+    "simplified": "黄色",
+    "pinyin": "huang2se4",
+    "english": "yellow (color)"
+  },
+  {
+    "traditional": "黑板",
+    "pinyin_accented": "hēibǎn",
+    "simplified": "黑板",
+    "pinyin": "hei1ban3",
+    "english": "blackboard"
+  },
+  {
+    "traditional": "點",
+    "pinyin_accented": "diǎn",
+    "simplified": "点",
+    "pinyin": "dian3",
+    "english": "point"
+  },
+  {
+    "traditional": "點鐘",
+    "pinyin_accented": "diǎnzhōng",
+    "simplified": "点钟",
+    "pinyin": "dian3zhong1",
+    "english": "(indicating time of day) o'clock"
+  }
+]

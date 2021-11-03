@@ -17,8 +17,8 @@ class WordReportRow extends StatelessWidget {
     String userAnswerConverted = 
     convertToPinyin(convertUserAnswerToPinyin(userAnswer, correctAnswer));
      String correctAnswerConverted = convertToPinyin(correctAnswer);
-        print("userAnswerConverted $userAnswerConverted, ${userAnswerConverted.length}");
-     print("correctAnswerConverted $correctAnswerConverted, ${correctAnswerConverted.length}");
+     //   print("userAnswerConverted $userAnswerConverted, ${userAnswerConverted.length}");
+    // print("correctAnswerConverted $correctAnswerConverted, ${correctAnswerConverted.length}");
      bool isCorrect = compareAnswers(userAnswerConverted, correctAnswerConverted);
 
     return Row(

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/widgets/menu/default_items/hsk_menu.dart';
+import 'package:frontend/widgets/menu/default_items/idioms_menu.dart';
+import 'package:frontend/widgets/menu/default_items/tocfl_menu.dart';
 import 'package:frontend/widgets/menu/menu_buttons/circular_menu.dart';
 import 'package:frontend/widgets/menu/menu_buttons/menu_item.dart';
 
@@ -34,12 +36,8 @@ class _HomeState extends State<Home> {
           children: [
             HSKMenuItem(),
            
-            MenuItem(
-              label: "TOCFL",
-            ),
-            MenuItem(
-              label: "成語",
-            ),
+            TOCFLMenuItem(),
+            IdiomsMenuItem(),
             MenuItem(
               label: "Random",
             ),

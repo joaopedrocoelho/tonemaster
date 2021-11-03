@@ -5,7 +5,7 @@ import "dart:convert";
 
 
  
- Future<List<PlayWord>> getJsonWordList(String file) async {
+ Future<List<PlayWord>> getJsonWordList(String file, [int? slice]) async {
     List<PlayWord> _tempWordList = [];
     final String response =
         await rootBundle.loadString(file);
@@ -17,5 +17,8 @@ import "dart:convert";
           _tempWordList.add(_newPlayWord);
     });
     //print("words $_tempWordList");
+    if (slice != null) {
+     return _tempWordList.sublist(0,slice);
+    }
     return _tempWordList;
     }

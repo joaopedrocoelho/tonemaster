@@ -51,6 +51,13 @@ flutter:
     - assets/json/dictionaries/HSK/HSK4.json
     - assets/json/dictionaries/HSK/HSK5.json
     - assets/json/dictionaries/HSK/HSK6.json
+    - assets/json/dictionaries/TOCFL/TOCFL1.json
+    - assets/json/dictionaries/TOCFL/TOCFL2.json
+    - assets/json/dictionaries/TOCFL/TOCFL3.json
+    - assets/json/dictionaries/TOCFL/TOCFL4.json
+    - assets/json/dictionaries/TOCFL/TOCFL5&6.json
+    - assets/json/dictionaries/idioms/idioms-sorted.json
+    - assets/json/dictionaries/idioms/idioms-extra.json
   fonts:
     - family:  ToneMasterIcons
       fonts:
