@@ -8,10 +8,11 @@ class Triangle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var theme = Theme.of(context);
     return Container(
         child:CustomPaint(
         size: Size(50,25),
-        painter: DrawTriangleShape(),
+        painter: DrawTriangleShape(color: theme.splashColor),
       
       )
     );
@@ -20,12 +21,12 @@ class Triangle extends StatelessWidget {
 
 
 class DrawTriangleShape extends CustomPainter {
- 
+  final Color color;
   late Paint painter;
  
-  DrawTriangleShape() {
+  DrawTriangleShape({required this.color}) {
      painter = Paint()
-      ..color = Colors.blueGrey
+      ..color = color
       ..style = PaintingStyle.fill;
  
   }

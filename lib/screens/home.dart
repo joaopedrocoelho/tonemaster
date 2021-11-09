@@ -15,17 +15,31 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
+    var theme = Theme.of(context);
     return Scaffold(
+      backgroundColor: theme.backgroundColor,
       appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: theme.appBarTheme.backgroundColor,
+        shadowColor: theme.appBarTheme.shadowColor,
         leading: Icon(
-          Icons.menu_outlined,
+          Icons.menu_rounded,
+          color: theme.shadowColor,
+          size:40
         ),
-        title: Text('Tone Master'),
-        actions: [
+        title: Text('Tone Master',
+        style: TextStyle( //AppBar
+            fontFamily: 'SignikaNegative',
+            fontWeight: FontWeight.w700,
+            fontSize: 30,
+            color: theme.shadowColor)),
+       /*  actions: [
           Icon(
-            Icons.settings_outlined,
+            Icons.settings_rounded,
+            color: theme.shadowColor,
+          size:40
           ),
-        ],
+        ], */
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),

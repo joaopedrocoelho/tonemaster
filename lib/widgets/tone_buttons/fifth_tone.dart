@@ -1,10 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:frontend/widgets/tone_buttons/button_colors.dart';
 import 'package:frontend/widgets/tone_buttons/tone_master_icons.dart';
 
 class FifthToneButton extends StatefulWidget {
-   final void Function() onPressed;
+  final void Function() onPressed;
   const FifthToneButton({Key? key, required this.onPressed}) : super(key: key);
 
   @override
@@ -14,8 +16,25 @@ class FifthToneButton extends StatefulWidget {
 class _FifthToneButtonState extends State<FifthToneButton> {
   bool _pressed = false;
   double _borderWidth = 3;
-  Color _bottomShadow = Color(0xff30a5bf);
-  Color _topShadow = Color(0xffeef9fe);
+  late var brightness;
+
+  late Color _bottomShadow;
+  late Color _topShadow;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    brightness = SchedulerBinding.instance!.window.platformBrightness;
+    ;
+    if (brightness == Brightness.light) {
+      _bottomShadow = buttonColors['borderLight'];
+      _topShadow = buttonColors['highlightLight'];
+    } else {
+      _bottomShadow = buttonColors['borderDark'];
+      _topShadow = buttonColors['highlightDark'];
+    }
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -25,15 +44,25 @@ class _FifthToneButtonState extends State<FifthToneButton> {
           widget.onPressed();
           setState(() {
             _borderWidth = 0.00;
-            _bottomShadow = Color(0xffdcf3fc);
-            _topShadow = Color(0xffD3E8F2);
+            if (brightness == Brightness.light) {
+              _bottomShadow = buttonColors['baseLight'];
+              _topShadow = buttonColors['shadowLight'];
+            } else {
+              _bottomShadow = buttonColors['baseDark'];
+              _topShadow = buttonColors['shadowDark'];
+            }
           });
 
           Timer(Duration(milliseconds: 100), () {
             setState(() {
               _borderWidth = 3;
-              _bottomShadow = Color(0xff30a5bf);
-              _topShadow = Color(0xffeef9fe);
+              if (brightness == Brightness.light) {
+                _bottomShadow = buttonColors['borderLight'];
+                _topShadow = buttonColors['highlightLight'];
+              } else {
+                _bottomShadow = buttonColors['borderDark'];
+                _topShadow = buttonColors['highlightDark'];
+              }
             });
           });
         },
@@ -43,7 +72,7 @@ class _FifthToneButtonState extends State<FifthToneButton> {
               color: Color(0xffeef9fe),
               boxShadow: [
                 BoxShadow(
-                    color: Color(0xff30a5bf),
+                    color:  (brightness == Brightness.light) ? buttonColors['borderLight'] : buttonColors['borderDark'],
                     offset: Offset(0, 0),
                     blurRadius: 2,
                     spreadRadius: 1)
@@ -58,23 +87,31 @@ class _FifthToneButtonState extends State<FifthToneButton> {
                     0.8,
                     1
                   ],
-                  colors: [
+                  colors:
+                  (brightness == Brightness.light) ? [
                     _bottomShadow,
-                    Color(0xffdcf3fc),
-                    Color(0xffeef9fe),
-                    Color(0xffeef9fe),
+                    buttonColors['baseLight'],
+                    buttonColors['highlightLight'],
+                    buttonColors['highlightLight'],
                     _topShadow,
-                  ]),
+                  ] : [
+                    _bottomShadow,
+                    buttonColors['baseDark'],
+                    buttonColors['highlightDark'],
+                    buttonColors['highlightDark'],
+                    _topShadow,
+                  ]
+                   ),
               border: Border(
                   bottom: BorderSide(
-                      color: Color(0xff30a5bf), width: _borderWidth))),
+                      color: (brightness == Brightness.light) ? buttonColors['borderLight'] : buttonColors['borderDark'], width: _borderWidth))),
           child: Center(
               child: Padding(
             padding: const EdgeInsets.only(left: 40.0),
             child: Icon(
               ToneMasterIcons.fifth_tone,
               size: 50,
-              color: Colors.black,
+              color: (brightness == Brightness.light) ? buttonColors['iconLight'] : buttonColors['iconDark'],
             ),
           )),
         ),

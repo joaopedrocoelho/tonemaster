@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/utils/degrees_to_radians.dart';
 import 'package:frontend/utils/indexed_iterables.dart';
+import 'package:frontend/widgets/menu/menu_buttons/submenu_item.dart';
 
 class CircularMenu extends StatefulWidget {
   final Widget menuIcon;
-  final List<Widget>? children;
+  final List<SubMenuItem>? children;
   CircularMenu({Key? key, this.children, required this.menuIcon})
       : super(key: key);
 
@@ -14,7 +15,6 @@ class CircularMenu extends StatefulWidget {
 
 class _CircularMenuState extends State<CircularMenu>
     with TickerProviderStateMixin {
-
   bool _isOpen = false;
   bool _isAnimating = false;
 
@@ -28,6 +28,15 @@ class _CircularMenuState extends State<CircularMenu>
       _isOpen = true;
       _animationController.forward();
       _subMenuPositionController.forward();
+      if (mounted) setState(() {});
+    });
+  }
+
+  void close() {
+    setState(() {
+      _animationController.reverse();
+      _subMenuPositionController.reverse();
+      _isOpen = false;
     });
   }
 
@@ -59,23 +68,20 @@ class _CircularMenuState extends State<CircularMenu>
         }
       });
  */
-    _subMenuPositionAnimation = Tween<double>(begin: 0, end: 75)
-        .chain(CurveTween(curve: Curves.bounceIn))
-        .animate(_subMenuPositionController);
 
     super.initState();
   }
 
-  void close() {
-    setState(() {
-      _isOpen = false;
-      _animationController.reverse();
-      _subMenuPositionController.reverse();
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
+    var theme = Theme.of(context);
+
+    _subMenuPositionAnimation =
+        Tween<double>(begin: 0, end: MediaQuery.of(context).size.width * 0.2)
+            .chain(CurveTween(curve: Curves.bounceIn))
+            .animate(_subMenuPositionController);
+
+    print(MediaQuery.of(context).size.width);
     return AnimatedBuilder(
         animation: _animationController,
         builder: (context, _) {
@@ -93,7 +99,7 @@ class _CircularMenuState extends State<CircularMenu>
                   heightFactor: _sizeAnimation.value,
                   child: Container(
                     child: RawMaterialButton(
-                      fillColor: Colors.blue,
+                      fillColor: theme.primaryColor,
                       shape: CircleBorder(),
                       onPressed: () {
                         if (_isAnimating) return;
@@ -105,7 +111,10 @@ class _CircularMenuState extends State<CircularMenu>
                         }
                       },
                       child: Center(
-                          child: _isOpen ? Icon(Icons.close) : widget.menuIcon),
+                          child: _isOpen
+                              ? Icon(Icons.close,
+                                  color: theme.shadowColor, size: 30)
+                              : widget.menuIcon),
                     ),
                   ),
                 ),
@@ -115,20 +124,22 @@ class _CircularMenuState extends State<CircularMenu>
         });
   }
 
-  List<Widget> _renderSubMenu(List<Widget> children, double distance) {
+  List<Widget> _renderSubMenu(List<SubMenuItem> children, double distance) {
     List<Widget> _subMenu = [];
     double _angleRatio = 360 / children.length;
 
-    children.forEachIndexed((child, index) {
+    children.forEachIndexed((item, index) {
       _subMenu.add(Transform.translate(
         offset: Offset.fromDirection(
             convertDegreesToRadians(index * _angleRatio), distance),
-        child: GestureDetector(
-           onTap: () {
-            print("pressed");
-            close();
-          },
-          child: child),
+        child: RawMaterialButton(
+            onPressed: () {
+              close();
+              item.onPressed();
+            },
+            fillColor: item.fillColor,
+            shape: item.shape,
+            child: item.child),
       ));
     });
 

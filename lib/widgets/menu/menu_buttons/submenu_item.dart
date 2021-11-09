@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
   
-
-class SubMenuItem extends StatelessWidget {
+/* 
+ class SubMenuItem extends StatelessWidget {
   final void Function()? onPressed;
   final Color? fillColor;
   final Widget child;
@@ -14,4 +14,14 @@ class SubMenuItem extends StatelessWidget {
     shape: CircleBorder(),
     child: child);
   }
+}  */
+
+class SubMenuItem {
+  final void Function() onPressed;
+  final Color? fillColor;
+  final Widget child;
+  final ShapeBorder shape;
+
+  const SubMenuItem({required this.onPressed, this.fillColor, required this.child, this.shape = const CircleBorder()});
+
 }

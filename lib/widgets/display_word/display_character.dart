@@ -45,7 +45,7 @@ class _DisplayCharacterState extends State<DisplayCharacter> {
                 style: TextStyle(
                     fontSize: 100,
                     color:
-                        _isActive ? theme.highlightColor : theme.shadowColor)),
+                        widget.id == quizData.activeIndex ? theme.focusColor : theme.canvasColor)),
           ],
         ),
       );

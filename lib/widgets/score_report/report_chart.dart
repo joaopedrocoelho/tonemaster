@@ -14,6 +14,7 @@ class ReportChart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     int percentage = ((correct / totalQuestions) * 100).ceil();
+    var theme = Theme.of(context);
 
     return Column(
       children: [
@@ -25,8 +26,10 @@ class ReportChart extends StatelessWidget {
         children: [
           
           Text("${percentage.toString()}%",
-          style:  TextStyle(fontSize: MediaQuery.of(context).size.width/15, color: Colors.black,
-          fontWeight: FontWeight.bold),),
+          style:  TextStyle(fontSize: MediaQuery.of(context).size.width/15, 
+          color: theme.shadowColor,
+          fontFamily: 'SignikaNegative',
+          fontWeight: FontWeight.w600),),
 
           PieChart(
           PieChartData(
@@ -35,13 +38,13 @@ class ReportChart extends StatelessWidget {
             
               PieChartSectionData(
               value: correct.toDouble(), //,
-              color: Colors.green,
+              color: theme.indicatorColor,
               radius: 30,
               showTitle: false,
             ),
               PieChartSectionData(
               value: wrong.toDouble(),//,
-              color: Colors.red,
+              color: theme.hintColor,
               radius: 30,
                showTitle: false,
             )]
@@ -53,10 +56,12 @@ class ReportChart extends StatelessWidget {
     ),
     SizedBox(height:10),
     Text(
-      "$correct out of $totalQuestions",
+      "$correct correct out of $totalQuestions",
       style: TextStyle(
-        fontSize: 16,
-        fontWeight: FontWeight.bold
+        fontSize: 20,
+        color: theme.shadowColor,
+          fontFamily: 'SignikaNegative',
+        fontWeight: FontWeight.w600
       ),
     )
       ],

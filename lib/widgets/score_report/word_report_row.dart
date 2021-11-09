@@ -2,24 +2,29 @@ import 'package:flutter/material.dart';
 import 'package:frontend/utils/answer_to_pinyin.dart';
 import 'package:frontend/utils/compare_answers.dart';
 import 'package:frontend/utils/pinyin_convert_tool.dart';
+
 class WordReportRow extends StatelessWidget {
   final String word;
   final List<int> userAnswer;
   final String correctAnswer;
-  const WordReportRow({
-    required this.word,
-    required this.userAnswer,
-    required this.correctAnswer,
-    Key? key}) : super(key: key);
+  const WordReportRow(
+      {required this.word,
+      required this.userAnswer,
+      required this.correctAnswer,
+      Key? key})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    String userAnswerConverted = 
-    convertToPinyin(convertUserAnswerToPinyin(userAnswer, correctAnswer));
-     String correctAnswerConverted = convertToPinyin(correctAnswer);
-     //   print("userAnswerConverted $userAnswerConverted, ${userAnswerConverted.length}");
+    var theme = Theme.of(context);
+
+    String userAnswerConverted =
+        convertToPinyin(convertUserAnswerToPinyin(userAnswer, correctAnswer));
+    String correctAnswerConverted = convertToPinyin(correctAnswer);
+    //   print("userAnswerConverted $userAnswerConverted, ${userAnswerConverted.length}");
     // print("correctAnswerConverted $correctAnswerConverted, ${correctAnswerConverted.length}");
-     bool isCorrect = compareAnswers(userAnswerConverted, correctAnswerConverted);
+    bool isCorrect =
+        compareAnswers(userAnswerConverted, correctAnswerConverted);
 
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -30,45 +35,54 @@ class WordReportRow extends StatelessWidget {
           child: Center(
             child: Text(
               word,
-              style: TextStyle(fontSize: 30,color: 
-           isCorrect?
-              Colors.green :
-              Colors.red
-              ),
+              style: TextStyle(
+                  fontSize: 30,
+                  color: isCorrect ? theme.splashColor : Colors.red),
             ),
           ),
         ),
         Container(
-          width:100,
-           child: Column(
+          width: 100,
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text("your answer",
-              style: TextStyle(fontSize: 14, color: Colors.black)
-              ),
+                  style: TextStyle(
+                      fontSize: 14,
+                      color: theme.shadowColor,
+                      fontFamily: 'SignikaNegative',
+                      fontWeight: FontWeight.w600)),
               Text(userAnswerConverted,
-              style: TextStyle(
-                fontSize: 16,
-                color: isCorrect? 
-              Colors.green : Colors.red),)
+                  style: TextStyle(
+                      fontSize: 18,
+                      color: isCorrect ? theme.splashColor : Colors.red,
+                      fontFamily: 'Noto Sans',
+                      fontWeight: FontWeight.w600))
             ],
           ),
         ),
-         Container(
+        Container(
           width: 100,
-           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Text("correct answer",
-              style: TextStyle(fontSize: 14, color: Colors.black)
-              ),
+                  style: TextStyle(
+                      fontSize: 14,
+                      color: theme.shadowColor,
+                      fontFamily: 'SignikaNegative',
+                      fontWeight: FontWeight.w600)),
               Text(correctAnswerConverted,
-              style: TextStyle(fontSize: 16, color: Colors.blue)
-              )
+                  style: TextStyle(
+                      fontSize: 18,
+                      color: theme.primaryColorLight,
+                      fontFamily: 'Noto Sans',
+                      fontWeight: FontWeight.w600))
             ],
-        ),
-         )
-    ],);
+          ),
+        )
+      ],
+    );
   }
 }
 /* 

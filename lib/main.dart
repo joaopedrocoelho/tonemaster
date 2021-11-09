@@ -1,11 +1,21 @@
 import 'package:flutter/material.dart';
-
+import 'package:frontend/providers/ad_state.dart';
+import 'package:frontend/screens/ad_test.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'package:frontend/screens/home.dart';
+import 'package:provider/provider.dart';
 
 
 void main() {
-  runApp(MyApp());
+   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
+
+  
+  runApp(
+     MyApp()
+    );
+  
 }
 
 class MyApp extends StatelessWidget {
@@ -16,13 +26,70 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Chinese Tone Master',
       theme: ThemeData(
-        primaryColor: Color(0xff30a5bf),
-        primaryColorLight: Color(0xff57C6F2),
+       
+        appBarTheme: AppBarTheme(
+          backgroundColor: Color(0xff206E80),
+          shadowColor: Color(0xff081926)
+        ),
+        primaryColor: Color(0xFF6ED2E9),
+               primaryColorLight: Colors.blue,
+        focusColor: Colors.red, //active character
+        canvasColor: Color(0xff081926) , //word
         primaryColorDark: Color(0xff206E80),
-        highlightColor: Color(0xfff25e95),
-        accentColor: Color(0xff7eF286),
-        primarySwatch: MaterialColor(165,primarySwatch),
-        shadowColor: Colors.black
+        highlightColor: Color(0xFF8D3431),
+        hintColor: Colors.red,
+        splashColor: Color(0xFF014D17),
+        indicatorColor: Colors.lightGreen,
+        shadowColor: Color(0xff081926) ,
+        backgroundColor: Color(0xffEDFCFF),
+        primaryTextTheme: TextTheme(
+          bodyText1: TextStyle( //AppBar
+            fontFamily: 'SignikaNegative',
+            fontWeight: FontWeight.w700,
+            fontSize: 20,
+            color: Theme.of(context).shadowColor),
+          button: TextStyle( //CircularMenu
+            fontFamily: 'SignikaNegative',
+            fontWeight: FontWeight.w600,
+            color: Theme.of(context).shadowColor),
+          caption: TextStyle( //CircularSubMenu
+            fontFamily: 'SignikaNegative',
+            fontWeight: FontWeight.w400,
+            color: Theme.of(context).shadowColor)
+        )     
+      ),
+      darkTheme: ThemeData(
+        appBarTheme: AppBarTheme(
+          backgroundColor: Color(0xff161B3B),
+          shadowColor: Colors.transparent
+        ),
+        primaryColor: Color(0xFF344566),
+        
+        primaryColorLight: Colors.blue,
+        focusColor: Colors.deepOrange[400], //active character
+        canvasColor: Color(0xffEDFCFF) , //word
+        primaryColorDark: Color(0xFF213240),
+        highlightColor: Colors.red,
+        hintColor: Colors.red,
+        splashColor: Colors.lightGreen,
+        indicatorColor: Colors.lightGreen,
+        shadowColor: Color(0xffEDFCFF),
+        backgroundColor: Color(0xff050C1A),
+        primaryTextTheme: TextTheme(
+          bodyText1: TextStyle( //AppBar
+            fontFamily: 'SignikaNegative',
+            fontWeight: FontWeight.w700,
+            fontSize: 20,
+            color: Theme.of(context).shadowColor),
+          button: TextStyle( //CircularMenu
+            fontFamily: 'SignikaNegative',
+            fontWeight: FontWeight.w600,
+            color: Theme.of(context).shadowColor),
+          caption: TextStyle( //CircularSubMenu
+            fontFamily: 'SignikaNegative',
+            fontWeight: FontWeight.w400,
+            color: Theme.of(context).shadowColor)
+        )     
       ),
       home: Home(),
     );

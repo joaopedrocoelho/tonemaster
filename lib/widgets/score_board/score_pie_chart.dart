@@ -13,36 +13,41 @@ class ScorePieChart extends StatefulWidget {
 class _ScorePieChartState extends State<ScorePieChart> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 50,
-      height: 50,
-      child: PieChart(
-        PieChartData(
-          //add total questions left
-          sections: [
-          if(context.watch<Score>().correct >0)  
+    var theme = Theme.of(context);
+
+    return Padding(
+      padding: const EdgeInsets.all(6.0),
+      child: Container(
+        width: 50,
+        height: 50,
+        child: PieChart(
+          PieChartData(
+            //add total questions left
+            sections: [
+            if(context.watch<Score>().correct >0)  
+              PieChartSectionData(
+              value: context.watch<Score>().correct.toDouble(), //,
+              color: theme.splashColor,
+              radius: 12,
+              showTitle: false,
+            ),
+            if(context.watch<Score>().wrong >0)
             PieChartSectionData(
-            value: context.watch<Score>().correct.toDouble(), //,
-            color: Colors.green,
-            radius: 12,
-            showTitle: false,
-          ),
-          if(context.watch<Score>().wrong >0)
-          PieChartSectionData(
-            value: context.watch<Score>().wrong.toDouble(),//,
-            color: Colors.red,
-            radius: 12,
-             showTitle: false,
-          ),
-           PieChartSectionData(
-            value: context.watch<Score>().remainingQuestions.toDouble(),
-            color: Colors.grey,
-            radius: 12,
-             showTitle: false,
-          )]
+              value: context.watch<Score>().wrong.toDouble(),//,
+              color: theme.highlightColor,
+              radius: 12,
+               showTitle: false,
+            ),
+             PieChartSectionData(
+              value: context.watch<Score>().remainingQuestions.toDouble(),
+              color: theme.shadowColor,
+              radius: 12,
+               showTitle: false,
+            )]
+          )
         )
-      )
-      ,
+        ,
+      ),
     );
   }
 }

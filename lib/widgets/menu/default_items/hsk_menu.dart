@@ -33,7 +33,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
             style: TextStyle(fontSize: 24),
           ),
           onPressed: () {
-             // _pushToScreen('assets/json/dictionaries/HSK/HSK1.json');
+             _pushToScreen('assets/json/dictionaries/HSK/HSK1.json');
           },
         ),
         SubMenuItem(

@@ -12,6 +12,8 @@ class ScoreText extends StatefulWidget {
 class _ScoreTextState extends State<ScoreText> {
   @override
   Widget build(BuildContext context) {
+    var theme = Theme.of(context);
+   
     return Consumer<Score>(
       builder: (context, score, child) {
       return Container(
@@ -23,11 +25,23 @@ class _ScoreTextState extends State<ScoreText> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-              Text(score.remainingQuestions.toString(), style: TextStyle(color: Colors.grey, fontSize: 20),),
+              Text(score.remainingQuestions.toString(), style:
+               TextStyle(
+                color: theme.shadowColor, fontSize: 25,
+                fontWeight: FontWeight.w600,
+              fontFamily: 'SignikaNegative',),),
               SizedBox(width: 5,),
-              Text(score.correct.toString(), style: TextStyle(color: Colors.green, fontSize: 20),),
+              Text(score.correct.toString(), style:
+               TextStyle(
+                color: theme.splashColor, fontSize: 25,
+                fontWeight: FontWeight.w600,
+              fontFamily: 'SignikaNegative',),),
               SizedBox(width: 5,),
-              Text(score.wrong.toString(), style: TextStyle(color: Colors.red, fontSize: 20),),
+              Text(score.wrong.toString(), style: 
+              TextStyle(
+                color: theme.highlightColor, fontSize: 25,
+                fontWeight: FontWeight.w600,
+              fontFamily: 'SignikaNegative',),),
             ],)
           ],
         ),
