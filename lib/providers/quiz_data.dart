@@ -13,6 +13,8 @@ class QuizData extends ChangeNotifier {
   PlayCharacter _activeCharacter =
       PlayCharacter(simplified: "null", traditional: "null", tone: 4);
   bool _gameOver = false;
+  int wordsAnswered = 0;
+  int size = 0;
 
   List<PlayWord> get words => _words;
   get activeWord => _activeWord;
@@ -20,10 +22,12 @@ class QuizData extends ChangeNotifier {
   get gameOver => _gameOver;
   int get activeIndex => _activeIndex;
 
+
   set words(List<PlayWord> newWords) => this._words = newWords;
   set activeIndex(int newIndex) => this._activeIndex = newIndex;
 
   QuizData(this._words) {
+    size = this._words.length;
     renderWord();
     
   }
@@ -36,7 +40,8 @@ class QuizData extends ChangeNotifier {
   int renderWord() {
     if (_activeWord.characters[0].simplified != "null" && _words.length>0) {
       _activeIndex = 0;
-      _words.remove(_activeWord); //returns a boolean
+      _words.remove(_activeWord);
+      wordsAnswered++; //returns a boolean
      
     }
 

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:frontend/utils/degrees_to_radians.dart';
 import 'package:frontend/utils/indexed_iterables.dart';
 import 'package:frontend/widgets/menu/menu_buttons/submenu_item.dart';
+import 'dart:async';
 
 class CircularMenu extends StatefulWidget {
   final Widget menuIcon;
@@ -35,9 +36,13 @@ class _CircularMenuState extends State<CircularMenu>
   void close() {
     setState(() {
       _animationController.reverse();
-      _subMenuPositionController.reverse();
-      _isOpen = false;
-    });
+      _subMenuPositionController.reverse().whenComplete(() => {
+        setState(() {
+          _isOpen = false;
+        })
+      });
+         })
+    ;
   }
 
   @override
@@ -132,14 +137,18 @@ class _CircularMenuState extends State<CircularMenu>
       _subMenu.add(Transform.translate(
         offset: Offset.fromDirection(
             convertDegreesToRadians(index * _angleRatio), distance),
-        child: RawMaterialButton(
-            onPressed: () {
-              close();
-              item.onPressed();
-            },
-            fillColor: item.fillColor,
-            shape: item.shape,
-            child: item.child),
+        child: SizedBox(
+          width: item.width,
+          child: RawMaterialButton(
+            
+              onPressed: () {
+                close();
+                item.onPressed();
+              },
+              fillColor: item.fillColor,
+              shape: item.shape,
+              child: item.child),
+        ),
       ));
     });
 

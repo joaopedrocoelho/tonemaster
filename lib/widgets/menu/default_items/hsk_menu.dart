@@ -16,71 +16,78 @@ class HSKMenuItem extends StatefulWidget {
 class _HSKMenuItemState extends State<HSKMenuItem> {
   List<PlayWord> _listOfWords = [];
 
+  
 
   
 
   @override
   Widget build(BuildContext context) {
+    var theme = Theme.of(context);
     
+TextStyle _textStyle = TextStyle(fontSize: 24, 
+            color: theme.shadowColor, 
+            fontFamily: "SignikaNegative",
+            fontWeight:FontWeight.w700);
+
 
     return CircularMenu(
       key: Key("HSK"),
       children: [
         SubMenuItem(
-          fillColor: Colors.teal,
+          fillColor: Color(0xffFAB51C),
           child: Text(
             '1',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/HSK/HSK1.json');
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          fillColor: Color(0xff1393A8),
           child: Text(
             '2',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/HSK/HSK2.json');
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          fillColor: Color(0xffD8731C),
           child: Text(
             '3',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/HSK/HSK3.json');
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          fillColor: Color(0xffB2352F),
           child: Text(
             '4',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/HSK/HSK4.json');
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          fillColor: Color(0xff404894),
           child: Text(
             '5',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/HSK/HSK5.json');
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          fillColor: Color(0xff673568),
           child: Text(
             '6',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/HSK/HSK6.json');
@@ -88,7 +95,7 @@ class _HSKMenuItemState extends State<HSKMenuItem> {
         ),
        
       ],
-      menuIcon: Text('HSK'),
+      menuIcon: Text('HSK', style: theme.primaryTextTheme.button),
     );
   }
 

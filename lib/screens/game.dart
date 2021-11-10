@@ -84,6 +84,7 @@ class _GameScreenState extends State<GameScreen> {
         builder: (context, child) {
           final quizData = context.watch<QuizData>();
           final PlayWord word = quizData.activeWord;
+          final int _totalWords = quizData.size; 
 
           List<DisplayCharacter> _characters = [];
 
@@ -97,13 +98,14 @@ class _GameScreenState extends State<GameScreen> {
           return Scaffold(
             backgroundColor: theme.backgroundColor,
             appBar: AppBar(
+              centerTitle: true,
               backgroundColor: theme.appBarTheme.backgroundColor,
         shadowColor: theme.appBarTheme.shadowColor,
               leading:
                   Icon(Icons.menu_rounded, color: theme.shadowColor, size: 40),
               title: Text(
-                "1/10",
-                style: TextStyle(color: Colors.black, fontSize: 30),
+                "${quizData.wordsAnswered}/$_totalWords",
+                style: TextStyle(color: theme.shadowColor, fontSize: 30),
               ),
               actions: [ScoreText(), ScorePieChart()],
             ),

@@ -21,7 +21,8 @@ class SubMenuItem {
   final Color? fillColor;
   final Widget child;
   final ShapeBorder shape;
+  final double width;
 
-  const SubMenuItem({required this.onPressed, this.fillColor, required this.child, this.shape = const CircleBorder()});
+  const SubMenuItem({required this.onPressed, this.fillColor, required this.child, this.shape = const CircleBorder(), this.width = 36 });
 
 }

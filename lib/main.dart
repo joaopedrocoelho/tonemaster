@@ -36,9 +36,9 @@ class MyApp extends StatelessWidget {
         focusColor: Colors.red, //active character
         canvasColor: Color(0xff081926) , //word
         primaryColorDark: Color(0xff206E80),
-        highlightColor: Color(0xFF8D3431),
+        highlightColor: Colors.redAccent,
         hintColor: Colors.red,
-        splashColor: Color(0xFF014D17),
+        splashColor: Colors.lightGreen,
         indicatorColor: Colors.lightGreen,
         shadowColor: Color(0xff081926) ,
         backgroundColor: Color(0xffEDFCFF),
@@ -51,6 +51,7 @@ class MyApp extends StatelessWidget {
           button: TextStyle( //CircularMenu
             fontFamily: 'SignikaNegative',
             fontWeight: FontWeight.w600,
+            fontSize: 40,
             color: Theme.of(context).shadowColor),
           caption: TextStyle( //CircularSubMenu
             fontFamily: 'SignikaNegative',
@@ -84,7 +85,8 @@ class MyApp extends StatelessWidget {
           button: TextStyle( //CircularMenu
             fontFamily: 'SignikaNegative',
             fontWeight: FontWeight.w600,
-            color: Theme.of(context).shadowColor),
+            fontSize: 40,
+            color: Color(0xffEDFCFF)),
           caption: TextStyle( //CircularSubMenu
             fontFamily: 'SignikaNegative',
             fontWeight: FontWeight.w400,

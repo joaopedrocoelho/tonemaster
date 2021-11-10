@@ -19,53 +19,71 @@ class _IdiomsMenuItemState extends State<IdiomsMenuItem> {
 
   @override
   Widget build(BuildContext context) {
+         var theme = Theme.of(context);
+    
+TextStyle _textStyle = TextStyle(fontSize: 18, 
+            color: theme.shadowColor, 
+            fontFamily: "SignikaNegative",
+            fontWeight:FontWeight.w700);
+
+ 
     return CircularMenu(
       children: [
         SubMenuItem(
-          fillColor: Colors.teal,
+          width: 50,
+          fillColor: Color(0xffFAB51C),
           child: Text(
             '100',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
           onPressed: () {
             _pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', 100);
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          width: 50,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
+          fillColor: Color(0xff1393A8),
           child: Text(
             '500',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', 500);
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          width: 50,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
+          fillColor: Color(0xffD8731C),
           child: Text(
             '1000',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', 1000);
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          width: 50,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
+          fillColor: Color(0xffB2352F),
           child: Text(
             '2000',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json');
           },
         ),
         SubMenuItem(
-          fillColor: Colors.teal,
+          width: 50,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
+          fillColor: Color(0xff673568),
           child: Text(
             'extra',
-            style: TextStyle(fontSize: 24),
+            style: _textStyle,
           ),
           onPressed: () {
              _pushToScreen('assets/json/dictionaries/idioms/idioms-extra.json');
@@ -74,7 +92,7 @@ class _IdiomsMenuItemState extends State<IdiomsMenuItem> {
         
        
       ],
-      menuIcon: Text('Idioms'),
+      menuIcon: Text('Idioms', style: theme.primaryTextTheme.button),
     );
   }
 
