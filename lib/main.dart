@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Chinese Tone Master',
       theme: ThemeData(
-       
-        appBarTheme: AppBarTheme(
+        
+         appBarTheme: AppBarTheme(
           backgroundColor: Color(0xff206E80),
           shadowColor: Color(0xff081926)
         ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/widgets/drawer/drawer_menu.dart';
 import 'package:frontend/widgets/menu/default_items/hsk_menu.dart';
 import 'package:frontend/widgets/menu/default_items/idioms_menu.dart';
 import 'package:frontend/widgets/menu/default_items/tocfl_menu.dart';
@@ -17,16 +18,14 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     var theme = Theme.of(context);
     return Scaffold(
+      drawer: DrawerMenu(),
       backgroundColor: theme.backgroundColor,
       appBar: AppBar(
+       
         centerTitle: true,
         backgroundColor: theme.appBarTheme.backgroundColor,
         shadowColor: theme.appBarTheme.shadowColor,
-        leading: Icon(
-          Icons.menu_rounded,
-          color: theme.shadowColor,
-          size:40
-        ),
+        
         title: Text('Tone Master',
         style: TextStyle( //AppBar
             fontFamily: 'SignikaNegative',
