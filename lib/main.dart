@@ -26,7 +26,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Chinese Tone Master',
       theme: ThemeData(
-        
+        drawerTheme: DrawerThemeData(
+          backgroundColor: Color(0xffAEBCBF),
+        ),
          appBarTheme: AppBarTheme(
           backgroundColor: Color(0xff206E80),
           shadowColor: Color(0xff081926)
@@ -43,6 +45,7 @@ class MyApp extends StatelessWidget {
         shadowColor: Color(0xff081926) ,
         backgroundColor: Color(0xffEDFCFF),
         primaryTextTheme: TextTheme(
+         
           bodyText1: TextStyle( //AppBar
             fontFamily: 'SignikaNegative',
             fontWeight: FontWeight.w700,
@@ -60,6 +63,9 @@ class MyApp extends StatelessWidget {
         )     
       ),
       darkTheme: ThemeData(
+        drawerTheme: DrawerThemeData(
+          backgroundColor: Color(0xff161B3B),
+        ),
         appBarTheme: AppBarTheme(
           backgroundColor: Color(0xff161B3B),
           shadowColor: Colors.transparent
@@ -77,6 +83,7 @@ class MyApp extends StatelessWidget {
         shadowColor: Color(0xffEDFCFF),
         backgroundColor: Color(0xff050C1A),
         primaryTextTheme: TextTheme(
+           
           bodyText1: TextStyle( //AppBar
             fontFamily: 'SignikaNegative',
             fontWeight: FontWeight.w700,
