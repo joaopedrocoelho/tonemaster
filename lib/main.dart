@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       title: 'Chinese Tone Master',
       theme: ThemeData(
         drawerTheme: DrawerThemeData(
-          backgroundColor: Color(0xffAEBCBF),
+          backgroundColor: Color(0xFF6ED2E9),
         ),
          appBarTheme: AppBarTheme(
           backgroundColor: Color(0xff206E80),
