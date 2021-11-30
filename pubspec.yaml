@@ -33,6 +33,7 @@ dependencies:
   fab_circular_menu: ^1.0.0
   fl_chart: ^0.40.0
   google_mobile_ads: ^0.13.6
+  shared_preferences: ^2.0.9
 
 
 dev_dependencies:

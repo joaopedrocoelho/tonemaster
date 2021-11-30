@@ -5,6 +5,7 @@ import 'package:frontend/providers/ad_state.dart';
 import 'package:frontend/providers/quiz_data.dart';
 import 'package:frontend/providers/score.dart';
 import 'package:frontend/providers/score_report.dart';
+import 'package:frontend/providers/user_settings.dart';
 import 'package:frontend/widgets/display_word/display_character.dart';
 import 'package:frontend/widgets/score_board/score_pie_chart.dart';
 import 'package:frontend/widgets/score_board/score_text.dart';
@@ -31,6 +32,7 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen> {
   List<PlayWord> _playWords = [];
   int _totalQuestions = 0;
+  late bool _useTraditional;
 
   final BannerAd bannerAd = BannerAd(
       adUnitId: 'ca-app-pub-3940256099942544/6300978111',
@@ -48,6 +50,7 @@ class _GameScreenState extends State<GameScreen> {
   bool _isAdLoaded = false;
 
   void _loadAd() {
+    
     setState(() {
       _isAdLoaded = true;
     });
@@ -61,6 +64,7 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   void initState() {
+    _useTraditional = UserSettings.getCharacters() ?? false;
     widget.words.shuffle();
     _playWords = widget.words.sublist(0, widget.numberOfWords);
     _playWords.forEach((word) {
@@ -90,7 +94,7 @@ class _GameScreenState extends State<GameScreen> {
 
           word.characters.forEachIndexed((character, index) {
             _characters.add(DisplayCharacter(
-                character: character.traditional,
+                character: _useTraditional ? character.traditional : character.simplified,
                 tone: character.tone,
                 id: index));
           });

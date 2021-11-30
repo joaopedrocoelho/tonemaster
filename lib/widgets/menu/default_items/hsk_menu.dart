@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:frontend/models/words/play_word.dart';
 import 'package:frontend/screens/game.dart';
 import 'package:frontend/utils/get_json_word_list.dart';
+import 'package:frontend/utils/push_to_screen.dart';
 import 'package:frontend/widgets/menu/menu_buttons/circular_menu.dart';
 import 'package:frontend/widgets/menu/menu_buttons/submenu_item.dart';
 import 'dart:async';
@@ -40,7 +41,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/HSK/HSK1.json');
+             pushToScreen('assets/json/dictionaries/HSK/HSK1.json', context);
           },
         ),
         SubMenuItem(
@@ -50,7 +51,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/HSK/HSK2.json');
+             pushToScreen('assets/json/dictionaries/HSK/HSK2.json', context);
           },
         ),
         SubMenuItem(
@@ -60,7 +61,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/HSK/HSK3.json');
+             pushToScreen('assets/json/dictionaries/HSK/HSK3.json', context);
           },
         ),
         SubMenuItem(
@@ -70,7 +71,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/HSK/HSK4.json');
+             pushToScreen('assets/json/dictionaries/HSK/HSK4.json', context);
           },
         ),
         SubMenuItem(
@@ -80,7 +81,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/HSK/HSK5.json');
+             pushToScreen('assets/json/dictionaries/HSK/HSK5.json', context);
           },
         ),
         SubMenuItem(
@@ -90,7 +91,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/HSK/HSK6.json');
+            pushToScreen('assets/json/dictionaries/HSK/HSK6.json',context);
           },
         ),
        
@@ -99,12 +100,4 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
     );
   }
 
-  void _pushToScreen(String file) {
-    getJsonWordList(file).then(
-        (list) => Navigator.push(context, MaterialPageRoute(
-          maintainState: false,
-          builder: (context) {
-              return GameScreen(words: list, numberOfWords: 5,);
-            })));
-  }
 }

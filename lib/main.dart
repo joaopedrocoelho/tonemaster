@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/providers/ad_state.dart';
-import 'package:frontend/screens/ad_test.dart';
+import 'package:frontend/providers/user_settings.dart';
+
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'package:frontend/screens/home.dart';
 import 'package:provider/provider.dart';
 
 
-void main() {
+Future main() async {
    WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
+  await UserSettings.init();
 
-  
+    
   runApp(
      MyApp()
     );
