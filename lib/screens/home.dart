@@ -53,10 +53,9 @@ class _HomeState extends State<Home> {
             IdiomsMenuItem(),
             MenuItem(
               label: "Random",
+              onTap: () {},
             ),
-            MenuItem(
-              label: "Ads",
-            )
+           
           ],
         ),
       ),

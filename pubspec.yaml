@@ -40,6 +40,14 @@ dev_dependencies:
   build_runner: ^2.1.2
   flutter_test:
     sdk: flutter
+  
+  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
+  remove_alpha_ios: true
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -60,6 +68,8 @@ flutter:
     - assets/json/dictionaries/TOCFL/TOCFL5&6.json
     - assets/json/dictionaries/idioms/idioms-sorted.json
     - assets/json/dictionaries/idioms/idioms-extra.json
+    - assets/json/dictionaries/idioms/test.json
+    
   fonts:
     - family: SignikaNegative
       fonts:

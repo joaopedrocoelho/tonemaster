@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:frontend/models/words/play_word.dart';
 import 'package:frontend/screens/game.dart';
 import 'package:frontend/utils/get_json_word_list.dart';
+import 'package:frontend/utils/push_to_screen.dart';
 import 'package:frontend/widgets/menu/menu_buttons/circular_menu.dart';
 import 'package:frontend/widgets/menu/menu_buttons/submenu_item.dart';
 
@@ -38,7 +39,8 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
           ),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
           onPressed: () {
-            _pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', 100);
+            
+            pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json',context, 100);
           },
         ),
         SubMenuItem(
@@ -50,7 +52,7 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', 500);
+             pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', context, 500);
           },
         ),
         SubMenuItem(
@@ -62,7 +64,7 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', 1000);
+             pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json',context, 1000);
           },
         ),
         SubMenuItem(
@@ -74,7 +76,7 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json');
+             pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', context);
           },
         ),
         SubMenuItem(
@@ -86,9 +88,21 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/idioms/idioms-extra.json');
+             pushToScreen('assets/json/dictionaries/idioms/idioms-extra.json', context);
           },
         ),
+        SubMenuItem(
+          width: 50,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
+          fillColor: Color(0xff673568),
+          child: Text(
+            'test',
+            style: _textStyle,
+          ),
+          onPressed: () {
+             pushToScreen('assets/json/dictionaries/idioms/test.json', context);
+          },
+        )
         
        
       ],
@@ -96,10 +110,5 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
     );
   }
 
-  void _pushToScreen(String file, [int? slice]) {
-    getJsonWordList(file, slice).then(
-        (list) => Navigator.push(context, MaterialPageRoute(builder: (context) {
-              return GameScreen(words: list, numberOfWords: 5,);
-            })));
-  }
+
 }

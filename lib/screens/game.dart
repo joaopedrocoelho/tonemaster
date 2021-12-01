@@ -19,6 +19,8 @@ import 'package:frontend/widgets/display_word/display_word.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 
+RegExp checkIfNotChinese = RegExp(r"[^\u4e00-\u9fff]");
+
 class GameScreen extends StatefulWidget {
   final List<PlayWord> words;
   final int numberOfWords;
@@ -50,7 +52,6 @@ class _GameScreenState extends State<GameScreen> {
   bool _isAdLoaded = false;
 
   void _loadAd() {
-    
     setState(() {
       _isAdLoaded = true;
     });
@@ -68,11 +69,15 @@ class _GameScreenState extends State<GameScreen> {
     widget.words.shuffle();
     _playWords = widget.words.sublist(0, widget.numberOfWords);
     _playWords.forEach((word) {
-      _totalQuestions += word.characters.length;
+      print("word: ${word.tradToString()}");
+      word.characters.forEach((character) { 
+        if (checkIfNotChinese.hasMatch(character.simplified)) return;
+        _totalQuestions++;
+      });
+      
     });
     bannerAd.load();
     super.initState();
-    
   }
 
   @override
@@ -88,13 +93,15 @@ class _GameScreenState extends State<GameScreen> {
         builder: (context, child) {
           final quizData = context.watch<QuizData>();
           final PlayWord word = quizData.activeWord;
-          final int _totalWords = quizData.size; 
+          final int _totalWords = quizData.size;
 
           List<DisplayCharacter> _characters = [];
 
           word.characters.forEachIndexed((character, index) {
             _characters.add(DisplayCharacter(
-                character: _useTraditional ? character.traditional : character.simplified,
+                character: _useTraditional
+                    ? character.traditional
+                    : character.simplified,
                 tone: character.tone,
                 id: index));
           });
@@ -104,9 +111,15 @@ class _GameScreenState extends State<GameScreen> {
             appBar: AppBar(
               centerTitle: true,
               backgroundColor: theme.appBarTheme.backgroundColor,
-        shadowColor: theme.appBarTheme.shadowColor,
-              leading:
-                  Icon(Icons.menu_rounded, color: theme.shadowColor, size: 40),
+              shadowColor: theme.appBarTheme.shadowColor,
+              leading: RawMaterialButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Icon(
+                  Icons.arrow_back_rounded, size: 30,
+                ),
+              ),
               title: Text(
                 "${quizData.wordsAnswered}/$_totalWords",
                 style: TextStyle(color: theme.shadowColor, fontSize: 30),
@@ -119,11 +132,10 @@ class _GameScreenState extends State<GameScreen> {
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                    Container(
-                      height: 50,
-                      
-      child: AdWidget(ad: bannerAd),
-    ),
+                  Container(
+                    height: 50,
+                    child: AdWidget(ad: bannerAd),
+                  ),
                   if (widget.words.isNotEmpty)
                     DisplayWord(
                       characters: _characters,

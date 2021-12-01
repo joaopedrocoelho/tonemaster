@@ -4,6 +4,8 @@ import 'package:frontend/models/words/play_character.dart';
 import 'package:frontend/models/words/play_word.dart';
 import 'package:flutter/material.dart';
 
+RegExp checkIfNotChinese = RegExp(r"[^\u4e00-\u9fff]");
+
 class QuizData extends ChangeNotifier {
   List<PlayWord> _words = [];
   PlayWord _activeWord = PlayWord(characters: [
@@ -22,14 +24,12 @@ class QuizData extends ChangeNotifier {
   get gameOver => _gameOver;
   int get activeIndex => _activeIndex;
 
-
   set words(List<PlayWord> newWords) => this._words = newWords;
   set activeIndex(int newIndex) => this._activeIndex = newIndex;
 
   QuizData(this._words) {
     size = this._words.length;
     renderWord();
-    
   }
 
   bool checkIfAnswerIsCorrect(int tone) {
@@ -38,17 +38,17 @@ class QuizData extends ChangeNotifier {
   }
 
   int renderWord() {
-    if (_activeWord.characters[0].simplified != "null" && _words.length>0) {
+    if (_activeWord.characters[0].simplified != "null" && _words.length > 0) {
       _activeIndex = 0;
       _words.remove(_activeWord);
       wordsAnswered++; //returns a boolean
-     
+
     }
 
     int _random = _words.length > 0 ? Random().nextInt(_words.length) : 0;
-    if(_words.length >0) {
+    if (_words.length > 0) {
       _activeWord = _words[_random];
-    _activeCharacter = _activeWord.characters[0];
+      _activeCharacter = _activeWord.characters[0];
     } else {
       endGame();
     }
@@ -61,10 +61,14 @@ class QuizData extends ChangeNotifier {
       //print("next character");
       _activeIndex++;
       _activeCharacter = _activeWord.characters[_activeIndex];
+
       notifyListeners();
     } else {
       //print("next word");
       renderWord();
+    }
+    if (checkIfNotChinese.hasMatch(_activeCharacter.simplified)) {
+      renderNextCharacter();
     }
   }
 

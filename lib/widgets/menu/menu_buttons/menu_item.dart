@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 
 class MenuItem extends StatefulWidget {
   final String label;
-  void Function()? onTap;
+  final void Function()? onTap;
  
 
-  MenuItem({Key? key, required this.label, this.onTap}) : super(key: key);
+  MenuItem({Key? key, required this.label, required this.onTap}) : super(key: key);
 
   @override
   _MenuItemState createState() => _MenuItemState();
@@ -27,13 +27,20 @@ class _MenuItemState extends State<MenuItem> {
   Widget build(BuildContext context) {
     var theme = Theme.of(context);
   //animate container size on tap
+ 
+    
+TextStyle _textStyle = TextStyle(fontSize: 24, 
+            color: theme.shadowColor, 
+            fontFamily: "SignikaNegative",
+            fontWeight:FontWeight.w700);
+
     return GestureDetector(
       onTap: widget.onTap,
       child: Container(
           decoration:
               BoxDecoration(shape: BoxShape.circle, color: theme.primaryColor),
           child: Center(
-              child:Text(widget.label, style: TextStyle(fontSize: 30)))),
+              child:Text(widget.label, style: _textStyle))),
     );
   }
 }

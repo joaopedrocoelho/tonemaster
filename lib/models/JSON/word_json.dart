@@ -8,12 +8,14 @@ class Word {
   final String traditional;
   final String simplified;
   final String pinyin;
+  final String? pinyinTw;
   final String english;
 
   Word(
       {required this.traditional,
       required this.simplified,
       required this.pinyin,
+      this.pinyinTw,
       required this.english});
 
   factory Word.fromJson(Map<String, dynamic> json) => _$WordFromJson(json);

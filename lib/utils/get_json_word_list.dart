@@ -17,8 +17,11 @@ import "dart:convert";
           _tempWordList.add(_newPlayWord);
     });
     //print("words $_tempWordList");
+    
+   
     if (slice != null) {
-     return _tempWordList.sublist(0,slice);
+      
+     return slice <= _tempWordList.length -1 ? _tempWordList.sublist(0,slice) : _tempWordList.sublist(0,_tempWordList.length -1);
     }
     return _tempWordList;
     }
