@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/models/JSON/word_json.dart';
+
 import 'package:frontend/models/words/play_word.dart';
-import 'package:frontend/providers/ad_state.dart';
+
 import 'package:frontend/providers/quiz_data.dart';
 import 'package:frontend/providers/score.dart';
 import 'package:frontend/providers/score_report.dart';
@@ -10,9 +10,8 @@ import 'package:frontend/widgets/display_word/display_character.dart';
 import 'package:frontend/widgets/score_board/score_pie_chart.dart';
 import 'package:frontend/widgets/score_board/score_text.dart';
 import 'package:frontend/widgets/tone_buttons/buttons_container.dart';
-import 'package:flutter/services.dart';
-import 'dart:convert';
-import 'dart:math';
+
+import 'package:flutter/foundation.dart';
 import "package:frontend/utils/indexed_iterables.dart";
 
 import 'package:frontend/widgets/display_word/display_word.dart';
@@ -38,7 +37,7 @@ class _GameScreenState extends State<GameScreen> {
 
 
   final BannerAd bannerAd = BannerAd(
-      adUnitId: 'ca-app-pub-3940256099942544/6300978111',
+      adUnitId: kDebugMode ? 'ca-app-pub-3940256099942544/6300978111' : 'ca-app-pub-5758087039130918/3967921821',
       size: AdSize.fluid,
       request: AdRequest(),
       listener: BannerAdListener(
