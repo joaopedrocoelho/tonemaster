@@ -10,7 +10,7 @@ class QuizData extends ChangeNotifier {
   List<PlayWord> _words = [];
   PlayWord _activeWord = PlayWord(characters: [
     PlayCharacter(simplified: "null", traditional: "null", tone: 4)
-  ], english: "null", pinyin: "null");
+  ], english: "null", pinyin: "null", pinyinTw: null, pinyinAccented: 'null');
   int _activeIndex = 0;
   PlayCharacter _activeCharacter =
       PlayCharacter(simplified: "null", traditional: "null", tone: 4);

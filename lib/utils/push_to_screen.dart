@@ -13,7 +13,9 @@ void pushToScreen(String file, BuildContext context, [int? slice]) {
             if(UserSettings.getQuizSize() != null) {
               UserSettings.getQuizSize()! > list.length ? 
                 numberOfWords = list.length : numberOfWords = UserSettings.getQuizSize()!;
+            } else {
+              numberOfWords = list.length > 5 ? 5 : list.length;
             }
-              return GameScreen(words: list, numberOfWords: numberOfWords ?? 5,);
+              return GameScreen(words: list, numberOfWords: numberOfWords,);
             })));
   }

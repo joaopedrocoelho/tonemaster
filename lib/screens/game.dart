@@ -36,6 +36,7 @@ class _GameScreenState extends State<GameScreen> {
   int _totalQuestions = 0;
   late bool _useTraditional;
 
+
   final BannerAd bannerAd = BannerAd(
       adUnitId: 'ca-app-pub-3940256099942544/6300978111',
       size: AdSize.fluid,
@@ -67,9 +68,13 @@ class _GameScreenState extends State<GameScreen> {
   void initState() {
     _useTraditional = UserSettings.getCharacters() ?? false;
     widget.words.shuffle();
-    _playWords = widget.words.sublist(0, widget.numberOfWords);
+   
+    _playWords = widget.words.sublist(0, widget.numberOfWords); 
+    
+     String _charsFromPlayWords = _playWords[0].simplToString();
+     print("\x1B[32mchars @ game screen _playWords : $_charsFromPlayWords  ${_playWords[0].characters.length}\x1B[0m");
     _playWords.forEach((word) {
-      print("word: ${word.tradToString()}");
+    
       word.characters.forEach((character) { 
         if (checkIfNotChinese.hasMatch(character.simplified)) return;
         _totalQuestions++;
@@ -77,7 +82,9 @@ class _GameScreenState extends State<GameScreen> {
       
     });
     bannerAd.load();
+   
     super.initState();
+   
   }
 
   @override
@@ -94,7 +101,12 @@ class _GameScreenState extends State<GameScreen> {
           final quizData = context.watch<QuizData>();
           final PlayWord word = quizData.activeWord;
           final int _totalWords = quizData.size;
+          String _activeWordtoStr = '';
+          word.characters.forEach((char) {
+            _activeWordtoStr += char.simplified;
+          });
 
+          print("quizData.activeWord @ game screen widget ${_activeWordtoStr} ${quizData.activeWord.characters.length}");
           List<DisplayCharacter> _characters = [];
 
           word.characters.forEachIndexed((character, index) {
@@ -103,7 +115,8 @@ class _GameScreenState extends State<GameScreen> {
                     ? character.traditional
                     : character.simplified,
                 tone: character.tone,
-                id: index));
+                id: index,
+                ));
           });
 
           return Scaffold(
@@ -127,9 +140,9 @@ class _GameScreenState extends State<GameScreen> {
               actions: [ScoreText(), ScorePieChart()],
             ),
             body: Container(
-              height: MediaQuery.of(context).size.height,
+              //rheight: MediaQuery.of(context).size.height,
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
@@ -137,8 +150,10 @@ class _GameScreenState extends State<GameScreen> {
                     child: AdWidget(ad: bannerAd),
                   ),
                   if (widget.words.isNotEmpty)
-                    DisplayWord(
-                      characters: _characters,
+                    Expanded(
+                      child: DisplayWord(
+                        characters: _characters,
+                      ),
                     ),
                   ButtonsContainer()
                 ],

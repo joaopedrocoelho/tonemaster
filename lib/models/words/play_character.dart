@@ -5,9 +5,11 @@ class PlayCharacter {
   final String traditional;
   final String simplified;
   final int tone;
+  final int? toneTW;
 
   PlayCharacter(
       {required this.traditional,
       required this.simplified,
-      required this.tone});
+      required this.tone,
+      this.toneTW});
 }
