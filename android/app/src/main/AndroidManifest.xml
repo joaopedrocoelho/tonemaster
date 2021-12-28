@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.frontend">
    <application
-        android:label="frontend"
+        android:label="Tone Master"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
@@ -40,9 +40,7 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-5758087039130918~2046150271" />
-            <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5758087039130918/7576680106"/>
+            
 
     </application>
 </manifest>

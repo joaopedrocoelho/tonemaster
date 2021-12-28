@@ -29,6 +29,7 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
 
  
     return CircularMenu(
+      distance:  MediaQuery.of(context).size.width * 0.18,
       children: [
         SubMenuItem(
           width: 50,
@@ -40,7 +41,7 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
           onPressed: () {
             
-            pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json',context, 100);
+            newPushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json',context, 100);
           },
         ),
         SubMenuItem(
@@ -52,7 +53,7 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', context, 500);
+             newPushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', context, 500);
           },
         ),
         SubMenuItem(
@@ -64,7 +65,7 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json',context, 1000);
+             newPushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json',context, 1000);
           },
         ),
         SubMenuItem(
@@ -76,7 +77,7 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', context);
+             newPushToScreen('assets/json/dictionaries/idioms/idioms-sorted.json', context);
           },
         ),
         SubMenuItem(
@@ -88,10 +89,10 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/idioms/idioms-extra.json', context);
+             newPushToScreen('assets/json/dictionaries/idioms/idioms-extra.json', context);
           },
         ),
-        SubMenuItem(
+        /* SubMenuItem(
           width: 50,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
           fillColor: Color(0xff673568),
@@ -100,9 +101,9 @@ TextStyle _textStyle = TextStyle(fontSize: 18,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/idioms/test.json', context);
+             newPushToScreen('assets/json/dictionaries/idioms/test.json', context);
           },
-        )
+        ) */
         
        
       ],

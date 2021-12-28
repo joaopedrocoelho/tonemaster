@@ -16,55 +16,62 @@ class ReportChart extends StatelessWidget {
     int percentage = ((correct / totalQuestions) * 100).ceil();
     var theme = Theme.of(context);
 
-    return Column(
-      children: [
-         Container(
-      width: MediaQuery.of(context).size.width/2.5,
-      height: MediaQuery.of(context).size.width/2.5,
-      child: Stack(
-        alignment: Alignment.center,
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          
-          Text("${percentage.toString()}%",
-          style:  TextStyle(fontSize: MediaQuery.of(context).size.width/15, 
+          Text(
+        "$correct correct out of $totalQuestions",
+        style: TextStyle(
+          fontSize: 20,
           color: theme.shadowColor,
-          fontFamily: 'SignikaNegative',
-          fontWeight: FontWeight.w600),),
-
-          PieChart(
-          PieChartData(
-            //add total questions left
-            sections: [
-            
-              PieChartSectionData(
-              value: correct.toDouble(), //,
-              color: theme.indicatorColor,
-              radius: 30,
-              showTitle: false,
-            ),
-              PieChartSectionData(
-              value: wrong.toDouble(),//,
-              color: theme.hintColor,
-              radius: 30,
-               showTitle: false,
-            )]
-          )
-        )
-        ],
-      )
-      ,
-    ),
-    SizedBox(height:10),
-    Text(
-      "$correct correct out of $totalQuestions",
-      style: TextStyle(
-        fontSize: 20,
-        color: theme.shadowColor,
-          fontFamily: 'SignikaNegative',
-        fontWeight: FontWeight.w600
+            fontFamily: 'SignikaNegative',
+          fontWeight: FontWeight.w600
+        ),
+        
       ),
-    )
-      ],
+      SizedBox(height: 10),
+           Container(
+        width: MediaQuery.of(context).size.width/2.5,
+        height: MediaQuery.of(context).size.width/2.5,
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            
+            Text("${percentage.toString()}%",
+            style:  TextStyle(fontSize: MediaQuery.of(context).size.width/15, 
+            color: theme.shadowColor,
+            fontFamily: 'SignikaNegative',
+            fontWeight: FontWeight.w600),),
+
+            PieChart(
+            PieChartData(
+              //add total questions left
+              sections: [
+              
+                PieChartSectionData(
+                value: correct.toDouble(), //,
+                color: theme.indicatorColor,
+                radius: 30,
+                showTitle: false,
+              ),
+                PieChartSectionData(
+                value: wrong.toDouble(),//,
+                color: theme.hintColor,
+                radius: 30,
+                 showTitle: false,
+              )]
+            )
+          )
+          ],
+        )
+        ,
+      ),
+      
+      
+        ],
+      ),
     );
   }
 }

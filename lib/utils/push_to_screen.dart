@@ -5,6 +5,7 @@ import 'package:frontend/utils/get_json_word_list.dart';
 
 
 void pushToScreen(String file, BuildContext context, [int? slice]) {
+
       getJsonWordList(file, slice).then(
         (list) => Navigator.push(context, MaterialPageRoute(
           maintainState: false,
@@ -19,3 +20,19 @@ void pushToScreen(String file, BuildContext context, [int? slice]) {
               return GameScreen(words: list, numberOfWords: numberOfWords,);
             })));
   }
+
+
+void newPushToScreen(String file, BuildContext context, [int?slice]) {
+      int? _quizSize = UserSettings.getQuizSize();
+
+      newGetJsonWordList(file, _quizSize ?? 5).then((list) => Navigator.push(context, 
+      MaterialPageRoute(
+          maintainState: false,
+          builder: (context) 
+          {
+            return GameScreen(words: list, numberOfWords: list.length);
+          
+          })
+          ));
+}
+    

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:frontend/utils/degrees_to_radians.dart';
 import 'package:frontend/utils/indexed_iterables.dart';
 import 'package:frontend/widgets/menu/menu_buttons/submenu_item.dart';
@@ -7,7 +8,8 @@ import 'dart:async';
 class CircularMenu extends StatefulWidget {
   final Widget menuIcon;
   final List<SubMenuItem>? children;
-  CircularMenu({Key? key, this.children, required this.menuIcon})
+  final double distance;
+  CircularMenu({Key? key, this.children, required this.menuIcon, required this.distance})
       : super(key: key);
 
   @override
@@ -18,6 +20,8 @@ class _CircularMenuState extends State<CircularMenu>
     with TickerProviderStateMixin {
   bool _isOpen = false;
   bool _isAnimating = false;
+  double _distance = 0;
+  double _subMenuDistance = 0;
 
   late AnimationController _animationController;
   late AnimationController _subMenuPositionController;
@@ -26,10 +30,12 @@ class _CircularMenuState extends State<CircularMenu>
 
   void open() {
     setState(() {
+      
+
       _isOpen = true;
       _animationController.forward();
       _subMenuPositionController.forward();
-      if (mounted) setState(() {});
+      
     });
   }
 
@@ -47,6 +53,7 @@ class _CircularMenuState extends State<CircularMenu>
 
   @override
   void initState() {
+    
     _animationController =
         AnimationController(duration: Duration(milliseconds: 400), vsync: this);
 
@@ -66,27 +73,45 @@ class _CircularMenuState extends State<CircularMenu>
           tween: Tween<double>(begin: 0.9, end: 0.3)
               .chain(CurveTween(curve: Curves.easeInOut)),
           weight: 50),
-    ]).animate(_animationController);
-    /* ..addStatusListener((status) {
-        if (status == AnimationStatus.completed) {
-          _subMenuPositionController.forward();
-        }
-      });
- */
+    ]).animate(_animationController)..addStatusListener((status) {
+      if (status == AnimationStatus.forward || status == AnimationStatus.reverse) {
+       
+        setState(() {
+          _isAnimating = true;
+        });
+       
+      } else {
+        setState(() {
+          _isAnimating = false;
+        });
+        
+      }
+    });
 
+    _subMenuPositionAnimation =
+        Tween<double>(begin: 0, end: widget.distance)
+            .chain(CurveTween(curve: Curves.bounceIn))
+            .animate(_subMenuPositionController)..addStatusListener((_) { 
+              
+            });
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    _animationController.dispose();
+    _subMenuPositionController.dispose();
+    // TODO: implement dispose
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     var theme = Theme.of(context);
 
-    _subMenuPositionAnimation =
-        Tween<double>(begin: 0, end: MediaQuery.of(context).size.width * 0.2)
-            .chain(CurveTween(curve: Curves.bounceIn))
-            .animate(_subMenuPositionController);
 
-    print(MediaQuery.of(context).size.width);
+
+    //print("_distance: $_distance");
     return AnimatedBuilder(
         animation: _animationController,
         builder: (context, _) {
@@ -96,7 +121,7 @@ class _CircularMenuState extends State<CircularMenu>
               children: [
                 if (widget.children != null)
                   ..._renderSubMenu(
-                      widget.children!, _subMenuPositionAnimation.value),
+                      widget.children!,  _subMenuPositionAnimation.value),
 
                 //Center Button
                 FractionallySizedBox(
@@ -133,6 +158,7 @@ class _CircularMenuState extends State<CircularMenu>
     List<Widget> _subMenu = [];
     double _angleRatio = 360 / children.length;
 
+    //print("distance: $distance");
     children.forEachIndexed((item, index) {
       _subMenu.add(Transform.translate(
         offset: Offset.fromDirection(

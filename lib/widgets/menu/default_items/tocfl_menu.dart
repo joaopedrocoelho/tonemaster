@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:frontend/models/words/play_word.dart';
 import 'package:frontend/screens/game.dart';
 import 'package:frontend/utils/get_json_word_list.dart';
+import 'package:frontend/utils/push_to_screen.dart';
 import 'package:frontend/widgets/menu/menu_buttons/circular_menu.dart';
 import 'package:frontend/widgets/menu/menu_buttons/submenu_item.dart';
 
@@ -29,6 +30,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
 
 
     return CircularMenu(
+      distance:  MediaQuery.of(context).size.width * 0.18,
         children: [
         SubMenuItem(
           fillColor: Color(0xffFAB51C),
@@ -37,7 +39,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style:_textStyle,
           ),
           onPressed: () {
-            _pushToScreen('assets/json/dictionaries/TOCFL/TOCFL1.json');
+            newPushToScreen('assets/json/dictionaries/TOCFL/TOCFL1.json', context);
           },
         ),
         SubMenuItem(
@@ -47,7 +49,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style:_textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/TOCFL/TOCFL2.json');
+             newPushToScreen('assets/json/dictionaries/TOCFL/TOCFL2.json', context);
           },
         ),
         SubMenuItem(
@@ -57,7 +59,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style:_textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/TOCFL/TOCFL3.json');
+             newPushToScreen('assets/json/dictionaries/TOCFL/TOCFL3.json', context);
           },
         ),
         SubMenuItem(
@@ -67,7 +69,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style:_textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/TOCFL/TOCFL4.json');
+             newPushToScreen('assets/json/dictionaries/TOCFL/TOCFL4.json', context);
           },
         ),
         SubMenuItem(
@@ -77,7 +79,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style:_textStyle,
           ),
           onPressed: () {
-             _pushToScreen('assets/json/dictionaries/TOCFL/TOCFL5&6.json');
+             newPushToScreen('assets/json/dictionaries/TOCFL/TOCFL5&6.json', context);
           },
           width: 50,
           shape: RoundedRectangleBorder(
@@ -92,10 +94,5 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
     );
   }
 
-  void _pushToScreen(String file) {
-    getJsonWordList(file).then(
-        (list) => Navigator.push(context, MaterialPageRoute(builder: (context) {
-              return GameScreen(words: list, numberOfWords: 5,);
-            })));
-  }
+
 }

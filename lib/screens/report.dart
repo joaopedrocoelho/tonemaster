@@ -28,41 +28,51 @@ class _QuizReportState extends State<QuizReport> {
     var brightness = Theme.of(context).brightness;
     print(brightness);
 
-
     return WillPopScope(
       onWillPop: () async {
-        Navigator.push(context,  MaterialPageRoute(builder: (context) {
-              return Home();}));
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return Home();
+        }));
         return false;
       },
       child: Scaffold(
-        backgroundColor: theme.backgroundColor,
+          backgroundColor: theme.backgroundColor,
           appBar: AppBar(
-        centerTitle: true,
-        backgroundColor: theme.appBarTheme.backgroundColor,
-        shadowColor: theme.appBarTheme.shadowColor,
-        leading: Icon(
-          Icons.menu_rounded,
-          color: theme.shadowColor,
-          size:40
-        ),
-        title: Text('Score Report',
-        style: TextStyle( //AppBar
-            fontFamily: 'SignikaNegative',
-            fontWeight: FontWeight.w700,
-            fontSize: 30,
-            color: theme.shadowColor)),
+            centerTitle: true,
+            backgroundColor: theme.appBarTheme.backgroundColor,
+            shadowColor: theme.appBarTheme.shadowColor,
+            leading: RawMaterialButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return Home();
+                  }));
+                },
+                child: Icon(
+                  Icons.arrow_back_rounded,
+                  size: 30,
+                )),
+            title: Text('Score Report',
+                style: TextStyle(
+                    //AppBar
+                    fontFamily: 'SignikaNegative',
+                    fontWeight: FontWeight.w700,
+                    fontSize: 30,
+                    color: theme.shadowColor)),
           ),
           body: Padding(
             padding: const EdgeInsets.only(top: 20),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 ReportChart(
                     correct: widget.correct,
                     wrong: widget.wrong,
                     totalQuestions: widget.totalQuestions),
-                  SizedBox(height: 20,),
-                Expanded(
+                SizedBox(
+                  height: 20,
+                ),
+               Expanded(
                   child: Padding(
                     padding: const EdgeInsets.only(bottom: 8),
                     child: ListView.separated(
@@ -71,19 +81,22 @@ class _QuizReportState extends State<QuizReport> {
                         return WordReportRow(
                             word: widget.answeredWords[index].word.traditional,
                             userAnswer: widget.answeredWords[index].userAnswer,
-                            correctAnswer: widget.answeredWords[index].word.pinyin);
+                            correctAnswer:
+                                widget.answeredWords[index].word.pinyin);
                       },
                       separatorBuilder: (context, index) {
                         return Divider(
-                          thickness: 1,
-                          indent: 10,
-                          endIndent: 10,
-                          color: Theme.of(context).brightness == Brightness.dark ? theme.canvasColor : theme.primaryColorDark
-                        );
+                            thickness: 1,
+                            indent: 10,
+                            endIndent: 10,
+                            color:
+                                Theme.of(context).brightness == Brightness.dark
+                                    ? theme.canvasColor
+                                    : theme.primaryColorDark);
                       },
                     ),
                   ),
-                ),
+                ), 
               ],
             ),
           )),

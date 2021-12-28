@@ -32,7 +32,7 @@ class _TriangleState extends State<Triangle> {
     setState(() {
       _yPos = position.dy;
     });
-     print("yPos :$_yPos, position :${position.dy}");
+     //print("yPos :$_yPos, position :${position.dy}");
     });
     
   }

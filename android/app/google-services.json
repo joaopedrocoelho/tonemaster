@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1067587955326",
+    "project_id": "tonemaster-5c394",
+    "storage_bucket": "tonemaster-5c394.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067587955326:android:0fd2658e06fdbacacfc62f",
+        "android_client_info": {
+          "package_name": "com.astrobeats.tonemaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067587955326-9si80cv6riiapd9vp2m5h4p52ar8e5b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsTnzNU1rgAIUjMz8ni9-TOYCX5zq1iZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067587955326-9si80cv6riiapd9vp2m5h4p52ar8e5b8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1067587955326-gi4mflumvqja96043hmeqd3dvjs7k3cl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tonemaster.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

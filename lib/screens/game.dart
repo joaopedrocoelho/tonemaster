@@ -26,6 +26,8 @@ class GameScreen extends StatefulWidget {
   GameScreen({Key? key, required this.words, required this.numberOfWords})
       : super(key: key);
 
+  
+
   @override
   _GameScreenState createState() => _GameScreenState();
 }
@@ -34,14 +36,17 @@ class _GameScreenState extends State<GameScreen> {
   List<PlayWord> _playWords = [];
   int _totalQuestions = 0;
   late bool _useTraditional;
-
+  late AdWidget _adWidget;
 
   final BannerAd bannerAd = BannerAd(
-      adUnitId: kDebugMode ? 'ca-app-pub-3940256099942544/6300978111' : 'ca-app-pub-5758087039130918/3967921821',
+      adUnitId: 'ca-app-pub-5758087039130918/3967921821', //kDebugMode ? 'ca-app-pub-3940256099942544/6300978111' : 'ca-app-pub-5758087039130918/3967921821',
       size: AdSize.fluid,
       request: AdRequest(),
       listener: BannerAdListener(
-        onAdLoaded: (_) {},
+        onAdLoaded: (_) {
+          print('Banner loaded');
+        },
+       
         onAdFailedToLoad: (ad, error) {
           // Releases an ad resource when it fails to load
           ad.dispose();
@@ -57,11 +62,7 @@ class _GameScreenState extends State<GameScreen> {
     });
   }
 
-  @override
-  void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
-    super.didChangeDependencies();
-  }
+
 
   @override
   void initState() {
@@ -81,6 +82,7 @@ class _GameScreenState extends State<GameScreen> {
       
     });
     bannerAd.load();
+    _adWidget = AdWidget(ad: bannerAd);
    
     super.initState();
    
@@ -146,7 +148,7 @@ class _GameScreenState extends State<GameScreen> {
                 children: [
                   Container(
                     height: 50,
-                    child: AdWidget(ad: bannerAd),
+                    child: _adWidget,
                   ),
                   if (widget.words.isNotEmpty)
                     Expanded(

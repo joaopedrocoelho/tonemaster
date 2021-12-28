@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/utils/push_to_screen.dart';
 import 'package:frontend/widgets/drawer/drawer_menu.dart';
 import 'package:frontend/widgets/menu/default_items/hsk_menu.dart';
 import 'package:frontend/widgets/menu/default_items/idioms_menu.dart';
@@ -18,7 +19,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
   final BannerAd _menuAd = BannerAd(
-      adUnitId: kDebugMode ? 'ca-app-pub-3940256099942544/6300978111' : 'ca-app-pub-5758087039130918/7576680106',
+      adUnitId: 'ca-app-pub-5758087039130918/3967921821', //kDebugMode ? 'ca-app-pub-3940256099942544/6300978111' : 'ca-app-pub-5758087039130918/3967921821',
       size: AdSize.fluid,
       request: AdRequest(),
       listener: BannerAdListener(
@@ -78,7 +79,9 @@ class _HomeState extends State<Home> {
                   IdiomsMenuItem(),
                   MenuItem(
                     label: "Random",
-                    onTap: () {},
+                    onTap: () {
+                      newPushToScreen('assets/json/dictionaries/original.json', context);
+                    },
                   ),
                   
                 ],

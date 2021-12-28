@@ -28,7 +28,7 @@ class QuizData extends ChangeNotifier {
   set activeIndex(int newIndex) => this._activeIndex = newIndex;
 
   QuizData(this._words) {
-    size = this._words.length;
+    size = this._words.length -1;
     renderWord();
   }
 

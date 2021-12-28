@@ -5,13 +5,28 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'package:frontend/screens/home.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
 
+late FirebaseAnalytics analytics;
+
+List<String> testDeviceIds = ["5FF7A87077B616B2B64C1BBCAD7019BB"];
 
 Future main() async {
+  
    WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
   await UserSettings.init();
+  RequestConfiguration configuration =
+       RequestConfiguration(testDeviceIds: testDeviceIds);
+  MobileAds.instance.updateRequestConfiguration(configuration);
 
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  analytics = FirebaseAnalytics.instance;
     
   runApp(
      MyApp()

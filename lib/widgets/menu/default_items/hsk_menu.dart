@@ -32,6 +32,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
 
 
     return CircularMenu(
+      distance:  MediaQuery.of(context).size.width * 0.18,
       key: Key("HSK"),
       children: [
         SubMenuItem(
@@ -41,7 +42,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/HSK/HSK1.json', context);
+             newPushToScreen('assets/json/dictionaries/HSK/HSK1.json', context);
           },
         ),
         SubMenuItem(
@@ -51,7 +52,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/HSK/HSK2.json', context);
+            newPushToScreen('assets/json/dictionaries/HSK/HSK2.json', context);
           },
         ),
         SubMenuItem(
@@ -61,7 +62,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/HSK/HSK3.json', context);
+            newPushToScreen('assets/json/dictionaries/HSK/HSK3.json', context);
           },
         ),
         SubMenuItem(
@@ -71,7 +72,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/HSK/HSK4.json', context);
+            newPushToScreen('assets/json/dictionaries/HSK/HSK4.json', context);
           },
         ),
         SubMenuItem(
@@ -81,7 +82,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-             pushToScreen('assets/json/dictionaries/HSK/HSK5.json', context);
+            newPushToScreen('assets/json/dictionaries/HSK/HSK5.json', context);
           },
         ),
         SubMenuItem(
@@ -91,7 +92,7 @@ TextStyle _textStyle = TextStyle(fontSize: 24,
             style: _textStyle,
           ),
           onPressed: () {
-            pushToScreen('assets/json/dictionaries/HSK/HSK6.json',context);
+           newPushToScreen('assets/json/dictionaries/HSK/HSK6.json',context);
           },
         ),
        
