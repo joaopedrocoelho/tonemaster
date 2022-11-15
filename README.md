@@ -1,16 +1,8 @@
-# frontend
+![image](https://user-images.githubusercontent.com/65225269/201845955-cff78723-2250-408f-8957-427f286890b5.png)
 
-A new Flutter project.
+# ToneMaster
 
-## Getting Started
+An app for practicing the tones of the Chinese Language. Built with Flutter.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|![image](https://user-images.githubusercontent.com/65225269/201846208-2ea1a5c9-aeb4-47b6-a034-5bbeb9161dbb.png)|![image](https://user-images.githubusercontent.com/65225269/201846258-18c57d4a-1d0b-4002-9607-8bc7d4255d89.png)|![image](https://user-images.githubusercontent.com/65225269/201846328-95acfd41-30e8-4182-9c28-a793d5735fca.png)|
+|---|---|---|
